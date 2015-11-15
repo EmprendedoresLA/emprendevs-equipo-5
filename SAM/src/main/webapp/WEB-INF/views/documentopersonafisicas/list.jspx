@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/datatables" xmlns:table="urn:jsptagdir:/WEB-INF/tags/datatables" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_alliance_sam_DocumentoPersonaFisica" items="${documentopersonafisicas}" z="BCBqNgMvyAjPSBG/pbgnDjoBvHw=">
+        <table:table data="${documentopersonafisicas}" id="l_com_alliance_sam_DocumentoPersonaFisica" path="/documentopersonafisicas" typeIdFieldName="idDocumentoPersonaFisica" z="W6KaSsJiJd0hcwBZ+TxeFqYj1/c=">
+            <table:column id="c_com_alliance_sam_DocumentoPersonaFisica_idPersonaFisica" property="idPersonaFisica" z="gNGGhvcQXrAktYO1D6vYZ6g5Smc="/>
+            <table:column id="c_com_alliance_sam_DocumentoPersonaFisica_documentoTipo" property="documentoTipo" z="mTUTIZimk03LORsiQp89V3uvp9U="/>
+            <table:column id="c_com_alliance_sam_DocumentoPersonaFisica_idUbicacion" property="idUbicacion" z="PfSek5xCmB5lqmI/vc26zoHAix4="/>
+            <table:column id="c_com_alliance_sam_DocumentoPersonaFisica_descripcion" property="descripcion" z="ygkWymIOSJBTbdj8MrwA1JjCGDI="/>
+            <table:column calendar="true" dateTimePattern="${documentoPersonaFisica_fechavigencia_date_format}" id="c_com_alliance_sam_DocumentoPersonaFisica_fechaVigencia" property="fechaVigencia" z="opSkceD6aLGb+fBB+a+MY74qmUU="/>
+            <table:column id="c_com_alliance_sam_DocumentoPersonaFisica_usuarioCreacion" property="usuarioCreacion" z="EMUlCKXGU7WbjzZpHaGtGpBNiQw="/>
+        </table:table>
+    </page:list>
+</div>

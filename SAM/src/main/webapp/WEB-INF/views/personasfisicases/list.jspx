@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/datatables" xmlns:table="urn:jsptagdir:/WEB-INF/tags/datatables" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_alliance_sam_PersonasFisicas" items="${personasfisicases}" z="TuiWpetuxHtyadpJK5GSnEjjkNg=">
+        <table:table data="${personasfisicases}" id="l_com_alliance_sam_PersonasFisicas" path="/personasfisicases" typeIdFieldName="idPersonaFisica" z="Id2orccqcyreQ6O7FAIQSRg+uFQ=">
+            <table:column id="c_com_alliance_sam_PersonasFisicas_documentoTipo" property="documentoTipo" z="HeWcjTflB28jmox1j4tUrNa5zL4="/>
+        </table:table>
+    </page:list>
+</div>

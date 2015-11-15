@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/datatables" xmlns:table="urn:jsptagdir:/WEB-INF/tags/datatables" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_alliance_sam_DatosPlaneamiento" items="${datosplaneamientoes}" z="BEwP/6JRspMQj+edqSwD2DUQMiA=">
+        <table:table data="${datosplaneamientoes}" id="l_com_alliance_sam_DatosPlaneamiento" path="/datosplaneamientoes" typeIdFieldName="idPlaneamiento" z="YeTbfaN+p9uzLM6si6qxtSD/4O0=">
+            <table:column id="c_com_alliance_sam_DatosPlaneamiento_idExpedienteControl" property="idExpedienteControl" z="go4Y3FAKcfCY/sSPQwKgxVo4/QM="/>
+            <table:column id="c_com_alliance_sam_DatosPlaneamiento_m2CubiertaHabilitar" property="m2CubiertaHabilitar" z="La/vts4vvEX27Irdv3GHgbifGfs="/>
+            <table:column id="c_com_alliance_sam_DatosPlaneamiento_m2DescubiertaHabilitar" property="m2DescubiertaHabilitar" z="+kr5iQAm6hxm3+uRgS/x3s5ydtk="/>
+            <table:column date="true" dateTimePattern="${datosPlaneamiento_m2totales_date_format}" id="c_com_alliance_sam_DatosPlaneamiento_m2Totales" property="m2Totales" z="f8qvaxtS30bYP6RKT9pZIJ1fn60="/>
+            <table:column id="c_com_alliance_sam_DatosPlaneamiento_m2MaximosAdmisibles" property="m2MaximosAdmisibles" z="IhWTgDRQ6dkWRAZovnS/M43yzFQ="/>
+            <table:column id="c_com_alliance_sam_DatosPlaneamiento_m2MinimoExigible" property="m2MinimoExigible" z="OlWO9rQMDGr/eMkfTsEIQyZq3T0="/>
+        </table:table>
+    </page:list>
+</div>

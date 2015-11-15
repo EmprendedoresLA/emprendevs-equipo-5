@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/jquery/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/datatables" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_alliance_sam_DocumentoPersonaFisica" object="${documentopersonafisica}" path="/documentopersonafisicas" z="MLk2ba3usGQjJpyjPGBhVVFnq8Y=">
+        <field:display field="idPersonaFisica" id="s_com_alliance_sam_DocumentoPersonaFisica_idPersonaFisica" object="${documentopersonafisica}" z="kLWHrhwjvRukGlJzEMOc/PJS0hQ="/>
+        <field:display field="documentoTipo" id="s_com_alliance_sam_DocumentoPersonaFisica_documentoTipo" object="${documentopersonafisica}" z="p9q+fnT/iW77Tk/o/+WeQsp9Xlk="/>
+        <field:display field="idUbicacion" id="s_com_alliance_sam_DocumentoPersonaFisica_idUbicacion" object="${documentopersonafisica}" z="2vXRJ+7T77TQyqMzdGbqLI+E0lQ="/>
+        <field:display field="descripcion" id="s_com_alliance_sam_DocumentoPersonaFisica_descripcion" object="${documentopersonafisica}" z="jROceeUD809wPPD6N1D1vfK52SQ="/>
+        <field:display calendar="true" dateTimePattern="${documentoPersonaFisica_fechavigencia_date_format}" field="fechaVigencia" id="s_com_alliance_sam_DocumentoPersonaFisica_fechaVigencia" object="${documentopersonafisica}" z="O1jhLC6HC/QLIBlFNYfEvLYNIrQ="/>
+        <field:display field="usuarioCreacion" id="s_com_alliance_sam_DocumentoPersonaFisica_usuarioCreacion" object="${documentopersonafisica}" z="o2EnIaLFc4JhzXutZYlCOUguOWY="/>
+        <field:display calendar="true" dateTimePattern="${documentoPersonaFisica_fechacreacion_date_format}" field="fechaCreacion" id="s_com_alliance_sam_DocumentoPersonaFisica_fechaCreacion" object="${documentopersonafisica}" z="M6fUPUd115shbj4Gmie83kJEqDc="/>
+        <field:display field="hostCreacion" id="s_com_alliance_sam_DocumentoPersonaFisica_hostCreacion" object="${documentopersonafisica}" z="ZRu5qNS1NoR8S+OQ8KLWbTuFPOo="/>
+        <field:display field="usuarioModificacion" id="s_com_alliance_sam_DocumentoPersonaFisica_usuarioModificacion" object="${documentopersonafisica}" z="G0oRfbrl4t3N92oyfABL4W6ZrZ4="/>
+        <field:display calendar="true" dateTimePattern="${documentoPersonaFisica_fechamodificacion_date_format}" field="fechaModificacion" id="s_com_alliance_sam_DocumentoPersonaFisica_fechaModificacion" object="${documentopersonafisica}" z="Dg72OLdg57VXb4EwY7jv7SUAeRc="/>
+        <field:display field="hostModificacion" id="s_com_alliance_sam_DocumentoPersonaFisica_hostModificacion" object="${documentopersonafisica}" z="0F1oRW/15DUn7+Ed03ET+dJHv9w="/>
+    </page:show>
+</div>

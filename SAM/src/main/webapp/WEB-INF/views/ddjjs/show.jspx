@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/jquery/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/datatables" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_alliance_sam_Ddjj" object="${ddjj}" path="/ddjjs" z="rtmHrp0zfKqAO9yPxwYawrUAy+Y=">
+        <field:display field="anio" id="s_com_alliance_sam_Ddjj_anio" object="${ddjj}" z="xCVg+mnS1nRyyQql3M5wTF9mH+s="/>
+        <field:display field="idExpedienteControl" id="s_com_alliance_sam_Ddjj_idExpedienteControl" object="${ddjj}" z="H1TMDfbEd40ux78W5WJZ6FkirJ4="/>
+        <field:display field="idTipoBimestre" id="s_com_alliance_sam_Ddjj_idTipoBimestre" object="${ddjj}" z="7xUfxlrA7dkwBmdhI+IXL3JcDAY="/>
+        <field:display field="numeroMes" id="s_com_alliance_sam_Ddjj_numeroMes" object="${ddjj}" z="Ijz9qQLLwsdCvaLlOPny92YeJxo="/>
+        <field:display field="importeVentas" id="s_com_alliance_sam_Ddjj_importeVentas" object="${ddjj}" z="yxAmjsHPzxC4in1e+/8lRHuGyIA="/>
+        <field:display field="cantidadPersonal" id="s_com_alliance_sam_Ddjj_cantidadPersonal" object="${ddjj}" z="o4fFSEJXphkI6jNqRuw/plglzrs="/>
+        <field:display field="codigoOperador" id="s_com_alliance_sam_Ddjj_codigoOperador" object="${ddjj}" z="WIZF9PTNXUTE0jgmXQFNAx5FwPg="/>
+        <field:display field="usuarioCreacion" id="s_com_alliance_sam_Ddjj_usuarioCreacion" object="${ddjj}" z="BGlXa01BmYhX8IQm7tR4L4ZLtac="/>
+        <field:display calendar="true" dateTimePattern="${ddjj_fechacreacion_date_format}" field="fechaCreacion" id="s_com_alliance_sam_Ddjj_fechaCreacion" object="${ddjj}" z="5HM75dcqcHlBf5Nba40O6Na2jfY="/>
+        <field:display field="hostCreacion" id="s_com_alliance_sam_Ddjj_hostCreacion" object="${ddjj}" z="YAI2doFRPfyP39BjHVUvb65hlaY="/>
+        <field:display field="usuarioModificacion" id="s_com_alliance_sam_Ddjj_usuarioModificacion" object="${ddjj}" z="Ao/oWZZXdABH98VAmXKmEc+5dyY="/>
+        <field:display calendar="true" dateTimePattern="${ddjj_fechamodificacion_date_format}" field="fechaModificacion" id="s_com_alliance_sam_Ddjj_fechaModificacion" object="${ddjj}" z="4hhvapETJHUr1DwUlXinqd7BDjU="/>
+        <field:display field="hostModificacion" id="s_com_alliance_sam_Ddjj_hostModificacion" object="${ddjj}" z="1BxTWCTGRIR3IEsY+FPrNsyOGCg="/>
+    </page:show>
+</div>

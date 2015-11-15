@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/datatables" xmlns:table="urn:jsptagdir:/WEB-INF/tags/datatables" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_alliance_sam_DatosCatastro" items="${datoscatastroes}" z="tY2hprmZ+ial4E3WuwbiT/bRS2A=">
+        <table:table data="${datoscatastroes}" id="l_com_alliance_sam_DatosCatastro" path="/datoscatastroes" typeIdFieldName="idDatosCatastro" z="4Tm8RB+T291gBVSYuTu/Z/jKbCs=">
+            <table:column id="c_com_alliance_sam_DatosCatastro_idExpedienteControl" property="idExpedienteControl" z="u2wHq+m6iqMyEtr1HVbfDZvnv4s="/>
+            <table:column id="c_com_alliance_sam_DatosCatastro_numeroCertificado" property="numeroCertificado" z="Ka6oLiBb9dr+BPuEADtqcU3RNQA="/>
+            <table:column id="c_com_alliance_sam_DatosCatastro_circunscripcion" property="circunscripcion" z="bPeQSo6rsfoC1Aiva7UiMmFELPA="/>
+            <table:column id="c_com_alliance_sam_DatosCatastro_seccion" property="seccion" z="ZPMVUihMXBp8c/F5c6wO+gghxmA="/>
+            <table:column id="c_com_alliance_sam_DatosCatastro_manzana" property="manzana" z="bG7uj14NlIFo1wLrcvIHgkdJMjI="/>
+            <table:column id="c_com_alliance_sam_DatosCatastro_parcela" property="parcela" z="Th6Cajxw6wp1+LUDvvh0BRoDaMc="/>
+        </table:table>
+    </page:list>
+</div>

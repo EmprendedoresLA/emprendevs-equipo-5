@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/jquery/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/datatables" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_alliance_sam_CertificadoZonificacion" object="${certificadozonificacion}" path="/certificadozonificacions" z="vej+ib3T4ht4Gv7zkmYKiO0IDys=">
+        <field:display field="idExpedienteControl" id="s_com_alliance_sam_CertificadoZonificacion_idExpedienteControl" object="${certificadozonificacion}" z="auY1upUOortzQrzXw65vI4Fxc7s="/>
+        <field:display field="numeroCertificado" id="s_com_alliance_sam_CertificadoZonificacion_numeroCertificado" object="${certificadozonificacion}" z="El5HSLhMEtOHyPkbJRS37aQMLJ4="/>
+        <field:display field="numeroPartida" id="s_com_alliance_sam_CertificadoZonificacion_numeroPartida" object="${certificadozonificacion}" z="+5BhhYBD105MDSgqYkfKnAzUN24="/>
+        <field:display date="true" dateTimePattern="${certificadoZonificacion_fechapresentacion_date_format}" field="fechaPresentacion" id="s_com_alliance_sam_CertificadoZonificacion_fechaPresentacion" object="${certificadozonificacion}" z="qzQEAAMzABJ24PqDgMrgawYAf3A="/>
+        <field:display date="true" dateTimePattern="${certificadoZonificacion_fechaemisioncertificado_date_format}" field="fechaEmisionCertificado" id="s_com_alliance_sam_CertificadoZonificacion_fechaEmisionCertificado" object="${certificadozonificacion}" z="OvJLfshWh+eo0qxGXDRxnrPLQE8="/>
+        <field:display field="usuarioCreacion" id="s_com_alliance_sam_CertificadoZonificacion_usuarioCreacion" object="${certificadozonificacion}" z="/GKsyEtAXsc09aqmn1SOxefGeqk="/>
+        <field:display calendar="true" dateTimePattern="${certificadoZonificacion_fechacreacion_date_format}" field="fechaCreacion" id="s_com_alliance_sam_CertificadoZonificacion_fechaCreacion" object="${certificadozonificacion}" z="9yTFkNPMQRqpWEmjVBzQB/h999c="/>
+        <field:display field="hostCreacion" id="s_com_alliance_sam_CertificadoZonificacion_hostCreacion" object="${certificadozonificacion}" z="PnVgeSHaQoM/j1NQ/+14besBEUY="/>
+        <field:display field="usuarioModificacion" id="s_com_alliance_sam_CertificadoZonificacion_usuarioModificacion" object="${certificadozonificacion}" z="cESOd4bHOHvX5ULwVMPsFQ0OxGI="/>
+        <field:display calendar="true" dateTimePattern="${certificadoZonificacion_fechamodificacion_date_format}" field="fechaModificacion" id="s_com_alliance_sam_CertificadoZonificacion_fechaModificacion" object="${certificadozonificacion}" z="ut+hgbjaTx7Sm0hX0HU0OfRDR74="/>
+        <field:display field="hostModificacion" id="s_com_alliance_sam_CertificadoZonificacion_hostModificacion" object="${certificadozonificacion}" z="xaek5rwcq3D1Y62bMvtC12mb7PE="/>
+    </page:show>
+</div>

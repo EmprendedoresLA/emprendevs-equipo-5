@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/datatables" xmlns:table="urn:jsptagdir:/WEB-INF/tags/datatables" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_alliance_sam_ExpedientePersonaFisica" items="${expedientepersonafisicas}" z="gJhoaDu9GPVc7EhkBAmh8emkhvw=">
+        <table:table data="${expedientepersonafisicas}" id="l_com_alliance_sam_ExpedientePersonaFisica" path="/expedientepersonafisicas" typeIdFieldName="idExpedientePersonaFisica" z="y+wLwO8fZqT0creuIJ6mQmEtW5E=">
+            <table:column id="c_com_alliance_sam_ExpedientePersonaFisica_idExpedienteControl" property="idExpedienteControl" z="vx69Y5f7PzMEo9w8qcjCUesi4f8="/>
+            <table:column id="c_com_alliance_sam_ExpedientePersonaFisica_idPersonaFisica" property="idPersonaFisica" z="riVnJpSr09mNBmR/Lvp0NjeWVCI="/>
+            <table:column id="c_com_alliance_sam_ExpedientePersonaFisica_usuarioCreacion" property="usuarioCreacion" z="FxDaQ4cYhG8Pnx/IqaIMqujFSSg="/>
+            <table:column calendar="true" dateTimePattern="${expedientePersonaFisica_fechacreacion_date_format}" id="c_com_alliance_sam_ExpedientePersonaFisica_fechaCreacion" property="fechaCreacion" z="4X+cyQnobcWbe+WT7JLOlLbQTS0="/>
+            <table:column id="c_com_alliance_sam_ExpedientePersonaFisica_hostCreacion" property="hostCreacion" z="OvzzML2rHLaIgBAU+GR8L1V4VHI="/>
+            <table:column id="c_com_alliance_sam_ExpedientePersonaFisica_usuarioModificacion" property="usuarioModificacion" z="HRnKgCTwSGSkQN0Tro8naLHNSWM="/>
+        </table:table>
+    </page:list>
+</div>

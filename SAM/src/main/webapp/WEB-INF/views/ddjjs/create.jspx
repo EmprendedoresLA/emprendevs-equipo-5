@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/jquery/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/datatables" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_alliance_sam_Ddjj" modelAttribute="ddjj" path="/ddjjs" render="${empty dependencies}" z="jeL5M+pYhJ3HNImK7fnm0pPr6ng=">
+        <field:select field="anio" id="c_com_alliance_sam_Ddjj_anio" itemValue="idTipoAnio" items="${tipoanios}" path="/tipoanios" z="Hegov2APivbsnNNak/W2LL1/osg="/>
+        <field:select field="idExpedienteControl" id="c_com_alliance_sam_Ddjj_idExpedienteControl" itemValue="idExpedienteControl" items="${expedientes}" path="/expedientes" z="Usx689x+O8fORBjb27qxGZ10Hfw="/>
+        <field:select field="idTipoBimestre" id="c_com_alliance_sam_Ddjj_idTipoBimestre" itemValue="idTipoBimestre" items="${tipobimestres}" path="/tipobimestres" z="F8X6sCFi8p8/29EwYtLPF9mDdSg="/>
+        <field:input field="numeroMes" id="c_com_alliance_sam_Ddjj_numeroMes" validationMessageCode="field_invalid_integer" z="bkOh/pWSc8lN+xBaVfWF2H8e+UI="/>
+        <field:input field="importeVentas" id="c_com_alliance_sam_Ddjj_importeVentas" validationMessageCode="field_invalid_number" z="lHO7XMfKXF2XUPfHv+3cANKBkA0="/>
+        <field:input field="cantidadPersonal" id="c_com_alliance_sam_Ddjj_cantidadPersonal" validationMessageCode="field_invalid_integer" z="plaqZrtuhWNXU4s1UOOKsi+3rxg="/>
+        <field:input field="codigoOperador" id="c_com_alliance_sam_Ddjj_codigoOperador" validationMessageCode="field_invalid_integer" z="ommwhOd4+QNRtPhvIdc+GU1em38="/>
+        <field:input field="usuarioCreacion" id="c_com_alliance_sam_Ddjj_usuarioCreacion" z="UWC5IFnlvKcH1vbZebHAZlhIkmI="/>
+        <field:datetime dateTimePattern="${ddjj_fechacreacion_date_format}" field="fechaCreacion" id="c_com_alliance_sam_Ddjj_fechaCreacion" z="LPphYIqfePyVrYOvlQu60BBdlFY="/>
+        <field:input field="hostCreacion" id="c_com_alliance_sam_Ddjj_hostCreacion" z="EGlI9DLhoFYr+AppF4RXtQc4dek="/>
+        <field:input field="usuarioModificacion" id="c_com_alliance_sam_Ddjj_usuarioModificacion" z="yjo0kjQzCUdzerqChms6dl+Z7ts="/>
+        <field:datetime dateTimePattern="${ddjj_fechamodificacion_date_format}" field="fechaModificacion" id="c_com_alliance_sam_Ddjj_fechaModificacion" z="ypYIpt0NeEbf4cqpiiREMaS57Hc="/>
+        <field:input field="hostModificacion" id="c_com_alliance_sam_Ddjj_hostModificacion" z="VymqlcmIB7tBuZ/GkqmcbumAvwA="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_alliance_sam_Ddjj" render="${not empty dependencies}" z="dTPu7/nbCmqfko4got7+WgfIuno="/>
+</div>

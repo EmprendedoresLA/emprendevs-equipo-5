@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/jquery/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/datatables" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_alliance_sam_DatosCatastro" object="${datoscatastro}" path="/datoscatastroes" z="fC0EnRGUp9mu2V3hDIyshdTIucc=">
+        <field:display field="idExpedienteControl" id="s_com_alliance_sam_DatosCatastro_idExpedienteControl" object="${datoscatastro}" z="yfwtyD59l8XQD07KzbN1K49kub8="/>
+        <field:display field="numeroCertificado" id="s_com_alliance_sam_DatosCatastro_numeroCertificado" object="${datoscatastro}" z="cCu2/QtgY+o68yPXcZ19+75GPLk="/>
+        <field:display field="circunscripcion" id="s_com_alliance_sam_DatosCatastro_circunscripcion" object="${datoscatastro}" z="SaixDP4Fv3sJxPMf0rQh5kYiF+A="/>
+        <field:display field="seccion" id="s_com_alliance_sam_DatosCatastro_seccion" object="${datoscatastro}" z="sUe7B53WVZlnKgG5y+phIkQzH/s="/>
+        <field:display field="manzana" id="s_com_alliance_sam_DatosCatastro_manzana" object="${datoscatastro}" z="sUjm5x2EzCIM0U0aBZHOrFhTccI="/>
+        <field:display field="parcela" id="s_com_alliance_sam_DatosCatastro_parcela" object="${datoscatastro}" z="KEnV0rvRpt3prgINuGXItkav5NM="/>
+        <field:display field="fraccion" id="s_com_alliance_sam_DatosCatastro_fraccion" object="${datoscatastro}" z="WJappFy9Sh+LdHNofsbgs9q+87w="/>
+        <field:display field="cha" id="s_com_alliance_sam_DatosCatastro_cha" object="${datoscatastro}" z="3dOPGC1wI0kXJGahXNqomK8txVg="/>
+        <field:display field="quinta" id="s_com_alliance_sam_DatosCatastro_quinta" object="${datoscatastro}" z="eHZChNBXpKQtM4P6+An2Au1VYh0="/>
+        <field:display field="partida" id="s_com_alliance_sam_DatosCatastro_partida" object="${datoscatastro}" z="QZ+HFPDlcS7CNbwL8zlu0R1RWQ8="/>
+        <field:display date="true" dateTimePattern="${datosCatastro_fechaemisioncertificado_date_format}" field="fechaEmisionCertificado" id="s_com_alliance_sam_DatosCatastro_fechaEmisionCertificado" object="${datoscatastro}" z="ozP5RrAhHikgf6H6OhwtbILBagI="/>
+        <field:display date="true" dateTimePattern="${datosCatastro_fechapresentacion_date_format}" field="fechaPresentacion" id="s_com_alliance_sam_DatosCatastro_fechaPresentacion" object="${datoscatastro}" z="p1GuP0wnIgwjN/TjREP7Ovf84V8="/>
+        <field:display field="letraPresentacionCertificado" id="s_com_alliance_sam_DatosCatastro_letraPresentacionCertificado" object="${datoscatastro}" z="tn+xzLCflQX761mMQNAqCinOj78="/>
+        <field:display field="funcionamientoDelUsoDe" id="s_com_alliance_sam_DatosCatastro_funcionamientoDelUsoDe" object="${datoscatastro}" z="+t0cu43+F+OTq/ZkFGtCndbU0Mo="/>
+        <field:display field="nroExpedienteDeContruccion" id="s_com_alliance_sam_DatosCatastro_nroExpedienteDeContruccion" object="${datoscatastro}" z="RqAwkAo/rqRvhqZ/cG3lhNdGUBQ="/>
+        <field:display field="letraExpedienteDeContruccion" id="s_com_alliance_sam_DatosCatastro_letraExpedienteDeContruccion" object="${datoscatastro}" z="B2vP20j1ixbOCl2NEellhTVlCVE="/>
+        <field:display field="anioExpedienteDeContruccion" id="s_com_alliance_sam_DatosCatastro_anioExpedienteDeContruccion" object="${datoscatastro}" z="uEM+t9mMzpCRWQCxEG5PWNtElZY="/>
+        <field:display field="usuarioCreacion" id="s_com_alliance_sam_DatosCatastro_usuarioCreacion" object="${datoscatastro}" z="WAzHx6lSyqOJDnC8VNfyuM6SZJg="/>
+        <field:display calendar="true" dateTimePattern="${datosCatastro_fechacreacion_date_format}" field="fechaCreacion" id="s_com_alliance_sam_DatosCatastro_fechaCreacion" object="${datoscatastro}" z="x+XGmQ0jKHam4iieu0AYuO4KJus="/>
+        <field:display field="hostCreacion" id="s_com_alliance_sam_DatosCatastro_hostCreacion" object="${datoscatastro}" z="6aQTIJXKd6CC59Ub1M9RtA3Bzfk="/>
+        <field:display field="usuarioModificacion" id="s_com_alliance_sam_DatosCatastro_usuarioModificacion" object="${datoscatastro}" z="dywcUG0E0fEIEVEaE83Kxzy/kH0="/>
+        <field:display calendar="true" dateTimePattern="${datosCatastro_fechamodificacion_date_format}" field="fechaModificacion" id="s_com_alliance_sam_DatosCatastro_fechaModificacion" object="${datoscatastro}" z="MwXl7gpWnSg3CyXVT0hae0tJMKU="/>
+        <field:display field="hostModificacion" id="s_com_alliance_sam_DatosCatastro_hostModificacion" object="${datoscatastro}" z="J4MqSESvIPer9iVPahFIVjro7Ys="/>
+    </page:show>
+</div>

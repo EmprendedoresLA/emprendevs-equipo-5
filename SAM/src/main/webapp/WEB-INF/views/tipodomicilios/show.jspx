@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/jquery/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/datatables" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_alliance_sam_TipoDomicilio" object="${tipodomicilio}" path="/tipodomicilios" z="fYK2JV/Ypwp8WrytrYRmFOovfyI=">
+        <field:display field="descripcion" id="s_com_alliance_sam_TipoDomicilio_descripcion" object="${tipodomicilio}" z="6JU25lLwjq8zCorzWaswCh6/W3I="/>
+        <field:display field="observaciones" id="s_com_alliance_sam_TipoDomicilio_observaciones" object="${tipodomicilio}" z="PNGc9gaajSxMQ4dfBi17l0OoX3c="/>
+        <field:display field="usuarioCreacion" id="s_com_alliance_sam_TipoDomicilio_usuarioCreacion" object="${tipodomicilio}" z="nK9EHPuHWXbCbv1VdXlP1bzUjmw="/>
+        <field:display calendar="true" dateTimePattern="${tipoDomicilio_fechacreacion_date_format}" field="fechaCreacion" id="s_com_alliance_sam_TipoDomicilio_fechaCreacion" object="${tipodomicilio}" z="z3m4RUXzgcjBBTMfDZP7Rf93Rq4="/>
+        <field:display field="hostCreacion" id="s_com_alliance_sam_TipoDomicilio_hostCreacion" object="${tipodomicilio}" z="iNfkuFX+/QMmYWqqyYCkpPGcsl8="/>
+        <field:display field="usuarioModificacion" id="s_com_alliance_sam_TipoDomicilio_usuarioModificacion" object="${tipodomicilio}" z="2/2XnIyPvuXCbN5N8lm9vN0RLhY="/>
+        <field:display calendar="true" dateTimePattern="${tipoDomicilio_fechamodificacion_date_format}" field="fechaModificacion" id="s_com_alliance_sam_TipoDomicilio_fechaModificacion" object="${tipodomicilio}" z="jv1HXTO/70Wkz+bBzM+dmQ8p1BE="/>
+        <field:display field="hostModificacion" id="s_com_alliance_sam_TipoDomicilio_hostModificacion" object="${tipodomicilio}" z="/bpOvjPRNTlh242gjcnZxPhii8c="/>
+    </page:show>
+</div>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/datatables" xmlns:table="urn:jsptagdir:/WEB-INF/tags/datatables" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_alliance_sam_ModuloXM2" items="${moduloxm2s}" z="iw3VTzdKZfUB9yF36YWGcO2p4oQ=">
+        <table:table data="${moduloxm2s}" id="l_com_alliance_sam_ModuloXM2" path="/moduloxm2s" typeIdFieldName="idModuloXM2" z="tcCrHJV4OT0E2L1al2r2nlWvihQ=">
+            <table:column id="c_com_alliance_sam_ModuloXM2_descripcion" property="descripcion" z="biKGPGmvcb9k1mgA751nKZjh9RE="/>
+            <table:column id="c_com_alliance_sam_ModuloXM2_m2Desde" property="m2Desde" z="zxbwxu3wylrzjVGjzbaZkKkNauo="/>
+            <table:column id="c_com_alliance_sam_ModuloXM2_m2Hasta" property="m2Hasta" z="SwEphuH1y1PNSopbYd1thHL9SJQ="/>
+            <table:column id="c_com_alliance_sam_ModuloXM2_cantidadModulos" property="cantidadModulos" z="q36I9QtuDgACAqVEU0Qk64mCX+s="/>
+            <table:column id="c_com_alliance_sam_ModuloXM2_m2Excedente" property="m2Excedente" z="pbNIhCs3SxYdjkeL96ZH3IMKZ3I="/>
+        </table:table>
+    </page:list>
+</div>

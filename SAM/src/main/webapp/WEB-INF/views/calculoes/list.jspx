@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/datatables" xmlns:table="urn:jsptagdir:/WEB-INF/tags/datatables" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_alliance_sam_Calculo" items="${calculoes}" z="lJJ13h2n8hlNPwcJgrbNk45qf34=">
+        <table:table data="${calculoes}" id="l_com_alliance_sam_Calculo" path="/calculoes" typeIdFieldName="idCalculo" z="jjB2mzY6t3mQ39TLIAn3tdINMgU=">
+            <table:column id="c_com_alliance_sam_Calculo_idExpedienteControl" property="idExpedienteControl" z="PNlVt4QzHlgOK1B/MVLVK2m/JtI="/>
+            <table:column id="c_com_alliance_sam_Calculo_calculaTasa" property="calculaTasa" z="2WG9hu0rVA+HV1Jl1R1voiJpgx4="/>
+            <table:column id="c_com_alliance_sam_Calculo_idTipoTasa" property="idTipoTasa" z="KOyIVKLvXLiAOtRTig5yK0SWBxM="/>
+            <table:column id="c_com_alliance_sam_Calculo_idTipoAnio" property="idTipoAnio" z="qon25ib7SrtWwH6OytkUKkGPccc="/>
+        </table:table>
+    </page:list>
+</div>

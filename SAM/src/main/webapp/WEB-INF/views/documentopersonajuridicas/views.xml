@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="documentopersonajuridicas/list">
+        <put-attribute name="body" value="/WEB-INF/views/documentopersonajuridicas/list.jspx"/>
+    </definition>
+<definition extends="default" name="documentopersonajuridicas/show">
+        <put-attribute name="body" value="/WEB-INF/views/documentopersonajuridicas/show.jspx"/>
+    </definition>
+<definition extends="default" name="documentopersonajuridicas/create">
+        <put-attribute name="body" value="/WEB-INF/views/documentopersonajuridicas/create.jspx"/>
+    </definition>
+<definition extends="default" name="documentopersonajuridicas/update">
+        <put-attribute name="body" value="/WEB-INF/views/documentopersonajuridicas/update.jspx"/>
+    </definition>
+</tiles-definitions>

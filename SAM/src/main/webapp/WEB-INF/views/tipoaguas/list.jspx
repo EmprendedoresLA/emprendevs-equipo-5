@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/datatables" xmlns:table="urn:jsptagdir:/WEB-INF/tags/datatables" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_alliance_sam_TipoAgua" items="${tipoaguas}" z="Z1rAI2SoGUHsUZ5//pDJSwp4wo0=">
+        <table:table data="${tipoaguas}" id="l_com_alliance_sam_TipoAgua" path="/tipoaguas" typeIdFieldName="idTipoAgua" z="5zPVd/ZYag3kzS8pPTBky9OiPlw=">
+            <table:column id="c_com_alliance_sam_TipoAgua_descripcion" property="descripcion" z="fPm9t6eXyOYhOAEiyP4tQHiqkos="/>
+            <table:column id="c_com_alliance_sam_TipoAgua_observaciones" property="observaciones" z="XMe2aD9EZIOppJ0WQdE+8GEe+nA="/>
+            <table:column id="c_com_alliance_sam_TipoAgua_usuarioCreacion" property="usuarioCreacion" z="y8H8h3832dCBg4mlCK+QZaEtppU="/>
+            <table:column calendar="true" dateTimePattern="${tipoAgua_fechacreacion_date_format}" id="c_com_alliance_sam_TipoAgua_fechaCreacion" property="fechaCreacion" z="TUlr/VHA+X5xTkL1yqG0D7ZkGE0="/>
+            <table:column id="c_com_alliance_sam_TipoAgua_hostCreacion" property="hostCreacion" z="Us04u2ISaqwP1PnFDmaKa2I0NNU="/>
+            <table:column id="c_com_alliance_sam_TipoAgua_usuarioModificacion" property="usuarioModificacion" z="DFcby4XR1rmsDAeAO44KFy1Yc9o="/>
+        </table:table>
+    </page:list>
+</div>

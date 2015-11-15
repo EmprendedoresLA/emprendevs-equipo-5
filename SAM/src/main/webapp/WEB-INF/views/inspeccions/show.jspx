@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/jquery/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/datatables" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_alliance_sam_Inspeccion" object="${inspeccion}" path="/inspeccions" z="xxs/2C0x7yofvUDQA42erWISRKE=">
+        <field:display field="idExpedienteControl" id="s_com_alliance_sam_Inspeccion_idExpedienteControl" object="${inspeccion}" z="6l5KhWe20KeiAXr5Gt/OF7pFT/0="/>
+        <field:display field="numeroInspeccion" id="s_com_alliance_sam_Inspeccion_numeroInspeccion" object="${inspeccion}" z="5dMwDEsUxmc9GpgnnWR5Rze37VE="/>
+        <field:display field="estadoPlanoConformeObra" id="s_com_alliance_sam_Inspeccion_estadoPlanoConformeObra" object="${inspeccion}" z="698/hIG1r9gmuHTYjo6NiTom7RU="/>
+        <field:display field="estadoObraClandestina" id="s_com_alliance_sam_Inspeccion_estadoObraClandestina" object="${inspeccion}" z="LNQ0FvZkAArl1rpR61aMRnJxk8E="/>
+        <field:display date="true" dateTimePattern="${inspeccion_fechainspeccion_date_format}" field="fechaInspeccion" id="s_com_alliance_sam_Inspeccion_fechaInspeccion" object="${inspeccion}" z="cbliJUobuBNqtXUNnx73Hk31q3Q="/>
+        <field:display field="m2Cubiertos" id="s_com_alliance_sam_Inspeccion_m2Cubiertos" object="${inspeccion}" z="geMIwBminw3fRGJQJJJNbpxBlDI="/>
+        <field:display field="m2Descubiertos" id="s_com_alliance_sam_Inspeccion_m2Descubiertos" object="${inspeccion}" z="8b8unWu+ksvTidlwsszC59whec0="/>
+        <field:display date="true" dateTimePattern="${inspeccion_m2totales_date_format}" field="m2Totales" id="s_com_alliance_sam_Inspeccion_m2Totales" object="${inspeccion}" z="2V8L3hxb58medhb7hSMubVM5y5o="/>
+        <field:display field="local" id="s_com_alliance_sam_Inspeccion_local" object="${inspeccion}" z="rl1ux/05fqp7A05WlL982pPNBqM="/>
+        <field:display field="estadoParedes" id="s_com_alliance_sam_Inspeccion_estadoParedes" object="${inspeccion}" z="xPoxLbEYdDG7yBY0+Nh5aHR/0A0="/>
+        <field:display field="paredObservaciones" id="s_com_alliance_sam_Inspeccion_paredObservaciones" object="${inspeccion}" z="dINru1ic5vs++rKdfr1iwle0a3Y="/>
+        <field:display field="estadoPiso" id="s_com_alliance_sam_Inspeccion_estadoPiso" object="${inspeccion}" z="tZxmjdPjl5jni6bBLiY5DCS1V0U="/>
+        <field:display field="tipoPiso" id="s_com_alliance_sam_Inspeccion_tipoPiso" object="${inspeccion}" z="1ixWgUimxN67f+3R7DzD3eiCMXA="/>
+        <field:display field="pisoObservaciones" id="s_com_alliance_sam_Inspeccion_pisoObservaciones" object="${inspeccion}" z="9fsq3RuB4Y/jNJafSVrlobagDNo="/>
+        <field:display field="estadoTecho" id="s_com_alliance_sam_Inspeccion_estadoTecho" object="${inspeccion}" z="iA2EznJAVoI7LJvDI3oPavI2UhI="/>
+        <field:display field="techoObservaciones" id="s_com_alliance_sam_Inspeccion_techoObservaciones" object="${inspeccion}" z="V1MZxHJfgxnSUJAsEx/3jKTNvlw="/>
+        <field:display field="estadoPintura" id="s_com_alliance_sam_Inspeccion_estadoPintura" object="${inspeccion}" z="u7dsRXo6If2z/P9qPJ9u63Q+uRc="/>
+        <field:display field="pinturaObservaciones" id="s_com_alliance_sam_Inspeccion_pinturaObservaciones" object="${inspeccion}" z="KGmcnMz+Fnkh6ekRiUCJn86Qbeg="/>
+        <field:display field="usuarioCreacion" id="s_com_alliance_sam_Inspeccion_usuarioCreacion" object="${inspeccion}" z="ae3E9N5oLZPP2rYiXGalkHq9bCU="/>
+        <field:display calendar="true" dateTimePattern="${inspeccion_fechacreacion_date_format}" field="fechaCreacion" id="s_com_alliance_sam_Inspeccion_fechaCreacion" object="${inspeccion}" z="0tFCU3ZmOxMHCKhw+L6lLuoe8S4="/>
+        <field:display field="hostCreacion" id="s_com_alliance_sam_Inspeccion_hostCreacion" object="${inspeccion}" z="wQ6GWpf0kixp36z/lIf4UAdflL8="/>
+        <field:display field="usuarioModificacion" id="s_com_alliance_sam_Inspeccion_usuarioModificacion" object="${inspeccion}" z="sW1d3T9kZcQi5aZtaMulFd/ace8="/>
+        <field:display calendar="true" dateTimePattern="${inspeccion_fechamodificacion_date_format}" field="fechaModificacion" id="s_com_alliance_sam_Inspeccion_fechaModificacion" object="${inspeccion}" z="3LxbTIFt0+yla0h0ax4bt51ewhs="/>
+        <field:display field="hostModificacion" id="s_com_alliance_sam_Inspeccion_hostModificacion" object="${inspeccion}" z="AkYweVyMbP2kwzhU0vZV8U8dr1A="/>
+    </page:show>
+</div>

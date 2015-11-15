@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/jquery/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/datatables" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_alliance_sam_ValorModulo" object="${valormodulo}" path="/valormoduloes" z="mlXHjYDmumnZJxEJdKuuE/8oElg=">
+        <field:display field="idTipoTasa" id="s_com_alliance_sam_ValorModulo_idTipoTasa" object="${valormodulo}" z="nnOCN433WX3AT1rijCMqWB32kq4="/>
+        <field:display calendar="true" dateTimePattern="${valorModulo_fechadesde_date_format}" field="fechaDesde" id="s_com_alliance_sam_ValorModulo_fechaDesde" object="${valormodulo}" z="p61R/qJjE+NvDYXU4i1JOhI+1JU="/>
+        <field:display date="true" dateTimePattern="${valorModulo_fechahasta_date_format}" field="fechaHasta" id="s_com_alliance_sam_ValorModulo_fechaHasta" object="${valormodulo}" z="SLgJmyk7i95nprNDzCNmfet2CXI="/>
+        <field:display field="importe" id="s_com_alliance_sam_ValorModulo_importe" object="${valormodulo}" z="Lh7bMaNW2ysWAOMAlyKRYuyB4JY="/>
+        <field:display field="tipoM2" id="s_com_alliance_sam_ValorModulo_tipoM2" object="${valormodulo}" z="yWJ/vC77TZ7JmwQMkTV6vpqKz2I="/>
+        <field:display field="descripcion" id="s_com_alliance_sam_ValorModulo_descripcion" object="${valormodulo}" z="f6S96ZCdEu8cdPzdPqt1+lndhh8="/>
+        <field:display field="usuarioCreacion" id="s_com_alliance_sam_ValorModulo_usuarioCreacion" object="${valormodulo}" z="LbV0ULBLh+KVgZzRVJ0DSVmiBos="/>
+        <field:display calendar="true" dateTimePattern="${valorModulo_fechacreacion_date_format}" field="fechaCreacion" id="s_com_alliance_sam_ValorModulo_fechaCreacion" object="${valormodulo}" z="hQs9vsbowiXIoQaBCveDk4Kctwg="/>
+        <field:display field="hostCreacion" id="s_com_alliance_sam_ValorModulo_hostCreacion" object="${valormodulo}" z="Ref6fbgp4YZYMV6aKsXJ1IECfFM="/>
+        <field:display field="usuarioModificacion" id="s_com_alliance_sam_ValorModulo_usuarioModificacion" object="${valormodulo}" z="ZoJHNthSWUgBLEL6yr1QyHwY3LY="/>
+        <field:display calendar="true" dateTimePattern="${valorModulo_fechamodificacion_date_format}" field="fechaModificacion" id="s_com_alliance_sam_ValorModulo_fechaModificacion" object="${valormodulo}" z="fhH8lyLiM78XWNLYdJtDH0bF2jI="/>
+        <field:display field="hostModificacion" id="s_com_alliance_sam_ValorModulo_hostModificacion" object="${valormodulo}" z="AW3hnqS/SiyOqsrTmoZ54rDwREE="/>
+    </page:show>
+</div>

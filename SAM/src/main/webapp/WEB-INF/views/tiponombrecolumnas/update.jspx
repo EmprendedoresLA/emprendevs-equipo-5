@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/jquery/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/datatables" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_alliance_sam_TipoNombreColumna" idField="idTipoNombreColumna" modelAttribute="tipoNombreColumna" path="/tiponombrecolumnas" versionField="none" z="w2qjs68uUe5HijrHN9iJsBP1Ers=">
+        <field:simple field="calculoFiltroes" id="c_com_alliance_sam_TipoNombreColumna_calculoFiltroes" messageCode="entity_reference_not_managed" messageCodeAttribute="Calculo Filtro" z="Z5trED+zB6hwf8RUFkcIlM+rwkM="/>
+        <field:input field="descripcion" id="c_com_alliance_sam_TipoNombreColumna_descripcion" required="true" z="SVn+C8oQ2bbTFHb3DGUwcjyWfDQ="/>
+        <field:input field="observaciones" id="c_com_alliance_sam_TipoNombreColumna_observaciones" z="UyjM+AQ2UM/mj0JhGpDXRA3vz5g="/>
+        <field:input field="usuarioCreacion" id="c_com_alliance_sam_TipoNombreColumna_usuarioCreacion" z="BptF2nm4cCMYI7Qy0atoLydQp/0="/>
+        <field:datetime dateTimePattern="${tipoNombreColumna_fechacreacion_date_format}" field="fechaCreacion" id="c_com_alliance_sam_TipoNombreColumna_fechaCreacion" z="D7rkgA5NTUlPd0Hs8c9g75in5jA="/>
+        <field:input field="hostCreacion" id="c_com_alliance_sam_TipoNombreColumna_hostCreacion" z="KNHkrAseizwE4D+KAQhodrl4gZ4="/>
+        <field:input field="usuarioModificacion" id="c_com_alliance_sam_TipoNombreColumna_usuarioModificacion" z="LnR6E5LugJ4x+Fy7BMYpv6gvAlw="/>
+        <field:datetime dateTimePattern="${tipoNombreColumna_fechamodificacion_date_format}" field="fechaModificacion" id="c_com_alliance_sam_TipoNombreColumna_fechaModificacion" z="5pk/qX7m3IwYoI0sSgwtrKeOCZ4="/>
+        <field:input field="hostModificacion" id="c_com_alliance_sam_TipoNombreColumna_hostModificacion" z="ArwFV+ym0XShwc9PImM4+y561ZM="/>
+    </form:update>
+</div>

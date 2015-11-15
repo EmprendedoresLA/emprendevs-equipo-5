@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/jquery/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/datatables" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_alliance_sam_PersonasFisicas" object="${personasfisicas}" path="/personasfisicases" z="Se7IhEzaDkf7yDVyoYlmbQNY9w4=">
+        <field:display field="documentoTipo" id="s_com_alliance_sam_PersonasFisicas_documentoTipo" object="${personasfisicas}" z="fHpp21M9a1a8sW6lDaS9ezEFKt4="/>
+        <field:display field="condIva" id="s_com_alliance_sam_PersonasFisicas_condIva" object="${personasfisicas}" z="WkFVNlnmKurU2V9I3Z2QtMCtHtQ="/>
+        <field:display field="idTipoPersona" id="s_com_alliance_sam_PersonasFisicas_idTipoPersona" object="${personasfisicas}" z="5o8N6z7ELbEUnBeag5rR8g6eeXw="/>
+        <field:display field="documentoNro" id="s_com_alliance_sam_PersonasFisicas_documentoNro" object="${personasfisicas}" z="egErt1RBKSDuQSAeicjAGuZ9MLE="/>
+        <field:display field="cuitCuil" id="s_com_alliance_sam_PersonasFisicas_cuitCuil" object="${personasfisicas}" z="go4S3LZEcCgKaepnaWrWbvls6Lo="/>
+        <field:display field="iibb" id="s_com_alliance_sam_PersonasFisicas_iibb" object="${personasfisicas}" z="CimaX36NMuqzERQDgPIx7AFZcvM="/>
+        <field:display field="apellidos" id="s_com_alliance_sam_PersonasFisicas_apellidos" object="${personasfisicas}" z="7gdr+oNG6/hwi8g/p8u7EehEEaM="/>
+        <field:display field="nombres" id="s_com_alliance_sam_PersonasFisicas_nombres" object="${personasfisicas}" z="gRXQXMo4G9nMpBgWZ8H2MwFWYgw="/>
+        <field:display date="true" dateTimePattern="${personasFisicas_fechanacimiento_date_format}" field="fechaNacimiento" id="s_com_alliance_sam_PersonasFisicas_fechaNacimiento" object="${personasfisicas}" z="RnWYfhEL+zPqks/iAkmIGlsq5ug="/>
+        <field:display field="usuarioCreacion" id="s_com_alliance_sam_PersonasFisicas_usuarioCreacion" object="${personasfisicas}" z="tSGvgoYswMQD6UjLtp9HutOM/RE="/>
+        <field:display calendar="true" dateTimePattern="${personasFisicas_fechacreacion_date_format}" field="fechaCreacion" id="s_com_alliance_sam_PersonasFisicas_fechaCreacion" object="${personasfisicas}" z="PftHiiC4u4I4yC9WWaV876cOIWs="/>
+        <field:display field="hostCreacion" id="s_com_alliance_sam_PersonasFisicas_hostCreacion" object="${personasfisicas}" z="mVMoCWl/o96jRilSRllaORVpKbE="/>
+        <field:display field="usuarioModificacion" id="s_com_alliance_sam_PersonasFisicas_usuarioModificacion" object="${personasfisicas}" z="SgVLo+QD/OKXYfLHrKHjOdbyhM8="/>
+        <field:display calendar="true" dateTimePattern="${personasFisicas_fechamodificacion_date_format}" field="fechaModificacion" id="s_com_alliance_sam_PersonasFisicas_fechaModificacion" object="${personasfisicas}" z="ZGiGJN//PYUAR7Z92inHQAimEYc="/>
+        <field:display field="hostModificacion" id="s_com_alliance_sam_PersonasFisicas_hostModificacion" object="${personasfisicas}" z="gxLeYIGfYpa6MF/EJmiBFoCMs8U="/>
+    </page:show>
+</div>

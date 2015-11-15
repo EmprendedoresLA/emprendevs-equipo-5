@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/datatables" xmlns:table="urn:jsptagdir:/WEB-INF/tags/datatables" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_alliance_sam_DomicilioExpediente" items="${domicilioexpedientes}" z="wuxpbF1khH9PEyhAzqo6k3obQok=">
+        <table:table data="${domicilioexpedientes}" id="l_com_alliance_sam_DomicilioExpediente" path="/domicilioexpedientes" typeIdFieldName="idDomicilioExpediente" z="WvV5I3X9ns4RMaCoPQSG3OEo2Xc=">
+            <table:column id="c_com_alliance_sam_DomicilioExpediente_idExpedienteControl" property="idExpedienteControl" z="WfTlWKnLcoCu20DIsUZQ/UEns/A="/>
+            <table:column id="c_com_alliance_sam_DomicilioExpediente_idPais" property="idPais" z="ODclHqChqAqhxJ1qp8156Ej3Tds="/>
+            <table:column id="c_com_alliance_sam_DomicilioExpediente_idProvincia" property="idProvincia" z="UAO0R1LsU/hK8MeHfHj0gk4ll/U="/>
+            <table:column id="c_com_alliance_sam_DomicilioExpediente_idLocalidad" property="idLocalidad" z="utFmxW11HnA85XNNTDAIg/v21/Q="/>
+            <table:column id="c_com_alliance_sam_DomicilioExpediente_idPartido" property="idPartido" z="/Z4h5KcseHepLeoghbMsc1ZlCg4="/>
+            <table:column id="c_com_alliance_sam_DomicilioExpediente_idZona" property="idZona" z="0YpX0xgspsymjVqOi+MBp/XCrgw="/>
+        </table:table>
+    </page:list>
+</div>

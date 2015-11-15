@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/datatables" xmlns:table="urn:jsptagdir:/WEB-INF/tags/datatables" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_alliance_sam_ExpedienteIndustria" items="${expedienteindustrias}" z="5XsNszH0kUJ9WivIWByftCijyn0=">
+        <table:table data="${expedienteindustrias}" id="l_com_alliance_sam_ExpedienteIndustria" path="/expedienteindustrias" typeIdFieldName="idExpedienteIndustria" z="0o5AHJqgx5rqhwr9l9EJAIiZMoc=">
+            <table:column id="c_com_alliance_sam_ExpedienteIndustria_idExpedienteControl" property="idExpedienteControl" z="pzv04EgFoctY+wBhheruHGLgfq0="/>
+            <table:column id="c_com_alliance_sam_ExpedienteIndustria_idTipoOperacionCargaDescarga" property="idTipoOperacionCargaDescarga" z="Zd4ZXP+CgfRUeZApfLFickcjZgM="/>
+            <table:column id="c_com_alliance_sam_ExpedienteIndustria_descripcion" property="descripcion" z="koR6yFIVix71fBCJuNoik2Xp9nM="/>
+            <table:column id="c_com_alliance_sam_ExpedienteIndustria_m2Cubierto" property="m2Cubierto" z="QAcph2c6tBKvJ1HgW2vExalITYs="/>
+            <table:column id="c_com_alliance_sam_ExpedienteIndustria_m2Semicubierto" property="m2Semicubierto" z="iW41lSzowxN9zw713HW/BDUSQnE="/>
+            <table:column id="c_com_alliance_sam_ExpedienteIndustria_m2Totales" property="m2Totales" z="LWPawv4Ya7Ab4pbCeUEuzdAUKq8="/>
+        </table:table>
+    </page:list>
+</div>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/jquery/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/datatables" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_alliance_sam_PersonasFisicasContacto" modelAttribute="personasFisicasContacto" path="/personasfisicascontactoes" render="${empty dependencies}" z="zIjn6PY5jLRxmPHZMsoVe6OSEPc=">
+        <field:select field="idPersonaFisica" id="c_com_alliance_sam_PersonasFisicasContacto_idPersonaFisica" itemValue="idPersonaFisica" items="${personasfisicases}" path="/personasfisicases" z="JnVBDDow7jPTIgXEHjl+ikh06z8="/>
+        <field:select field="idTipoContacto" id="c_com_alliance_sam_PersonasFisicasContacto_idTipoContacto" itemValue="idTipoContacto" items="${tipocontactoes}" path="/tipocontactoes" z="6Jjo2sDjKsDW2QLjqJD2F1c1hVs="/>
+        <field:input field="observacion" id="c_com_alliance_sam_PersonasFisicasContacto_observacion" z="Ix+Nsxa8sEDpHRUVzokohyHjvOI="/>
+        <field:datetime dateTimePattern="${personasFisicasContacto_vigencia_date_format}" field="vigencia" id="c_com_alliance_sam_PersonasFisicasContacto_vigencia" z="wdNJs9tcO+e1foUIDgmhNsI1kBc="/>
+        <field:input field="usuarioCreacion" id="c_com_alliance_sam_PersonasFisicasContacto_usuarioCreacion" z="IZo8gPRtC7pjlf9T0PuoNt9SZ0g="/>
+        <field:datetime dateTimePattern="${personasFisicasContacto_fechacreacion_date_format}" field="fechaCreacion" id="c_com_alliance_sam_PersonasFisicasContacto_fechaCreacion" z="p4gux3bH5LNlum2cLzwo/kTnFmM="/>
+        <field:input field="hostCreacion" id="c_com_alliance_sam_PersonasFisicasContacto_hostCreacion" z="mhfa1Ga/3dXkuk9a0zeJzFUkRLA="/>
+        <field:input field="usuarioModificacion" id="c_com_alliance_sam_PersonasFisicasContacto_usuarioModificacion" z="4TvlcsS+RWWW2IIj2btKQSODhnI="/>
+        <field:datetime dateTimePattern="${personasFisicasContacto_fechamodificacion_date_format}" field="fechaModificacion" id="c_com_alliance_sam_PersonasFisicasContacto_fechaModificacion" z="6hEHqEpF/tHIo8sn7LtrTsWKQcY="/>
+        <field:input field="hostModificacion" id="c_com_alliance_sam_PersonasFisicasContacto_hostModificacion" z="zJs2xUZc/30hsbVPmKMCGgsFtjg="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_alliance_sam_PersonasFisicasContacto" render="${not empty dependencies}" z="Vwj2vR3y5mNTwwxzznJnfUBo0m8="/>
+</div>

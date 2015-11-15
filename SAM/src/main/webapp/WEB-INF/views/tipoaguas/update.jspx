@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/jquery/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/datatables" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_alliance_sam_TipoAgua" idField="idTipoAgua" modelAttribute="tipoAgua" path="/tipoaguas" versionField="none" z="edCG9Lucz14HGJ7m31luKNrtHjw=">
+        <field:input field="descripcion" id="c_com_alliance_sam_TipoAgua_descripcion" required="true" z="1Fj9JEQSgCXZqHXzO9IJ/PJbtb0="/>
+        <field:input field="observaciones" id="c_com_alliance_sam_TipoAgua_observaciones" z="LrtraJN8YFF/3NlSA2Eq+x/r/ps="/>
+        <field:input field="usuarioCreacion" id="c_com_alliance_sam_TipoAgua_usuarioCreacion" z="UCAjRo04uPVxdqOZ/SIIQ0cvmN0="/>
+        <field:datetime dateTimePattern="${tipoAgua_fechacreacion_date_format}" field="fechaCreacion" id="c_com_alliance_sam_TipoAgua_fechaCreacion" z="y4qirU2rEaqhgiNpg9NGr1811d0="/>
+        <field:input field="hostCreacion" id="c_com_alliance_sam_TipoAgua_hostCreacion" z="x8d9mnC4sR6xjw6YIzY8Mcm5itg="/>
+        <field:input field="usuarioModificacion" id="c_com_alliance_sam_TipoAgua_usuarioModificacion" z="VP5L6WSMrfnFA1zXYwM+drOP4v0="/>
+        <field:datetime dateTimePattern="${tipoAgua_fechamodificacion_date_format}" field="fechaModificacion" id="c_com_alliance_sam_TipoAgua_fechaModificacion" z="HW0gLxlXpHm+oypc7LREnN5p62U="/>
+        <field:input field="hostModificacion" id="c_com_alliance_sam_TipoAgua_hostModificacion" z="uXX/eQASt/gcAHlMK0iMqBSewJs="/>
+    </form:update>
+</div>

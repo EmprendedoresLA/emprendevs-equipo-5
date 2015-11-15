@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/jquery/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/datatables" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_alliance_sam_ExpedienteExclusivoDireccion" object="${expedienteexclusivodireccion}" path="/expedienteexclusivodireccions" z="EyM/518xZk522BHknXvknJEr+2w=">
+        <field:display field="idExpedienteControl" id="s_com_alliance_sam_ExpedienteExclusivoDireccion_idExpedienteControl" object="${expedienteexclusivodireccion}" z="OhI6JYg2SYF6Nw4ZAJZ1d1p3J0k="/>
+        <field:display field="idTipoOperacionCargaDescarga" id="s_com_alliance_sam_ExpedienteExclusivoDireccion_idTipoOperacionCargaDescarga" object="${expedienteexclusivodireccion}" z="3HrNwC50eTXEKDz9CSut6ZCBe1g="/>
+        <field:display field="superficieCubiertaAHabilitar" id="s_com_alliance_sam_ExpedienteExclusivoDireccion_superficieCubiertaAHabilitar" object="${expedienteexclusivodireccion}" z="sc1SzjGu3bwHqMpo5XOebAi7I8g="/>
+        <field:display field="superficieDescubiertaAHabilitar" id="s_com_alliance_sam_ExpedienteExclusivoDireccion_superficieDescubiertaAHabilitar" object="${expedienteexclusivodireccion}" z="4WXpmylKAVX4eO+wg77s+obBFNw="/>
+        <field:display field="superficieTotal" id="s_com_alliance_sam_ExpedienteExclusivoDireccion_superficieTotal" object="${expedienteexclusivodireccion}" z="VeD87btUjrBUOfuPp/d2G26LCfQ="/>
+        <field:display field="superficieMaximaAdmisible" id="s_com_alliance_sam_ExpedienteExclusivoDireccion_superficieMaximaAdmisible" object="${expedienteexclusivodireccion}" z="Gw1MxvZLae82V/Jc+n9cxC25XG4="/>
+        <field:display field="superficieMinimaExigible" id="s_com_alliance_sam_ExpedienteExclusivoDireccion_superficieMinimaExigible" object="${expedienteexclusivodireccion}" z="Jjj/a7d1YDzq9q0Hzf1kJtj4OgU="/>
+        <field:display field="deposito" id="s_com_alliance_sam_ExpedienteExclusivoDireccion_deposito" object="${expedienteexclusivodireccion}" z="6ZqT1ICQXEWh+cjhuqAMYl4sjKc="/>
+    </page:show>
+</div>

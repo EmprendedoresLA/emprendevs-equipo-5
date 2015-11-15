@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/jquery/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/datatables" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_alliance_sam_CalculoDetallePasos" object="${calculodetallepasos}" path="/calculodetallepasoses" z="E1FbqSkTgViBuhAbUaRgpqiZKEE=">
+        <field:display field="idCalculoDetalle" id="s_com_alliance_sam_CalculoDetallePasos_idCalculoDetalle" object="${calculodetallepasos}" z="IyepNekhZZbcxcAYeHgW98YsL6M="/>
+        <field:display calendar="true" dateTimePattern="${calculoDetallePasos_fechahoraposicion_date_format}" field="fechaHoraPosicion" id="s_com_alliance_sam_CalculoDetallePasos_fechaHoraPosicion" object="${calculodetallepasos}" z="RQ5t/8pccU0gSQmjNP1BWbRrma8="/>
+        <field:display field="posicion" id="s_com_alliance_sam_CalculoDetallePasos_posicion" object="${calculodetallepasos}" z="dBPTqfSor7L5P7pURdnJZejTHj0="/>
+        <field:display field="valor" id="s_com_alliance_sam_CalculoDetallePasos_valor" object="${calculodetallepasos}" z="zGmxk+fDsKjyIoJzv9IwRLRFAgs="/>
+    </page:show>
+</div>

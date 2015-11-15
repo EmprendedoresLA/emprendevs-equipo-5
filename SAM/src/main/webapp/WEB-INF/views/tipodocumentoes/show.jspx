@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/jquery/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/datatables" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_alliance_sam_TipoDocumento" object="${tipodocumento}" path="/tipodocumentoes" z="cvDqEcjHfZH9pYcaG/jOeblI30E=">
+        <field:display field="descripcion" id="s_com_alliance_sam_TipoDocumento_descripcion" object="${tipodocumento}" z="mOVQEyXuFqjuy4bbcYzQ+vx21t0="/>
+        <field:display field="observaciones" id="s_com_alliance_sam_TipoDocumento_observaciones" object="${tipodocumento}" z="Q5B96FsxEAhzNdTJcTqgbb2aaCU="/>
+        <field:display field="usuarioCreacion" id="s_com_alliance_sam_TipoDocumento_usuarioCreacion" object="${tipodocumento}" z="SFcPV8zg0pP7sB+P4K5WBpn9KyU="/>
+        <field:display calendar="true" dateTimePattern="${tipoDocumento_fechacreacion_date_format}" field="fechaCreacion" id="s_com_alliance_sam_TipoDocumento_fechaCreacion" object="${tipodocumento}" z="aKBpnnKEaSTFN4f8qzF+2TsQAvQ="/>
+        <field:display field="hostCreacion" id="s_com_alliance_sam_TipoDocumento_hostCreacion" object="${tipodocumento}" z="tMpPjCNiiH3ip7O/uNJWAeZPzGY="/>
+        <field:display field="usuarioModificacion" id="s_com_alliance_sam_TipoDocumento_usuarioModificacion" object="${tipodocumento}" z="UviXDGw5v8qliXf6cKUv4k9VZF4="/>
+        <field:display calendar="true" dateTimePattern="${tipoDocumento_fechamodificacion_date_format}" field="fechaModificacion" id="s_com_alliance_sam_TipoDocumento_fechaModificacion" object="${tipodocumento}" z="hVxTnZYeOi/VnMRDI3+S2VesUhY="/>
+        <field:display field="hostModificacion" id="s_com_alliance_sam_TipoDocumento_hostModificacion" object="${tipodocumento}" z="z7T/olrZDl5sgGLh0mDUZ0AW89o="/>
+    </page:show>
+</div>

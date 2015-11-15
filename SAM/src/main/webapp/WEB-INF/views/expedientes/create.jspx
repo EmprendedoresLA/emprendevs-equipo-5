@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/jquery/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/datatables" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_alliance_sam_Expediente" modelAttribute="expediente" path="/expedientes" render="${empty dependencies}" z="oCYr0PeJgPuY6+UqWpWmDY3ITVU=">
+        <field:simple field="calculoes" id="c_com_alliance_sam_Expediente_calculoes" messageCode="entity_reference_not_managed" messageCodeAttribute="Calculo" z="ydwpiL+APMd9ZgmCL7O4J97uX1Y="/>
+        <field:simple field="certificadoZonificacions" id="c_com_alliance_sam_Expediente_certificadoZonificacions" messageCode="entity_reference_not_managed" messageCodeAttribute="Certificado Zonificacion" z="4JgYcGepFqQoLcdcxGM6Vjewfbk="/>
+        <field:simple field="datosCatastroes" id="c_com_alliance_sam_Expediente_datosCatastroes" messageCode="entity_reference_not_managed" messageCodeAttribute="Datos Catastro" z="Dz7SKvcVojR96l7/bVbhUV/Hsow="/>
+        <field:simple field="datosPlaneamientoes" id="c_com_alliance_sam_Expediente_datosPlaneamientoes" messageCode="entity_reference_not_managed" messageCodeAttribute="Datos Planeamiento" z="KmmMngv0N9D85S+MGRa0adasTZE="/>
+        <field:simple field="ddjjs" id="c_com_alliance_sam_Expediente_ddjjs" messageCode="entity_reference_not_managed" messageCodeAttribute="Ddjj" z="bxBKuOAdbdKwMw6M727ekqSYeqw="/>
+        <field:simple field="domicilioExpedientes" id="c_com_alliance_sam_Expediente_domicilioExpedientes" messageCode="entity_reference_not_managed" messageCodeAttribute="Domicilio Expediente" z="rJexWc56ibF+n6MVgbhJ/wvGy8w="/>
+        <field:simple field="expedienteComercios" id="c_com_alliance_sam_Expediente_expedienteComercios" messageCode="entity_reference_not_managed" messageCodeAttribute="Expediente Comercio" z="0l7Rj0FSJR6rP0TWnaHrFijMhpE="/>
+        <field:simple field="expedienteDocumentoes" id="c_com_alliance_sam_Expediente_expedienteDocumentoes" messageCode="entity_reference_not_managed" messageCodeAttribute="Expediente Documento" z="n8P3UKyXc6tC5BWOCEKII1zlnyc="/>
+        <field:simple field="expedienteExclusivoDireccions" id="c_com_alliance_sam_Expediente_expedienteExclusivoDireccions" messageCode="entity_reference_not_managed" messageCodeAttribute="Expediente Exclusivo Direccion" z="DUi/IPt2DJBRYx83x3TOFd+6fVE="/>
+        <field:simple field="expedienteIndustrias" id="c_com_alliance_sam_Expediente_expedienteIndustrias" messageCode="entity_reference_not_managed" messageCodeAttribute="Expediente Industria" z="tiGRPdDB7rjU8bhl06gwi8srorw="/>
+        <field:simple field="expedientePersonaFisicas" id="c_com_alliance_sam_Expediente_expedientePersonaFisicas" messageCode="entity_reference_not_managed" messageCodeAttribute="Expediente Persona Fisica" z="fjlnU2PFvMROkmlsu3+aUBQXKXY="/>
+        <field:simple field="expedientePersonaJuridicas" id="c_com_alliance_sam_Expediente_expedientePersonaJuridicas" messageCode="entity_reference_not_managed" messageCodeAttribute="Expediente Persona Juridica" z="ypr4mw/VWBiGn1ZP39vMurO17KM="/>
+        <field:simple field="expedienteRubroes" id="c_com_alliance_sam_Expediente_expedienteRubroes" messageCode="entity_reference_not_managed" messageCodeAttribute="Expediente Rubro" z="rXeEIgXoxv3+LMjPc0j7mp5h5+I="/>
+        <field:simple field="inspeccions" id="c_com_alliance_sam_Expediente_inspeccions" messageCode="entity_reference_not_managed" messageCodeAttribute="Inspeccion" z="eCID1gMDjWYDk+DVm+lxtn8XYBs="/>
+        <field:simple field="ventaPresuntas" id="c_com_alliance_sam_Expediente_ventaPresuntas" messageCode="entity_reference_not_managed" messageCodeAttribute="Venta Presunta" z="EIvHqlyvk7LFvA6EVWgByo5uR1I="/>
+        <field:select field="idExpedienteEstado" id="c_com_alliance_sam_Expediente_idExpedienteEstado" itemValue="idExpedienteEstado" items="${expedienteestadoes}" path="/expedienteestadoes" z="xZXVnAvoPbZ5uLUCRhmL9WljTtA="/>
+        <field:select field="idEstadoDeTramite" id="c_com_alliance_sam_Expediente_idEstadoDeTramite" itemValue="idEstado" items="${expedienteestadodetramites}" path="/expedienteestadodetramites" z="1O61CfV3Dy3cnX2LjvMCQo0dUDM="/>
+        <field:select field="internacion" id="c_com_alliance_sam_Expediente_internacion" itemValue="idTipoGeneral" items="${tipogenerals}" path="/tipogenerals" z="Lcgke6yXP0XOLwj+smRv+kk4NaY="/>
+        <field:select field="idTipoEstablecimiento" id="c_com_alliance_sam_Expediente_idTipoEstablecimiento" itemValue="idTipoEstablecimiento" items="${tipoestablecimientoes}" path="/tipoestablecimientoes" z="e2KW7FdfGtRcAmOZ62F3OVwyFrI="/>
+        <field:select field="localInterno" id="c_com_alliance_sam_Expediente_localInterno" itemValue="idTipoGeneral" items="${tipogenerals}" path="/tipogenerals" z="H1t72SiuOKIh8or7oaOgzNncCwY="/>
+        <field:select field="requiereDdjj" id="c_com_alliance_sam_Expediente_requiereDdjj" itemValue="idTipoGeneral" items="${tipogenerals}" path="/tipogenerals" z="AOEKKNANtXSsNwMIqH4lcOY1ptE="/>
+        <field:select field="anio" id="c_com_alliance_sam_Expediente_anio" itemValue="idTipoAnio" items="${tipoanios}" path="/tipoanios" z="MZiWHIg34eugCezo13pR1cxkTyE="/>
+        <field:select field="anioDdjj" id="c_com_alliance_sam_Expediente_anioDdjj" itemValue="idTipoAnio" items="${tipoanios}" path="/tipoanios" z="+Klo+fBo3aVDsJ1LlMlWViP/ImY="/>
+        <field:input field="idDdjj" id="c_com_alliance_sam_Expediente_idDdjj" validationMessageCode="field_invalid_integer" z="qRweL7sgcYPSsvRXUpCdSK1wKj4="/>
+        <field:input field="idExpediente" id="c_com_alliance_sam_Expediente_idExpediente" required="true" validationMessageCode="field_invalid_integer" z="KQlrsQAw57B23jcL+USuIyRBAB4="/>
+        <field:input field="telefono" id="c_com_alliance_sam_Expediente_telefono" z="CIWTtzHWBhvFINqwci19KQYGqjM="/>
+        <field:input field="nombreFantasia" id="c_com_alliance_sam_Expediente_nombreFantasia" z="9V2Ji8HE65gbWzfI0a4wvGQ5btY="/>
+        <field:input field="nombreApellido" id="c_com_alliance_sam_Expediente_nombreApellido" z="IRxSewlaWNXCs95E0RnpXxdCJUo="/>
+        <field:input field="cuitCuilDni" id="c_com_alliance_sam_Expediente_cuitCuilDni" z="2nEqfSsRt9UbRQXSG+gvMA7BTWI="/>
+        <field:input field="cantidadMedida" id="c_com_alliance_sam_Expediente_cantidadMedida" validationMessageCode="field_invalid_number" z="8a8J/1bU4TmQLOEFALXEAPM9EsA="/>
+        <field:datetime dateTimePattern="${expediente_baja_date_format}" field="baja" id="c_com_alliance_sam_Expediente_baja" z="Tw6b98V2MoxY8rdSbSbALHpPSAc="/>
+        <field:input field="estadoTipo" id="c_com_alliance_sam_Expediente_estadoTipo" z="3TtI8bG8Mu1q4BOTh0LN/s5nTzs="/>
+        <field:datetime dateTimePattern="${expediente_fechainicio_date_format}" field="fechaInicio" id="c_com_alliance_sam_Expediente_fechaInicio" z="2S/tJPkQrY04B7vEk5RyHXlZnU0="/>
+        <field:input field="activoFijo" id="c_com_alliance_sam_Expediente_activoFijo" validationMessageCode="field_invalid_number" z="G57zSnDPtwOdiO4LhzkKm3+e0X4="/>
+        <field:input field="cantEmpleados" id="c_com_alliance_sam_Expediente_cantEmpleados" validationMessageCode="field_invalid_integer" z="mgUzeTGaxH2eAuXbwwasBwNkXk0="/>
+        <field:input field="horarioAtenc" id="c_com_alliance_sam_Expediente_horarioAtenc" z="oWNn1YqtAFjlI3iL0t3xMAgCFo4="/>
+        <field:input field="memoria" id="c_com_alliance_sam_Expediente_memoria" z="4PPFAXKBjtl0sEj36WV27hUtTIM="/>
+        <field:input field="maquinaria" id="c_com_alliance_sam_Expediente_maquinaria" z="iLOX04aSzyJnxC1WL9sNLpbHl/0="/>
+        <field:input field="totalHp" id="c_com_alliance_sam_Expediente_totalHp" validationMessageCode="field_invalid_integer" z="5OS2w/RB6LUzHV7aE0cbskEPbpU="/>
+        <field:input field="usuarioCreacion" id="c_com_alliance_sam_Expediente_usuarioCreacion" z="k5Y3dCFGT/tYtDnFJ6JD3ZRp2oU="/>
+        <field:datetime dateTimePattern="${expediente_fechacreacion_date_format}" field="fechaCreacion" id="c_com_alliance_sam_Expediente_fechaCreacion" z="ZCDjUCTPLB8KlIVuWl8+jTIPyhA="/>
+        <field:input field="hostCreacion" id="c_com_alliance_sam_Expediente_hostCreacion" z="D+4EhQGvq7zpbYWzgSPq8sF31x8="/>
+        <field:input field="usuarioModificacion" id="c_com_alliance_sam_Expediente_usuarioModificacion" z="3FXxHwaUSEIz8EIRuyD7s4QS+l8="/>
+        <field:datetime dateTimePattern="${expediente_fechamodificacion_date_format}" field="fechaModificacion" id="c_com_alliance_sam_Expediente_fechaModificacion" z="nNi1NCONANqzK9xhUTDxYzL/qH4="/>
+        <field:input field="hostModificacion" id="c_com_alliance_sam_Expediente_hostModificacion" z="IxeZ6vrUKbnZVOA9M0sobCmJ1TA="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_alliance_sam_Expediente" render="${not empty dependencies}" z="XdjzXgVC3wO5urgKIRmGCnG24Io="/>
+</div>

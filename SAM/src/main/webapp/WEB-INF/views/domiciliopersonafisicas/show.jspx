@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/jquery/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/datatables" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_alliance_sam_DomicilioPersonaFisica" object="${domiciliopersonafisica}" path="/domiciliopersonafisicas" z="KkhjqvUdS53aSZ96wJUmmnOsh24=">
+        <field:display field="idPais" id="s_com_alliance_sam_DomicilioPersonaFisica_idPais" object="${domiciliopersonafisica}" z="YKk21vaM9frAVy2coAVKtzJ7DZU="/>
+        <field:display field="idProvincia" id="s_com_alliance_sam_DomicilioPersonaFisica_idProvincia" object="${domiciliopersonafisica}" z="WD2AOnlY/52NKtg03eh1ksBDViA="/>
+        <field:display field="idLocalidad" id="s_com_alliance_sam_DomicilioPersonaFisica_idLocalidad" object="${domiciliopersonafisica}" z="n3MDrZxNg0boXpH/ebHBcsO0kAc="/>
+        <field:display field="idPartido" id="s_com_alliance_sam_DomicilioPersonaFisica_idPartido" object="${domiciliopersonafisica}" z="uW5Ado9vU6G7lkQHgLguPbgxYq8="/>
+        <field:display field="idZona" id="s_com_alliance_sam_DomicilioPersonaFisica_idZona" object="${domiciliopersonafisica}" z="TNcmtNJ6q0lV9C675badvgy0eSU="/>
+        <field:display field="idCalle" id="s_com_alliance_sam_DomicilioPersonaFisica_idCalle" object="${domiciliopersonafisica}" z="1qyWv8h8HUXa3fniwNRwmx3lfkQ="/>
+        <field:display field="idTipoDomicilio" id="s_com_alliance_sam_DomicilioPersonaFisica_idTipoDomicilio" object="${domiciliopersonafisica}" z="kb/tRb2+YZ1wwa7xd0Hv0GioQMU="/>
+        <field:display field="idPersonaFisica" id="s_com_alliance_sam_DomicilioPersonaFisica_idPersonaFisica" object="${domiciliopersonafisica}" z="DQTkaSXUMj6KOj9VN1prSwubCZo="/>
+        <field:display field="piso" id="s_com_alliance_sam_DomicilioPersonaFisica_piso" object="${domiciliopersonafisica}" z="JGRy+XVHMI06uOdaX0Pe47hNDJ0="/>
+        <field:display field="depto" id="s_com_alliance_sam_DomicilioPersonaFisica_depto" object="${domiciliopersonafisica}" z="ABTvJ28pdvSe39iohEpjzGzobF8="/>
+        <field:display field="numero" id="s_com_alliance_sam_DomicilioPersonaFisica_numero" object="${domiciliopersonafisica}" z="+Sp2kjhj5RojKJDekBeSaSMhoBk="/>
+        <field:display field="cp" id="s_com_alliance_sam_DomicilioPersonaFisica_cp" object="${domiciliopersonafisica}" z="GWWrpe/YG1fKASJEdfx3CvoATxk="/>
+        <field:display field="descripcion" id="s_com_alliance_sam_DomicilioPersonaFisica_descripcion" object="${domiciliopersonafisica}" z="ZVeyX7bsDzEJnek7ZfH5Huy/pdY="/>
+        <field:display field="usuarioCreacion" id="s_com_alliance_sam_DomicilioPersonaFisica_usuarioCreacion" object="${domiciliopersonafisica}" z="b3NT1d4H4WmtU8/jcFZy36FLA+Q="/>
+        <field:display calendar="true" dateTimePattern="${domicilioPersonaFisica_fechacreacion_date_format}" field="fechaCreacion" id="s_com_alliance_sam_DomicilioPersonaFisica_fechaCreacion" object="${domiciliopersonafisica}" z="tPmZMp5ysEQWM1/MBbGjkUvUVQs="/>
+        <field:display field="hostCreacion" id="s_com_alliance_sam_DomicilioPersonaFisica_hostCreacion" object="${domiciliopersonafisica}" z="2XLy63MPs1eB+bb2dxkqyggiP2s="/>
+        <field:display field="usuarioModificacion" id="s_com_alliance_sam_DomicilioPersonaFisica_usuarioModificacion" object="${domiciliopersonafisica}" z="8NWyu9w/p2prN54S1GkPd3B1bwo="/>
+        <field:display calendar="true" dateTimePattern="${domicilioPersonaFisica_fechamodificacion_date_format}" field="fechaModificacion" id="s_com_alliance_sam_DomicilioPersonaFisica_fechaModificacion" object="${domiciliopersonafisica}" z="FUSzQeFAGI1ukXmM/qpLp16fAQo="/>
+        <field:display field="hostModificacion" id="s_com_alliance_sam_DomicilioPersonaFisica_hostModificacion" object="${domiciliopersonafisica}" z="lB21keaUcEt60Lxrp4PLe3yIM8Q="/>
+    </page:show>
+</div>

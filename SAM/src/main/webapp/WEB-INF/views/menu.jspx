@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:menu="urn:jsptagdir:/WEB-INF/tags/menu" id="menu" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <menu:menu id="_menu" z="nZaf43BjUg1iM0v70HJVEsXDopc=">
+        <menu:category id="c_tipotasa" z="h/W4qcXUL83YCYXFIWlBE+i+Rgo=">
+            <menu:item id="i_tipotasa_new" messageCode="global_menu_new" url="/tipotasas?form" z="v878QazWFHDUo6PK1pd7cN0wefU="/>
+            <menu:item id="i_tipotasa_list" messageCode="global_menu_list" url="/tipotasas?page=1&amp;size=${empty param.size ? 10 : param.size}" z="LiOZHKyKtKTHmp7fCBSKFeUlhJk="/>
+        </menu:category>
+        <menu:category id="c_inspeccion" z="1S3vXGrJtWVWn1VwaXSVRnLcl4c=">
+            <menu:item id="i_inspeccion_new" messageCode="global_menu_new" url="/inspeccions?form" z="6CPyIoWHxbgcS8GOtMjhnb6hiFQ="/>
+            <menu:item id="i_inspeccion_list" messageCode="global_menu_list" url="/inspeccions?page=1&amp;size=${empty param.size ? 10 : param.size}" z="kg0Snn0Bh+4grlJx2lBb8hj0sEY="/>
+        </menu:category>
+        <menu:category id="c_calculodetallepasos" z="9ruJoAbDmxp6D6nOLPB0sKghF/o=">
+            <menu:item id="i_calculodetallepasos_new" messageCode="global_menu_new" url="/calculodetallepasoses?form" z="P1Su617v8I3ug6JHkDmk5BDuGrc="/>
+            <menu:item id="i_calculodetallepasos_list" messageCode="global_menu_list" url="/calculodetallepasoses?page=1&amp;size=${empty param.size ? 10 : param.size}" z="rjJhHPGAJsHfpF6sFQaWiud/7ok="/>
+        </menu:category>
+        <menu:category id="c_calculodetalle" z="StuvXrpU0qg89pld3kKxTfcKABI=">
+            <menu:item id="i_calculodetalle_new" messageCode="global_menu_new" url="/calculodetalles?form" z="HAazMt1yhwEoQ5+I+EbpKdoA7qs="/>
+            <menu:item id="i_calculodetalle_list" messageCode="global_menu_list" url="/calculodetalles?page=1&amp;size=${empty param.size ? 10 : param.size}" z="rVaHCOtwAnYZcjBj0xuuZapRSE4="/>
+        </menu:category>
+        <menu:category id="c_domiciliopersonafisica" z="iHDODSRl5NCtFTNZ0kGC7HCUwx0=">
+            <menu:item id="i_domiciliopersonafisica_new" messageCode="global_menu_new" url="/domiciliopersonafisicas?form" z="MGm4Ar8HgTFWHpFnj7rkZJ+Pzvw="/>
+            <menu:item id="i_domiciliopersonafisica_list" messageCode="global_menu_list" url="/domiciliopersonafisicas?page=1&amp;size=${empty param.size ? 10 : param.size}" z="pkDe+/NsygPJsaB6OQLu1XYMKKQ="/>
+        </menu:category>
+        <menu:category id="c_valormodulo" z="AZ7syCvscvtZeUV5ayqn3dvrtmA=">
+            <menu:item id="i_valormodulo_new" messageCode="global_menu_new" url="/valormoduloes?form" z="A8vlqQhdnPXyNje8S5IwV4fBEmk="/>
+            <menu:item id="i_valormodulo_list" messageCode="global_menu_list" url="/valormoduloes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="aqxeOzzEZpRms0orUif91+xVyH0="/>
+        </menu:category>
+        <menu:category id="c_tipogestor" z="0uikW/UtSFGnyCcTwsQ8EYsOaWM=">
+            <menu:item id="i_tipogestor_new" messageCode="global_menu_new" url="/tipogestors?form" z="PVGHtfaZnvC9NdljNYm+CeNSY6g="/>
+            <menu:item id="i_tipogestor_list" messageCode="global_menu_list" url="/tipogestors?page=1&amp;size=${empty param.size ? 10 : param.size}" z="WpambfqlQZdUhkphYsotgACCzsc="/>
+        </menu:category>
+        <menu:category id="c_tipodomicilio" z="CvEFiYMHDYjRajKk+QKyqmSo9xs=">
+            <menu:item id="i_tipodomicilio_new" messageCode="global_menu_new" url="/tipodomicilios?form" z="+qlSRPbWd1Q77bJ9EKnH5E+3MMA="/>
+            <menu:item id="i_tipodomicilio_list" messageCode="global_menu_list" url="/tipodomicilios?page=1&amp;size=${empty param.size ? 10 : param.size}" z="1HVeVmuf7FvgGZqENpWAqQjVh88="/>
+        </menu:category>
+        <menu:category id="c_calle" z="SbJwNydGG76VBCnifHFwcdgvnUQ=">
+            <menu:item id="i_calle_new" messageCode="global_menu_new" url="/calles?form" z="ZHzwpJC3ZR6beTTKN2d/wze6BDU="/>
+            <menu:item id="i_calle_list" messageCode="global_menu_list" url="/calles?page=1&amp;size=${empty param.size ? 10 : param.size}" z="+mBKB2I8Dp6bMV2yOHBYZrQu6YY="/>
+        </menu:category>
+        <menu:category id="c_rubro" z="SOcgSKKGYh0QkmJdmK+W+eEsuHQ=">
+            <menu:item id="i_rubro_new" messageCode="global_menu_new" url="/rubroes?form" z="B1xY0v0nVpIc6f+ghkxL81Sml7U="/>
+            <menu:item id="i_rubro_list" messageCode="global_menu_list" url="/rubroes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="4Bg8W0VM53JTNtEZcrNUwoXBD9k="/>
+        </menu:category>
+        <menu:category id="c_tipooperacioncargadescarga" z="m0f3j+I+A8kTk091020DRTXnQIg=">
+            <menu:item id="i_tipooperacioncargadescarga_new" messageCode="global_menu_new" url="/tipooperacioncargadescargas?form" z="suQPI96AAtD478/s6MXCilJHISc="/>
+            <menu:item id="i_tipooperacioncargadescarga_list" messageCode="global_menu_list" url="/tipooperacioncargadescargas?page=1&amp;size=${empty param.size ? 10 : param.size}" z="vOBdBfNtPbvU6ZcnKqi8cD0GdLI="/>
+        </menu:category>
+        <menu:category id="c_ddjj" z="UKMqtJ+7r2izXCVEgNv20q2F234=">
+            <menu:item id="i_ddjj_new" messageCode="global_menu_new" url="/ddjjs?form" z="flnLRtALXPCj5sNplYz9VE+dWqA="/>
+            <menu:item id="i_ddjj_list" messageCode="global_menu_list" url="/ddjjs?page=1&amp;size=${empty param.size ? 10 : param.size}" z="L25xO+RoVTFbCWGztZvpyHDuklE="/>
+        </menu:category>
+        <menu:category id="c_expedientepersonafisica" z="xor5H32fkKR7oe8Ybu1MxZmKwUg=">
+            <menu:item id="i_expedientepersonafisica_new" messageCode="global_menu_new" url="/expedientepersonafisicas?form" z="mMVYkqdXpXJorYEGxXl+zoYwOBU="/>
+            <menu:item id="i_expedientepersonafisica_list" messageCode="global_menu_list" url="/expedientepersonafisicas?page=1&amp;size=${empty param.size ? 10 : param.size}" z="YkQZfHxb3RvOm5B7BCi13KQN0Tw="/>
+        </menu:category>
+        <menu:category id="c_personasjuridicascontacto" z="CDfcuDSIn/R7SDcwX6eBP4lPdjo=">
+            <menu:item id="i_personasjuridicascontacto_new" messageCode="global_menu_new" url="/personasjuridicascontactoes?form" z="gsysBm4d3DIbR/5zrT6xJmqf2kU="/>
+            <menu:item id="i_personasjuridicascontacto_list" messageCode="global_menu_list" url="/personasjuridicascontactoes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="PHbj7UOZZZTNsiUqfwL0DbchpJQ="/>
+        </menu:category>
+        <menu:category id="c_tipoanio" z="Rs/dxvab3W5t0RALyrk8i31X/k4=">
+            <menu:item id="i_tipoanio_new" messageCode="global_menu_new" url="/tipoanios?form" z="t+ocd9tiM4+lQ4afxsRvUfhBALk="/>
+            <menu:item id="i_tipoanio_list" messageCode="global_menu_list" url="/tipoanios?page=1&amp;size=${empty param.size ? 10 : param.size}" z="zJuVNLUQg3l/vpSE4taTumk33Cw="/>
+        </menu:category>
+        <menu:category id="c_tipobimestre" z="BFLw6wZ/0ieDu3yPfgOOpHb7yts=">
+            <menu:item id="i_tipobimestre_new" messageCode="global_menu_new" url="/tipobimestres?form" z="NjzHjnfZNZ/nwAuYUlLHamKI2E4="/>
+            <menu:item id="i_tipobimestre_list" messageCode="global_menu_list" url="/tipobimestres?page=1&amp;size=${empty param.size ? 10 : param.size}" z="GdIHLX3KVUA2u/flRoALYyexsC0="/>
+        </menu:category>
+        <menu:category id="c_calculofiltro" z="iNBK4HbX6h8IN5+QQLWLKfqTOts=">
+            <menu:item id="i_calculofiltro_new" messageCode="global_menu_new" url="/calculofiltroes?form" z="UnFNtcNhSJxePXLWtT+i38V/B8o="/>
+            <menu:item id="i_calculofiltro_list" messageCode="global_menu_list" url="/calculofiltroes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="NOCZRwIoL21OOxipoNHAaLZRARQ="/>
+        </menu:category>
+        <menu:category id="c_notificacion" z="sXCUvctmdFdpLOkPBobjdqTFvgc=">
+            <menu:item id="i_notificacion_new" messageCode="global_menu_new" url="/notificacions?form" z="grmKJIJUWHrBgAYG1kMTHJKJT0A="/>
+            <menu:item id="i_notificacion_list" messageCode="global_menu_list" url="/notificacions?page=1&amp;size=${empty param.size ? 10 : param.size}" z="9Jwc5inillnptAIVyslJ2IS6kDE="/>
+        </menu:category>
+        <menu:category id="c_personafisicajuridica" z="g0eO4La5GPjpx1b8q/Mzwpy9ROk=">
+            <menu:item id="i_personafisicajuridica_new" messageCode="global_menu_new" url="/personafisicajuridicas?form" z="2+3WqAEndje6t8JwlQvpTWounCk="/>
+            <menu:item id="i_personafisicajuridica_list" messageCode="global_menu_list" url="/personafisicajuridicas?page=1&amp;size=${empty param.size ? 10 : param.size}" z="fq1lax50DAxHGPro3gAXCki87/8="/>
+        </menu:category>
+        <menu:category id="c_expedienterubro" z="7iuXGtY1WBqkunjIdAbzTnqKwjI=">
+            <menu:item id="i_expedienterubro_new" messageCode="global_menu_new" url="/expedienterubroes?form" z="mfhW4lcf+zdHMHuLKWo+Gou3fEM="/>
+            <menu:item id="i_expedienterubro_list" messageCode="global_menu_list" url="/expedienterubroes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="CAHvIOTY6qEv6cIDLRUSiXmdPVE="/>
+        </menu:category>
+        <menu:category id="c_expedienteestado" z="607tT04RvflA+aWdlrNAW4B8WZg=">
+            <menu:item id="i_expedienteestado_new" messageCode="global_menu_new" url="/expedienteestadoes?form" z="VW13CstkAUrvGIxr6weJOZUf9Ks="/>
+            <menu:item id="i_expedienteestado_list" messageCode="global_menu_list" url="/expedienteestadoes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="TuKmGr0bBGlHgec9iMh2pRAVf9E="/>
+        </menu:category>
+        <menu:category id="c_localidad" z="D38o693i11+B5NAL9osd0M2G/tU=">
+            <menu:item id="i_localidad_new" messageCode="global_menu_new" url="/localidads?form" z="RgioHY3gOmzBKA22tcggwHzmpbE="/>
+            <menu:item id="i_localidad_list" messageCode="global_menu_list" url="/localidads?page=1&amp;size=${empty param.size ? 10 : param.size}" z="e2iHHO5ipDgGwa5pOP3rGCS46ek="/>
+        </menu:category>
+        <menu:category id="c_documentopersonafisica" z="jswZYQzJkY9DKHvFyGWpCyumQJk=">
+            <menu:item id="i_documentopersonafisica_new" messageCode="global_menu_new" url="/documentopersonafisicas?form" z="4ryVqdBCcsjWtCKZFiiWsCPOuok="/>
+            <menu:item id="i_documentopersonafisica_list" messageCode="global_menu_list" url="/documentopersonafisicas?page=1&amp;size=${empty param.size ? 10 : param.size}" z="ONusmFc4QlB96tJoDgN6O9diBRw="/>
+        </menu:category>
+        <menu:category id="c_calculo" z="aJ3jUCUcoqsOzc04oJ1fM24QuJk=">
+            <menu:item id="i_calculo_new" messageCode="global_menu_new" url="/calculoes?form" z="MKsHcruxzd9I2k1y7bKvs1Lu/Ec="/>
+            <menu:item id="i_calculo_list" messageCode="global_menu_list" url="/calculoes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="dDJIX0cPQA7WjnvywIc/h6HC1Mk="/>
+        </menu:category>
+        <menu:category id="c_datosplaneamiento" z="WS+fTFfJDikwBCiwOcGguduhCPY=">
+            <menu:item id="i_datosplaneamiento_new" messageCode="global_menu_new" url="/datosplaneamientoes?form" z="9rnAd5zwac8UDYB6ojZdQEeZ8dc="/>
+            <menu:item id="i_datosplaneamiento_list" messageCode="global_menu_list" url="/datosplaneamientoes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="HEFhnqKSP8BJu04dx9STP5LHVSw="/>
+        </menu:category>
+        <menu:category id="c_expediente" z="4a2ay+g2UDOk0wNEDCnkFF/d01c=">
+            <menu:item id="i_expediente_new" messageCode="global_menu_new" url="/expedientes?form" z="GSQkucNanjR2TNSh8A3iULyvVAY="/>
+            <menu:item id="i_expediente_list" messageCode="global_menu_list" url="/expedientes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="kkLV1aCz0I0r+9AJ13uRQ06xjJU="/>
+        </menu:category>
+        <menu:category id="c_personasfisicas" z="w05A5fA5ksOpA7Gwm7XgGOQssqQ=">
+            <menu:item id="i_personasfisicas_new" messageCode="global_menu_new" url="/personasfisicases?form" z="YzXmFol+Umhk3vR1VdqE42gXigM="/>
+            <menu:item id="i_personasfisicas_list" messageCode="global_menu_list" url="/personasfisicases?page=1&amp;size=${empty param.size ? 10 : param.size}" z="Y87iH6rm7AEkdJih/2/78dV7bpI="/>
+        </menu:category>
+        <menu:category id="c_personasfisicascontacto" z="MZIZda7S0KM+2pa45wufPhLYxZE=">
+            <menu:item id="i_personasfisicascontacto_new" messageCode="global_menu_new" url="/personasfisicascontactoes?form" z="g+fKM5m3qjO4sV1J3K2C/1TZGbY="/>
+            <menu:item id="i_personasfisicascontacto_list" messageCode="global_menu_list" url="/personasfisicascontactoes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="VYFKV7CrIXWPVe0G0OAeztZ9FvQ="/>
+        </menu:category>
+        <menu:category id="c_user" z="uoTSf/uIZ821ZppidzS9aO776yk=">
+            <menu:item id="i_user_new" messageCode="global_menu_new" url="/users?form" z="Zv1m8u2rG+JFKcvJ+AHVVK0ey24="/>
+            <menu:item id="i_user_list" messageCode="global_menu_list" url="/users?page=1&amp;size=${empty param.size ? 10 : param.size}" z="4MY4uybxa60Q1G2rlI5bOwg+sm0="/>
+        </menu:category>
+        <menu:category id="c_ventapresunta" z="zjUGhKAETT5zGuFWkTxnqRK1GU0=">
+            <menu:item id="i_ventapresunta_new" messageCode="global_menu_new" url="/ventapresuntas?form" z="J55/w+J/wNB+WVfT7sqE85YPsOc="/>
+            <menu:item id="i_ventapresunta_list" messageCode="global_menu_list" url="/ventapresuntas?page=1&amp;size=${empty param.size ? 10 : param.size}" z="sqK42gOV0eoze5FYTpsmrnvg1P8="/>
+        </menu:category>
+        <menu:category id="c_tipocontacto" z="j4ovb3Nj3+NY4p9K64QrSdqP6/c=">
+            <menu:item id="i_tipocontacto_new" messageCode="global_menu_new" url="/tipocontactoes?form" z="dzX58kWXEZeD7j87P2Evxw1p68s="/>
+            <menu:item id="i_tipocontacto_list" messageCode="global_menu_list" url="/tipocontactoes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="CDd6mIpTSOQLuLip1vNKWidIWcQ="/>
+        </menu:category>
+        <menu:category id="c_tipodocumento" z="B/kNPkv8emZ0WxUq/7ZQZp9WYGc=">
+            <menu:item id="i_tipodocumento_new" messageCode="global_menu_new" url="/tipodocumentoes?form" z="qoV+9Fi91uK10C0sSwIa45Y+g1o="/>
+            <menu:item id="i_tipodocumento_list" messageCode="global_menu_list" url="/tipodocumentoes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="0SHbEs4exH4GepFvxHdgEnDxucM="/>
+        </menu:category>
+        <menu:category id="c_partido" z="/lP1jvdnWQxpyeByg9cpBVLSslQ=">
+            <menu:item id="i_partido_new" messageCode="global_menu_new" url="/partidoes?form" z="Xg9y5lhYECVB4HPix+20GfIUoUY="/>
+            <menu:item id="i_partido_list" messageCode="global_menu_list" url="/partidoes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="jmxAmlR7UYl6HV3YV85Z91DgVV8="/>
+        </menu:category>
+        <menu:category id="c_tipogeneral" z="DKQgXLEx5kX6hM7h3XTwkvVQrCE=">
+            <menu:item id="i_tipogeneral_new" messageCode="global_menu_new" url="/tipogenerals?form" z="sEPMCi+8MlbsBdfF9i+AsK7Ms9c="/>
+            <menu:item id="i_tipogeneral_list" messageCode="global_menu_list" url="/tipogenerals?page=1&amp;size=${empty param.size ? 10 : param.size}" z="UWIottfLqWm5feWdTX4hJwTHsS8="/>
+        </menu:category>
+        <menu:category id="c_provincia" z="s40QIrkTEEQmQJE7n3s/kBpd4As=">
+            <menu:item id="i_provincia_new" messageCode="global_menu_new" url="/provincias?form" z="aptiyVobvnotHzHyHAejklRSmWM="/>
+            <menu:item id="i_provincia_list" messageCode="global_menu_list" url="/provincias?page=1&amp;size=${empty param.size ? 10 : param.size}" z="DbRgNOqg8bLq24SILSrImBD1jxo="/>
+        </menu:category>
+        <menu:category id="c_tipopersona" z="1ZnIro9cbPlUYxaGKERSthhTis4=">
+            <menu:item id="i_tipopersona_new" messageCode="global_menu_new" url="/tipopersonas?form" z="bjIKUmgVC6ZRo3Zaas5+Gqd1YPg="/>
+            <menu:item id="i_tipopersona_list" messageCode="global_menu_list" url="/tipopersonas?page=1&amp;size=${empty param.size ? 10 : param.size}" z="tKl4fjj96G602FLD3K5u8TG+kbI="/>
+        </menu:category>
+        <menu:category id="c_datoscatastro" z="ftfOxmLCHmB6fh2SSBOJSjgk+0g=">
+            <menu:item id="i_datoscatastro_new" messageCode="global_menu_new" url="/datoscatastroes?form" z="ZRENAaRghbdohpKoPhaoGtzHjA0="/>
+            <menu:item id="i_datoscatastro_list" messageCode="global_menu_list" url="/datoscatastroes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="DHoZwkal8+sgnP+bE2D9I6TGfzc="/>
+        </menu:category>
+        <menu:category id="c_expedienteestadodetramite" z="L7eGHUg7lubJmgwfORvkHgfDRCA=">
+            <menu:item id="i_expedienteestadodetramite_new" messageCode="global_menu_new" url="/expedienteestadodetramites?form" z="k2wSTGRLz3L8jKCtIAvcZfxWe0I="/>
+            <menu:item id="i_expedienteestadodetramite_list" messageCode="global_menu_list" url="/expedienteestadodetramites?page=1&amp;size=${empty param.size ? 10 : param.size}" z="ShgATdA5Bbdz1D4R5OVdhrqdves="/>
+        </menu:category>
+        <menu:category id="c_personasjuridicas" z="KYGcRy20nREU8OUPxKRkfqXa3vc=">
+            <menu:item id="i_personasjuridicas_new" messageCode="global_menu_new" url="/personasjuridicases?form" z="eGa7kLsTm1jX+IuYxVfPbM6FO+E="/>
+            <menu:item id="i_personasjuridicas_list" messageCode="global_menu_list" url="/personasjuridicases?page=1&amp;size=${empty param.size ? 10 : param.size}" z="u8bwu+OTIHcQRmWRzRHpcbXoKo0="/>
+        </menu:category>
+        <menu:category id="c_certificadozonificacion" z="hXUst2xIDMt0VIur9OMnnxHH1mA=">
+            <menu:item id="i_certificadozonificacion_new" messageCode="global_menu_new" url="/certificadozonificacions?form" z="9tI3VCjJmbjdU9EdJEj/1Nbzx9s="/>
+            <menu:item id="i_certificadozonificacion_list" messageCode="global_menu_list" url="/certificadozonificacions?page=1&amp;size=${empty param.size ? 10 : param.size}" z="Ita4o/zk21qX0I+5UKTOdvOePwM="/>
+        </menu:category>
+        <menu:category id="c_tiponombrecolumna" z="52G3+OS68dKC3mdugFutZqUHoN8=">
+            <menu:item id="i_tiponombrecolumna_new" messageCode="global_menu_new" url="/tiponombrecolumnas?form" z="2TicTsaYxTnIMjEmhqxDuR14XUI="/>
+            <menu:item id="i_tiponombrecolumna_list" messageCode="global_menu_list" url="/tiponombrecolumnas?page=1&amp;size=${empty param.size ? 10 : param.size}" z="qv9F5vnVmbHhQzBY0TiScrmQ2FM="/>
+        </menu:category>
+        <menu:category id="c_documentopersonajuridica" z="7a1RCn2pEGM7BzaLDNiW7ubPqhM=">
+            <menu:item id="i_documentopersonajuridica_new" messageCode="global_menu_new" url="/documentopersonajuridicas?form" z="WTQObfWIB0zu6d/6U251IRrXcdA="/>
+            <menu:item id="i_documentopersonajuridica_list" messageCode="global_menu_list" url="/documentopersonajuridicas?page=1&amp;size=${empty param.size ? 10 : param.size}" z="j3IoOYllIy3r6rvP7f9I2sSyrUI="/>
+        </menu:category>
+        <menu:category id="c_expedienteindustria" z="Nr416GiQYxiSS8lQUGI8LuQ6Cz4=">
+            <menu:item id="i_expedienteindustria_new" messageCode="global_menu_new" url="/expedienteindustrias?form" z="ZmJN8lIjcFK2GxSCtryVOem111g="/>
+            <menu:item id="i_expedienteindustria_list" messageCode="global_menu_list" url="/expedienteindustrias?page=1&amp;size=${empty param.size ? 10 : param.size}" z="/F3niPX4jv6xNTh3ksoHDjhB4iU="/>
+        </menu:category>
+        <menu:category id="c_domiciliopersonajuridica" z="Mn7CtMHhre1I6paf7WIosLEUMf8=">
+            <menu:item id="i_domiciliopersonajuridica_new" messageCode="global_menu_new" url="/domiciliopersonajuridicas?form" z="BT69dE6ReKMs7Q958nzOqhrc8kA="/>
+            <menu:item id="i_domiciliopersonajuridica_list" messageCode="global_menu_list" url="/domiciliopersonajuridicas?page=1&amp;size=${empty param.size ? 10 : param.size}" z="s1XQ2n0f8hF4GblBOhNUsAqhsQI="/>
+        </menu:category>
+        <menu:category id="c_diferenciaxventaxzona" z="Ccmuyo79QMXnvs3GSphqzws4nxQ=">
+            <menu:item id="i_diferenciaxventaxzona_new" messageCode="global_menu_new" url="/diferenciaxventaxzonas?form" z="KnhJozgmqhxpYr1N+lWmydDboXw="/>
+            <menu:item id="i_diferenciaxventaxzona_list" messageCode="global_menu_list" url="/diferenciaxventaxzonas?page=1&amp;size=${empty param.size ? 10 : param.size}" z="V/eqIcro0a+3reSdUzAXOVitiSk="/>
+        </menu:category>
+        <menu:category id="c_tipodocumentoexpediente" z="j1+hK4whtn59uGRNTyjtVoXw3DE=">
+            <menu:item id="i_tipodocumentoexpediente_new" messageCode="global_menu_new" url="/tipodocumentoexpedientes?form" z="oOxwXfA/22aKmia9UL7jQ5hD6cE="/>
+            <menu:item id="i_tipodocumentoexpediente_list" messageCode="global_menu_list" url="/tipodocumentoexpedientes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="EZukEunLeM1pV++tqY4u0BbVUOg="/>
+        </menu:category>
+        <menu:category id="c_expedientecomercio" z="uDv9tykKuB1KWWUzTFavzmWJM04=">
+            <menu:item id="i_expedientecomercio_new" messageCode="global_menu_new" url="/expedientecomercios?form" z="SUKlY66dsLE/xDtaOCv9jFf2n+w="/>
+            <menu:item id="i_expedientecomercio_list" messageCode="global_menu_list" url="/expedientecomercios?page=1&amp;size=${empty param.size ? 10 : param.size}" z="xE/nm3TLigRBqU9y2FrO+EOtyuI="/>
+        </menu:category>
+        <menu:category id="c_tipoagua" z="bxrNor6WfxfTjvY3hACnIjlSkrw=">
+            <menu:item id="i_tipoagua_new" messageCode="global_menu_new" url="/tipoaguas?form" z="fG6xf7xiyFcvv5EhyRmPeBwzeT8="/>
+            <menu:item id="i_tipoagua_list" messageCode="global_menu_list" url="/tipoaguas?page=1&amp;size=${empty param.size ? 10 : param.size}" z="8by+7pCnh7pXvFndo0FUUUBhsCs="/>
+        </menu:category>
+        <menu:category id="c_domicilioexpediente" z="axh1ogc0IBeKCWlE3W8jWpye0Fc=">
+            <menu:item id="i_domicilioexpediente_new" messageCode="global_menu_new" url="/domicilioexpedientes?form" z="9UkL0WA2bSRUfCJ5he6njFiJNe0="/>
+            <menu:item id="i_domicilioexpediente_list" messageCode="global_menu_list" url="/domicilioexpedientes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="tTsbhjG1QViSdT83YQ4FhogSY8k="/>
+        </menu:category>
+        <menu:category id="c_tasaxventas" z="OtsoYA81HmO96sWU/K2ah2j2AV0=">
+            <menu:item id="i_tasaxventas_new" messageCode="global_menu_new" url="/tasaxventases?form" z="TFe4NiNLGNzmiToXmtE1J6CGo94="/>
+            <menu:item id="i_tasaxventas_list" messageCode="global_menu_list" url="/tasaxventases?page=1&amp;size=${empty param.size ? 10 : param.size}" z="F+bDBm4KLVFpdxUk0SCdTuLEFVI="/>
+        </menu:category>
+        <menu:category id="c_pais" z="m54q1eFKeKDwYcDvxEntiIDT43U=">
+            <menu:item id="i_pais_new" messageCode="global_menu_new" url="/paises?form" z="bxvSTbzPY9x835FOZxoi93U9Jq8="/>
+            <menu:item id="i_pais_list" messageCode="global_menu_list" url="/paises?page=1&amp;size=${empty param.size ? 10 : param.size}" z="1OgKfCE2gL1Zr2wu11L9WCy3dB0="/>
+        </menu:category>
+        <menu:category id="c_userrole" z="C4C1ZBdes4PUIjEM3Ajwwhn1EwA=">
+            <menu:item id="i_userrole_new" messageCode="global_menu_new" url="/userroles?form" z="qYpuuJuPupoYjD8LM0ISnxylj4o="/>
+            <menu:item id="i_userrole_list" messageCode="global_menu_list" url="/userroles?page=1&amp;size=${empty param.size ? 10 : param.size}" z="fTjcT4INZTypLgu+ZHmwzE55ORs="/>
+        </menu:category>
+        <menu:category id="c_moduloxm2" z="qOG7pe2JBaHYoiepl5rTReuhZp0=">
+            <menu:item id="i_moduloxm2_new" messageCode="global_menu_new" url="/moduloxm2s?form" z="BBP+0zQDXCH7pSkzF4bSGC6Bngs="/>
+            <menu:item id="i_moduloxm2_list" messageCode="global_menu_list" url="/moduloxm2s?page=1&amp;size=${empty param.size ? 10 : param.size}" z="R2XiDK3K5/YqiN8EQaLGJgYlmEc="/>
+        </menu:category>
+        <menu:category id="c_tipoiva" z="P6v5VrqSEt06qt0GdL/S/I+HUpA=">
+            <menu:item id="i_tipoiva_new" messageCode="global_menu_new" url="/tipoivas?form" z="hXd5mEcJi/7g4lDglSzvjDyR4+w="/>
+            <menu:item id="i_tipoiva_list" messageCode="global_menu_list" url="/tipoivas?page=1&amp;size=${empty param.size ? 10 : param.size}" z="GG9XmBO6PRHXCMOXMbeyLpqH4JU="/>
+        </menu:category>
+        <menu:category id="c_personasjuridicasute" z="v1DIAgIvtWccSVWyQ0DfGcoEKIk=">
+            <menu:item id="i_personasjuridicasute_new" messageCode="global_menu_new" url="/personasjuridicasutes?form" z="P5DMMvmXrtUOBmshHkvVSMn/oZg="/>
+            <menu:item id="i_personasjuridicasute_list" messageCode="global_menu_list" url="/personasjuridicasutes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="Rbs/M/+rvPy3bkW6Qpl68dlM7jU="/>
+        </menu:category>
+        <menu:category id="c_auditactions" z="bjxbU/wjL6uUy6KYrocL0A6NIws=">
+            <menu:item id="i_auditactions_new" messageCode="global_menu_new" url="/auditactionses?form" z="kiazXbDI1DIn4UDMKunM5Ydl5qs="/>
+            <menu:item id="i_auditactions_list" messageCode="global_menu_list" url="/auditactionses?page=1&amp;size=${empty param.size ? 10 : param.size}" z="FlzSuw60LeyLuTDsPOSaJr3ZQbo="/>
+        </menu:category>
+        <menu:category id="c_role" z="LPygIx2EuEArCzqsfpQQev0lHyc=">
+            <menu:item id="i_role_new" messageCode="global_menu_new" url="/roles?form" z="WNB2HvnzvtbOA3r7qL1gqrUOq8g="/>
+            <menu:item id="i_role_list" messageCode="global_menu_list" url="/roles?page=1&amp;size=${empty param.size ? 10 : param.size}" z="DVFtqj4xcHbEiJh6bgI7Tyre3ec="/>
+        </menu:category>
+        <menu:category id="c_expedientedocumento" z="DwmcVsPoXnTHYXx7jO7iJlDkCu0=">
+            <menu:item id="i_expedientedocumento_new" messageCode="global_menu_new" url="/expedientedocumentoes?form" z="0X2QDhp7M5WIlEfWzeRzE5W15KE="/>
+            <menu:item id="i_expedientedocumento_list" messageCode="global_menu_list" url="/expedientedocumentoes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="FoqZVbAtDNG1W73jB4+gdV21/c8="/>
+        </menu:category>
+        <menu:category id="c_tiponombretabla" z="/r/t5IZKkSPi+i3v5XQDD1cljHc=">
+            <menu:item id="i_tiponombretabla_new" messageCode="global_menu_new" url="/tiponombretablas?form" z="7C97qLL18/oxqRuUbhNY4WHLvb8="/>
+            <menu:item id="i_tiponombretabla_list" messageCode="global_menu_list" url="/tiponombretablas?page=1&amp;size=${empty param.size ? 10 : param.size}" z="ronH7UlXSectjvXz2JACtqI0BZ4="/>
+        </menu:category>
+        <menu:category id="c_zona" z="r7Allahvlf1q9BX0Wvne7MmYO+g=">
+            <menu:item id="i_zona_new" messageCode="global_menu_new" url="/zonas?form" z="2CAJP1n83tfsf4f1mEf3uhdvMpU="/>
+            <menu:item id="i_zona_list" messageCode="global_menu_list" url="/zonas?page=1&amp;size=${empty param.size ? 10 : param.size}" z="kqlfbQBSeh99LPIC/HfhYqRGZJM="/>
+        </menu:category>
+        <menu:category id="c_expedienteexclusivodireccion" z="onFfXvo4ecxMLZo5Zrc6v7HFuTA=">
+            <menu:item id="i_expedienteexclusivodireccion_new" messageCode="global_menu_new" url="/expedienteexclusivodireccions?form" z="2MkK1akyFK2j0NhyuQU7QlJcfPg="/>
+            <menu:item id="i_expedienteexclusivodireccion_list" messageCode="global_menu_list" url="/expedienteexclusivodireccions?page=1&amp;size=${empty param.size ? 10 : param.size}" z="1FDjpM32HctrJV0W+P0wUewRo7s="/>
+        </menu:category>
+        <menu:category id="c_tipoestablecimiento" z="ESTk7d+r0udbFr3oDguBnuEyCow=">
+            <menu:item id="i_tipoestablecimiento_new" messageCode="global_menu_new" url="/tipoestablecimientoes?form" z="awO7XBy9+23YCnrK/+4lJ0RfArE="/>
+            <menu:item id="i_tipoestablecimiento_list" messageCode="global_menu_list" url="/tipoestablecimientoes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="H+gBrRlQAn5kDLvteLYtBy+keGo="/>
+        </menu:category>
+        <menu:category id="c_expedientepersonajuridica" z="KaLH3wtjLXKSYZAGWtCrrGAWpZ4=">
+            <menu:item id="i_expedientepersonajuridica_new" messageCode="global_menu_new" url="/expedientepersonajuridicas?form" z="0ZwI/Y9GlfT2MVgPcL9f9Va84tw="/>
+            <menu:item id="i_expedientepersonajuridica_list" messageCode="global_menu_list" url="/expedientepersonajuridicas?page=1&amp;size=${empty param.size ? 10 : param.size}" z="3R35Mcj0gsZY5/dxHdHzZDSWoFI="/>
+        </menu:category>
+        <menu:category id="c_coeficientexzona" z="aVoFNVZTRtVT3w5wxds+g8mDMV0=">
+            <menu:item id="i_coeficientexzona_new" messageCode="global_menu_new" url="/coeficientexzonas?form" z="5Cpu+6F6hKmu9WCr85tPfHAfVpM="/>
+            <menu:item id="i_coeficientexzona_list" messageCode="global_menu_list" url="/coeficientexzonas?page=1&amp;size=${empty param.size ? 10 : param.size}" z="cNdJXRuusxwTWFKUewS1RkbsNho="/>
+        </menu:category>
+    </menu:menu>
+</div>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/datatables" xmlns:table="urn:jsptagdir:/WEB-INF/tags/datatables" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_alliance_sam_TipoBimestre" items="${tipobimestres}" z="gu4SByxB8IIBmX6gdm8bp/1P8ow=">
+        <table:table data="${tipobimestres}" id="l_com_alliance_sam_TipoBimestre" path="/tipobimestres" typeIdFieldName="idTipoBimestre" z="CFH/PnB/XndK/91/26x/DJ87D2A=">
+            <table:column id="c_com_alliance_sam_TipoBimestre_idNumeroBimestre" property="idNumeroBimestre" z="0TE8PG3SuLHAJTkBiNxVQ7WRyDE="/>
+            <table:column id="c_com_alliance_sam_TipoBimestre_descripcion" property="descripcion" z="YtmMylvigqOvRinX3nOakGayM0g="/>
+            <table:column id="c_com_alliance_sam_TipoBimestre_observaciones" property="observaciones" z="oqFLKmWRlYY59a53KOyHa4+9crU="/>
+            <table:column id="c_com_alliance_sam_TipoBimestre_usuarioCreacion" property="usuarioCreacion" z="vLmVvD41FUCKCzYCkMB+qUOLIak="/>
+        </table:table>
+    </page:list>
+</div>

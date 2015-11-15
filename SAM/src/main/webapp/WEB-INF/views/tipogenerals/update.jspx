@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/jquery/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/datatables" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_alliance_sam_TipoGeneral" idField="idTipoGeneral" modelAttribute="tipoGeneral" path="/tipogenerals" versionField="none" z="Rq+SUrIcxW4JNbucCORiDBA1rVI=">
+        <field:simple field="calculoes" id="c_com_alliance_sam_TipoGeneral_calculoes" messageCode="entity_reference_not_managed" messageCodeAttribute="Calculo" z="tlQZuT/bmINNyQb7l+S+Ctn6wd0="/>
+        <field:simple field="expedientes" id="c_com_alliance_sam_TipoGeneral_expedientes" messageCode="entity_reference_not_managed" messageCodeAttribute="Expediente" z="uJ5JzFqyJDT8wYahFBtyxEdpG1I="/>
+        <field:simple field="expedientes1" id="c_com_alliance_sam_TipoGeneral_expedientes1" messageCode="entity_reference_not_managed" messageCodeAttribute="Expediente" z="UEK2cUPozJcTeXh+ZSULPApYsvM="/>
+        <field:simple field="expedientes2" id="c_com_alliance_sam_TipoGeneral_expedientes2" messageCode="entity_reference_not_managed" messageCodeAttribute="Expediente" z="uNU2ez5ulkMMMlG6a98gvxjFKiY="/>
+        <field:simple field="rubroes" id="c_com_alliance_sam_TipoGeneral_rubroes" messageCode="entity_reference_not_managed" messageCodeAttribute="Rubro" z="TJWQIWfvlRYTNp5cDmX/I/3PVp8="/>
+        <field:input field="descripcion" id="c_com_alliance_sam_TipoGeneral_descripcion" required="true" z="ZsA+rApCceh3pjp6BavTGbaRMms="/>
+        <field:input field="usuarioCreacion" id="c_com_alliance_sam_TipoGeneral_usuarioCreacion" z="7Hfl03aXQ2Qh7PF/S1P+P2uDSIQ="/>
+        <field:datetime dateTimePattern="${tipoGeneral_fechacreacion_date_format}" field="fechaCreacion" id="c_com_alliance_sam_TipoGeneral_fechaCreacion" z="DvPZCE2d1A6r4hfveUsTtvLorrU="/>
+        <field:input field="hostCreacion" id="c_com_alliance_sam_TipoGeneral_hostCreacion" z="o+vGmNT+lsM4njpOt9xAzpXMjlc="/>
+        <field:input field="usuarioModificacion" id="c_com_alliance_sam_TipoGeneral_usuarioModificacion" z="YshdmIurnQZMEwJ2UNjc6bf2b8U="/>
+        <field:datetime dateTimePattern="${tipoGeneral_fechamodificacion_date_format}" field="fechaModificacion" id="c_com_alliance_sam_TipoGeneral_fechaModificacion" z="j1kNmAUpDwx2uNZKBiFsIPlDRBA="/>
+        <field:input field="hostModificacion" id="c_com_alliance_sam_TipoGeneral_hostModificacion" z="FRSd9hG61d4MVW7KVbHas5AnEMs="/>
+    </form:update>
+</div>

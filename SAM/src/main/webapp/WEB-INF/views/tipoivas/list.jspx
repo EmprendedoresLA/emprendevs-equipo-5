@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/datatables" xmlns:table="urn:jsptagdir:/WEB-INF/tags/datatables" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_alliance_sam_TipoIva" items="${tipoivas}" z="OzGXtYw+k+kpHsCRnRT9lVO5fBc=">
+        <table:table data="${tipoivas}" id="l_com_alliance_sam_TipoIva" path="/tipoivas" typeIdFieldName="idTipoIva" z="5+QgThP4a6yrc7Bqf9ozrjQ5XzU=">
+            <table:column id="c_com_alliance_sam_TipoIva_descripcion" property="descripcion" z="3VLYx/CJ4srougP+mcLSqief9jM="/>
+            <table:column id="c_com_alliance_sam_TipoIva_observaciones" property="observaciones" z="HNAFEhDmtq1ZdpMHCDnLVaNAAjQ="/>
+            <table:column id="c_com_alliance_sam_TipoIva_usuarioCreacion" property="usuarioCreacion" z="FoCFQwCNHYTS9K5xklM6K9BRFXo="/>
+            <table:column calendar="true" dateTimePattern="${tipoIva_fechacreacion_date_format}" id="c_com_alliance_sam_TipoIva_fechaCreacion" property="fechaCreacion" z="A0DEQLOnqBHuBSJgF8ED7JGZGq0="/>
+        </table:table>
+    </page:list>
+</div>

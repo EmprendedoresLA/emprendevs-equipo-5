@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/jquery/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/datatables" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_alliance_sam_ExpedienteEstadoDeTramite" object="${expedienteestadodetramite}" path="/expedienteestadodetramites" z="IEHwTIjXMzbwgsfgDsuR/p7seTU=">
+        <field:display field="descripcion" id="s_com_alliance_sam_ExpedienteEstadoDeTramite_descripcion" object="${expedienteestadodetramite}" z="aOwTtK3a/OsM2p+1RufqQe3C78A="/>
+        <field:display field="estadoTramite" id="s_com_alliance_sam_ExpedienteEstadoDeTramite_estadoTramite" object="${expedienteestadodetramite}" z="83mUbioEQq7KPYkpx/CLZxYTLgQ="/>
+        <field:display date="true" dateTimePattern="${expedienteEstadoDeTramite_fechain_date_format}" field="fechaIn" id="s_com_alliance_sam_ExpedienteEstadoDeTramite_fechaIn" object="${expedienteestadodetramite}" z="pt2Q4U6p60LzgCGgToAW6lc4wWw="/>
+        <field:display date="true" dateTimePattern="${expedienteEstadoDeTramite_fechaout_date_format}" field="fechaOut" id="s_com_alliance_sam_ExpedienteEstadoDeTramite_fechaOut" object="${expedienteestadodetramite}" z="718iQ33mhlZuj6rVVU9jOyJvmQU="/>
+        <field:display field="lastaction" id="s_com_alliance_sam_ExpedienteEstadoDeTramite_lastaction" object="${expedienteestadodetramite}" z="KauYzofOIUmf69XIEA/JqliRvN0="/>
+        <field:display field="usuarioCreacion" id="s_com_alliance_sam_ExpedienteEstadoDeTramite_usuarioCreacion" object="${expedienteestadodetramite}" z="u/gWbsDyN2D4QZ7sc9FMCWyd0WQ="/>
+        <field:display calendar="true" dateTimePattern="${expedienteEstadoDeTramite_fechacreacion_date_format}" field="fechaCreacion" id="s_com_alliance_sam_ExpedienteEstadoDeTramite_fechaCreacion" object="${expedienteestadodetramite}" z="FXb3AWM2EwkiLPFWXfN7t2VUNMI="/>
+        <field:display field="hostCreacion" id="s_com_alliance_sam_ExpedienteEstadoDeTramite_hostCreacion" object="${expedienteestadodetramite}" z="zQyinw+VtMCL15PAzs4JJWsMcyI="/>
+        <field:display field="usuarioModificacion" id="s_com_alliance_sam_ExpedienteEstadoDeTramite_usuarioModificacion" object="${expedienteestadodetramite}" z="+3bc8QeT8RJR4EKklEDI1EbKios="/>
+        <field:display calendar="true" dateTimePattern="${expedienteEstadoDeTramite_fechamodificacion_date_format}" field="fechaModificacion" id="s_com_alliance_sam_ExpedienteEstadoDeTramite_fechaModificacion" object="${expedienteestadodetramite}" z="wtmX4kJ3i6H31jiXCMS4lV/3ZGk="/>
+        <field:display field="hostModificacion" id="s_com_alliance_sam_ExpedienteEstadoDeTramite_hostModificacion" object="${expedienteestadodetramite}" z="pM9jiEMY+AURSIPjiG6lHoQWT3w="/>
+    </page:show>
+</div>

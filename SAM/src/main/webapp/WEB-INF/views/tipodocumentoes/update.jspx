@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/jquery/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/datatables" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_alliance_sam_TipoDocumento" idField="idDocumentoTipo" modelAttribute="tipoDocumento" path="/tipodocumentoes" versionField="none" z="twUiYHUpYwqQamWi3sQRjM0DfP0=">
+        <field:simple field="documentoPersonaFisicas" id="c_com_alliance_sam_TipoDocumento_documentoPersonaFisicas" messageCode="entity_reference_not_managed" messageCodeAttribute="Documento Persona Fisica" z="xk85fvqzdDXOd66woVP/J/mEMOU="/>
+        <field:simple field="documentoPersonaJuridicas" id="c_com_alliance_sam_TipoDocumento_documentoPersonaJuridicas" messageCode="entity_reference_not_managed" messageCodeAttribute="Documento Persona Juridica" z="8UPm/8r1erPgFLBA/BiVpDFKSfA="/>
+        <field:simple field="personasFisicass" id="c_com_alliance_sam_TipoDocumento_personasFisicass" messageCode="entity_reference_not_managed" messageCodeAttribute="Personas Fisicas" z="DYKV2sYwHJebvSe71FlOy9/TWiM="/>
+        <field:input field="descripcion" id="c_com_alliance_sam_TipoDocumento_descripcion" required="true" z="ianeLrqJPy1nJ/99tCWk73qklWY="/>
+        <field:input field="observaciones" id="c_com_alliance_sam_TipoDocumento_observaciones" z="TW0LuarAgpXfZwZdc2NlcLmQ3j8="/>
+        <field:input field="usuarioCreacion" id="c_com_alliance_sam_TipoDocumento_usuarioCreacion" z="HKsdOO8uakBcUHU0YX+GScyVXwg="/>
+        <field:datetime dateTimePattern="${tipoDocumento_fechacreacion_date_format}" field="fechaCreacion" id="c_com_alliance_sam_TipoDocumento_fechaCreacion" z="VoNUEaQ3/KSDkTAY/3jCU3Xahso="/>
+        <field:input field="hostCreacion" id="c_com_alliance_sam_TipoDocumento_hostCreacion" z="40Cbvp+bM4Nx7CZ9MGdHFsVzd2g="/>
+        <field:input field="usuarioModificacion" id="c_com_alliance_sam_TipoDocumento_usuarioModificacion" z="stjT2Vfl5I7/Layq0xp4I5nCdfw="/>
+        <field:datetime dateTimePattern="${tipoDocumento_fechamodificacion_date_format}" field="fechaModificacion" id="c_com_alliance_sam_TipoDocumento_fechaModificacion" z="oofnIr4bhrr8NLeMDDU4pgyc930="/>
+        <field:input field="hostModificacion" id="c_com_alliance_sam_TipoDocumento_hostModificacion" z="ZJUBoetG+HwzqDg1M40ESC1eMX4="/>
+    </form:update>
+</div>

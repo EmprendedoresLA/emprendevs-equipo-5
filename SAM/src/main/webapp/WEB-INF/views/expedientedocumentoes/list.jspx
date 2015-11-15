@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/datatables" xmlns:table="urn:jsptagdir:/WEB-INF/tags/datatables" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_alliance_sam_ExpedienteDocumento" items="${expedientedocumentoes}" z="hQDMIugjNIBK057ejdmRJRtWjLY=">
+        <table:table data="${expedientedocumentoes}" id="l_com_alliance_sam_ExpedienteDocumento" path="/expedientedocumentoes" typeIdFieldName="idExpedienteDocumento" z="TNJZy3fXPoCyyLn1VfzzPuhs89s=">
+            <table:column id="c_com_alliance_sam_ExpedienteDocumento_idExpedienteControl" property="idExpedienteControl" z="iqHlvd2Cf5ZtaSzqri9/oQ0sqYM="/>
+            <table:column id="c_com_alliance_sam_ExpedienteDocumento_tipoDocumento" property="tipoDocumento" z="bZGi3xF+M157xjg0BP89hE4aMn8="/>
+            <table:column id="c_com_alliance_sam_ExpedienteDocumento_idUbicacion" property="idUbicacion" z="S4ggbI5Ij03C6W9nMdh0YXJVC9M="/>
+            <table:column id="c_com_alliance_sam_ExpedienteDocumento_descripcion" property="descripcion" z="/0VVkaD0tFolYWttRlMuBw19ImE="/>
+            <table:column calendar="true" dateTimePattern="${expedienteDocumento_fechavigencia_date_format}" id="c_com_alliance_sam_ExpedienteDocumento_fechaVigencia" property="fechaVigencia" z="jOfxy+Q1OybZU6HWr+6LT0TP4rE="/>
+            <table:column id="c_com_alliance_sam_ExpedienteDocumento_usuarioCreacion" property="usuarioCreacion" z="s82yD8wU8R8gzi0D0awGFhEA79s="/>
+        </table:table>
+    </page:list>
+</div>

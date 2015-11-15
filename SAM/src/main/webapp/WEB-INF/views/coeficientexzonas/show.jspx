@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/jquery/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/datatables" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_alliance_sam_CoeficienteXZona" object="${coeficientexzona}" path="/coeficientexzonas" z="ReHj8pRKTcMbItSdLyxC/eSjpCk=">
+        <field:display field="idZona" id="s_com_alliance_sam_CoeficienteXZona_idZona" object="${coeficientexzona}" z="1oiDfPTQpl2Irv2xCt6yNCzpUr0="/>
+        <field:display field="descripcion" id="s_com_alliance_sam_CoeficienteXZona_descripcion" object="${coeficientexzona}" z="bVISkTUTWT9JY1vwUs5Na+LZBA8="/>
+        <field:display field="coeficiente" id="s_com_alliance_sam_CoeficienteXZona_coeficiente" object="${coeficientexzona}" z="zzX9oeZ8sAj3Ahw4lwAHh7EXYcc="/>
+        <field:display field="usuarioCreacion" id="s_com_alliance_sam_CoeficienteXZona_usuarioCreacion" object="${coeficientexzona}" z="tC74EjYhFB1p0pbEXvY+6k89xzo="/>
+        <field:display calendar="true" dateTimePattern="${coeficienteXZona_fechacreacion_date_format}" field="fechaCreacion" id="s_com_alliance_sam_CoeficienteXZona_fechaCreacion" object="${coeficientexzona}" z="iZrxdfxo1YgMHGf+AzwH/pD9Hyk="/>
+        <field:display field="hostCreacion" id="s_com_alliance_sam_CoeficienteXZona_hostCreacion" object="${coeficientexzona}" z="qWYZE/xNgNnppnxq+V0OPqX0tfY="/>
+        <field:display field="usuarioModificacion" id="s_com_alliance_sam_CoeficienteXZona_usuarioModificacion" object="${coeficientexzona}" z="jXsn1zpAD7uFs8NR1emy/Yw9Z5A="/>
+        <field:display calendar="true" dateTimePattern="${coeficienteXZona_fechamodificacion_date_format}" field="fechaModificacion" id="s_com_alliance_sam_CoeficienteXZona_fechaModificacion" object="${coeficientexzona}" z="HRDOSACsX+Sc7/76WWUo91qPxHI="/>
+        <field:display field="hostModificacion" id="s_com_alliance_sam_CoeficienteXZona_hostModificacion" object="${coeficientexzona}" z="n8EqSidsU/9pyt+HtHJbOyUXO9Y="/>
+    </page:show>
+</div>

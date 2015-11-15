@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/datatables" xmlns:table="urn:jsptagdir:/WEB-INF/tags/datatables" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_alliance_sam_DocumentoPersonaJuridica" items="${documentopersonajuridicas}" z="wazibHG3DW90sFUTslrIvoOP2S4=">
+        <table:table data="${documentopersonajuridicas}" id="l_com_alliance_sam_DocumentoPersonaJuridica" path="/documentopersonajuridicas" typeIdFieldName="idDocumentoPersonaJuridica" z="8P1q1ou48b4zFCNo46hFauYvmwk=">
+            <table:column id="c_com_alliance_sam_DocumentoPersonaJuridica_idPersonaJuridica" property="idPersonaJuridica" z="XYfJ7QX06C2B+RKiuXn/zO2afhM="/>
+            <table:column id="c_com_alliance_sam_DocumentoPersonaJuridica_documentoTipo" property="documentoTipo" z="s7VgNTg/lPdolcIlxtiLmyTb5tA="/>
+            <table:column id="c_com_alliance_sam_DocumentoPersonaJuridica_idUbicacion" property="idUbicacion" z="gJ6ZJwPWVzXaf1zF0Dy07F7nmTQ="/>
+            <table:column id="c_com_alliance_sam_DocumentoPersonaJuridica_descripcion" property="descripcion" z="C2qHGasw8Cr9OVyEDwCGiINiHXM="/>
+            <table:column calendar="true" dateTimePattern="${documentoPersonaJuridica_fechavigencia_date_format}" id="c_com_alliance_sam_DocumentoPersonaJuridica_fechaVigencia" property="fechaVigencia" z="LLTsI99CKxqN9zDiF2Ov8T+0CFs="/>
+            <table:column id="c_com_alliance_sam_DocumentoPersonaJuridica_usuarioCreacion" property="usuarioCreacion" z="6tBzQcAXsUHmFqEVvg/NmWlIc8M="/>
+        </table:table>
+    </page:list>
+</div>

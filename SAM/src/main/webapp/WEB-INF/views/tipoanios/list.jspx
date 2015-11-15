@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/datatables" xmlns:table="urn:jsptagdir:/WEB-INF/tags/datatables" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_alliance_sam_TipoAnio" items="${tipoanios}" z="b+CoMIeSwrHW4yvkPdwGxwh9jEE=">
+        <table:table data="${tipoanios}" id="l_com_alliance_sam_TipoAnio" path="/tipoanios" typeIdFieldName="idTipoAnio" z="lJ5VFtC6G+oraqV5NZyTA21gw6E=">
+            <table:column id="c_com_alliance_sam_TipoAnio_anio" property="anio" z="FmrX2rr9Oh/xkAcFltvhk0e9aSk="/>
+            <table:column id="c_com_alliance_sam_TipoAnio_descripcion" property="descripcion" z="wHuEL46e7daeB2JzUzlVy7sFWGk="/>
+        </table:table>
+    </page:list>
+</div>

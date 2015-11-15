@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/jquery/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/datatables" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_alliance_sam_User" modelAttribute="user" path="/users" versionField="Version" z="P2BMlsyn0H+d1NU3GG0MEqos0zM=">
+        <field:simple field="userRoles" id="c_com_alliance_sam_User_userRoles" messageCode="entity_reference_not_managed" messageCodeAttribute="User Role" z="GpaXovc/jnKAn9Y/OTvRaCELm+k="/>
+        <field:datetime dateTimePattern="${user_activationdate_date_format}" field="activationDate" id="c_com_alliance_sam_User_activationDate" z="K57AXjgKfW1H/GZWITUZx/1lvhg="/>
+        <field:input field="activationKey" id="c_com_alliance_sam_User_activationKey" z="kjdMVy5aA2vibPweUw5jcYFhgqw="/>
+        <field:input field="emailAddress" id="c_com_alliance_sam_User_emailAddress" required="true" validationMessageCode="field_invalid_email" z="EgpcM3a+H55AdZlyowe+ug30lBY="/>
+        <field:checkbox field="enabled" id="c_com_alliance_sam_User_enabled" z="TlYSw2bRxJRMN0CJm6N7a2GlZoY="/>
+        <field:input field="firstName" id="c_com_alliance_sam_User_firstName" required="true" z="A8hzbQDegWLrDW2PKSK1wbNFN3E="/>
+        <field:input field="lastName" id="c_com_alliance_sam_User_lastName" required="true" z="+LgQYjDxcGYq5AFN2UtBxQ1VstE="/>
+        <field:checkbox field="locked" id="c_com_alliance_sam_User_locked" z="gNgVWSRhV6HmuGocFVC398SlfHM="/>
+        <field:input field="password" id="c_com_alliance_sam_User_password" required="true" z="5/4uCE/fBCoPhaB6SVAKnMrlnBY="/>
+    </form:update>
+</div>

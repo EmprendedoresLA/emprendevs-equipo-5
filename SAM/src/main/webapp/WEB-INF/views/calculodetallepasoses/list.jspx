@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/datatables" xmlns:table="urn:jsptagdir:/WEB-INF/tags/datatables" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_alliance_sam_CalculoDetallePasos" items="${calculodetallepasoses}" z="hU0sMda1r+xun7EObj7NoXm14xU=">
+        <table:table data="${calculodetallepasoses}" id="l_com_alliance_sam_CalculoDetallePasos" path="/calculodetallepasoses" typeIdFieldName="idCalculoDetallePasos" z="0I9gJtp25AYb9rXJD03cS/gLbmk=">
+            <table:column id="c_com_alliance_sam_CalculoDetallePasos_idCalculoDetalle" property="idCalculoDetalle" z="ZSEIbA0vyMDJOKxN0oXwa6maBB8="/>
+            <table:column calendar="true" dateTimePattern="${calculoDetallePasos_fechahoraposicion_date_format}" id="c_com_alliance_sam_CalculoDetallePasos_fechaHoraPosicion" property="fechaHoraPosicion" z="AIq0YpxfVtaGZpFyAGxVEq2p1xg="/>
+            <table:column id="c_com_alliance_sam_CalculoDetallePasos_posicion" property="posicion" z="1+fTKnG2Yt5DWfwJ3wgivE7yIKM="/>
+            <table:column id="c_com_alliance_sam_CalculoDetallePasos_valor" property="valor" z="1q7J+xXkdxvb/o7jggGslj7m2pk="/>
+        </table:table>
+    </page:list>
+</div>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/jquery/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/datatables" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_alliance_sam_Localidad" modelAttribute="localidad" path="/localidads" render="${empty dependencies}" z="QsE04NdBr8ZzZTtlFv0z2wxhKog=">
+        <field:simple field="domicilioExpedientes" id="c_com_alliance_sam_Localidad_domicilioExpedientes" messageCode="entity_reference_not_managed" messageCodeAttribute="Domicilio Expediente" z="0KyUewMhDdDPmf1wrGfiYv8I1rs="/>
+        <field:simple field="domicilioPersonaFisicas" id="c_com_alliance_sam_Localidad_domicilioPersonaFisicas" messageCode="entity_reference_not_managed" messageCodeAttribute="Domicilio Persona Fisica" z="8/G+Dil3mwLhGjA0aYgENgij4Vs="/>
+        <field:simple field="domicilioPersonaJuridicas" id="c_com_alliance_sam_Localidad_domicilioPersonaJuridicas" messageCode="entity_reference_not_managed" messageCodeAttribute="Domicilio Persona Juridica" z="RsAVLJ1XskHuU7IqJYGOy1WRkic="/>
+        <field:input field="descripcion" id="c_com_alliance_sam_Localidad_descripcion" z="9jY4PswyOJx0zYdtjW85fE1Bt1o="/>
+        <field:input field="usuarioCreacion" id="c_com_alliance_sam_Localidad_usuarioCreacion" z="ept8mPbqqBsgzePS5HXowzNN2UM="/>
+        <field:datetime dateTimePattern="${localidad_fechacreacion_date_format}" field="fechaCreacion" id="c_com_alliance_sam_Localidad_fechaCreacion" z="SOXwOsJqYQS/zZ5nty6MES5Ntxs="/>
+        <field:input field="hostCreacion" id="c_com_alliance_sam_Localidad_hostCreacion" z="0Px04noTL4vZg713nh0w6cJz/bk="/>
+        <field:input field="usuarioModificacion" id="c_com_alliance_sam_Localidad_usuarioModificacion" z="BFgkXYJnbWoTA6lZ/irW62l256Q="/>
+        <field:datetime dateTimePattern="${localidad_fechamodificacion_date_format}" field="fechaModificacion" id="c_com_alliance_sam_Localidad_fechaModificacion" z="dUsM9nmwHhQ3jFEGnOrwNszwvxU="/>
+        <field:input field="hostModificacion" id="c_com_alliance_sam_Localidad_hostModificacion" z="wTrTKdJDIGmzgbPusqxBpZ/Og8A="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_alliance_sam_Localidad" render="${not empty dependencies}" z="xb+48Poy981gbwHBf8NW3xKzwd4="/>
+</div>

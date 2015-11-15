@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/datatables" xmlns:table="urn:jsptagdir:/WEB-INF/tags/datatables" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_alliance_sam_TasaXVentas" items="${tasaxventases}" z="6fAeA8T1rF8Z6UnLvaE37ZOV8xc=">
+        <table:table data="${tasaxventases}" id="l_com_alliance_sam_TasaXVentas" path="/tasaxventases" typeIdFieldName="idTasaXVentas" z="R921hT5il4Or6K6CX6tYhKk6FYE=">
+            <table:column id="c_com_alliance_sam_TasaXVentas_desde" property="desde" z="tIk+ztwqS3T1+/Vb6wGLuBeP4AA="/>
+            <table:column id="c_com_alliance_sam_TasaXVentas_hasta" property="hasta" z="FdcpZrUvBAeOKUP688IT83loWg0="/>
+            <table:column id="c_com_alliance_sam_TasaXVentas_alicuota" property="alicuota" z="gVm8daMDgiU1LQdMLIDdsZGMG44="/>
+            <table:column id="c_com_alliance_sam_TasaXVentas_descripcion" property="descripcion" z="JFq7cDzfDdbcC6F535VNXn2NViI="/>
+            <table:column id="c_com_alliance_sam_TasaXVentas_usuarioCreacion" property="usuarioCreacion" z="MrsPrlr+t8T/GFd73RLKowDGaBY="/>
+            <table:column calendar="true" dateTimePattern="${tasaXVentas_fechacreacion_date_format}" id="c_com_alliance_sam_TasaXVentas_fechaCreacion" property="fechaCreacion" z="x1df2B1PsCL8ANPCRgXB2Mz3ZTE="/>
+        </table:table>
+    </page:list>
+</div>

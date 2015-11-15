@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/jquery/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/datatables" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_alliance_sam_DocumentoPersonaFisica" idField="idDocumentoPersonaFisica" modelAttribute="documentoPersonaFisica" path="/documentopersonafisicas" versionField="none" z="UqvbDZ/63/5/HMp/kdzmBNGjZrA=">
+        <field:select field="idPersonaFisica" id="c_com_alliance_sam_DocumentoPersonaFisica_idPersonaFisica" itemValue="idPersonaFisica" items="${personasfisicases}" path="/personasfisicases" z="88Ax2lxqpilfT1ZrZzKtvZdRzaI="/>
+        <field:select field="documentoTipo" id="c_com_alliance_sam_DocumentoPersonaFisica_documentoTipo" itemValue="idDocumentoTipo" items="${tipodocumentoes}" path="/tipodocumentoes" z="z+Mz1hi6w7CzgPFXbbMbV+QniX4="/>
+        <field:input field="idUbicacion" id="c_com_alliance_sam_DocumentoPersonaFisica_idUbicacion" validationMessageCode="field_invalid_integer" z="MB8CdJ/66ZKGsyFOX6Mzljx0GP8="/>
+        <field:input field="descripcion" id="c_com_alliance_sam_DocumentoPersonaFisica_descripcion" z="S/WnCKPbzDKmXuCsQkoYJyPwx6M="/>
+        <field:datetime dateTimePattern="${documentoPersonaFisica_fechavigencia_date_format}" field="fechaVigencia" id="c_com_alliance_sam_DocumentoPersonaFisica_fechaVigencia" z="5v8HFYr/EtWWHoiCBfXYr+fQEFA="/>
+        <field:input field="usuarioCreacion" id="c_com_alliance_sam_DocumentoPersonaFisica_usuarioCreacion" z="9vhmb3FSRA6TudaNBl++hMzf7VE="/>
+        <field:datetime dateTimePattern="${documentoPersonaFisica_fechacreacion_date_format}" field="fechaCreacion" id="c_com_alliance_sam_DocumentoPersonaFisica_fechaCreacion" z="VHpk4xuemins7qqZD2So+kbI9uE="/>
+        <field:input field="hostCreacion" id="c_com_alliance_sam_DocumentoPersonaFisica_hostCreacion" z="yp8qBchqO7QvqbVMtUlAztJRccg="/>
+        <field:input field="usuarioModificacion" id="c_com_alliance_sam_DocumentoPersonaFisica_usuarioModificacion" z="gBlvjM4dlG+AVNmJVs0HjX+IbsI="/>
+        <field:datetime dateTimePattern="${documentoPersonaFisica_fechamodificacion_date_format}" field="fechaModificacion" id="c_com_alliance_sam_DocumentoPersonaFisica_fechaModificacion" z="UgeoAeGaP4u53sxqd9tG1W3n4N4="/>
+        <field:input field="hostModificacion" id="c_com_alliance_sam_DocumentoPersonaFisica_hostModificacion" z="Tn7iAiFZS0M6UwUpHZZ7D1G2Vu0="/>
+    </form:update>
+</div>

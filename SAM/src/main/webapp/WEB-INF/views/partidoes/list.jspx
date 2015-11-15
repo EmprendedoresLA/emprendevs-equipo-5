@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/datatables" xmlns:table="urn:jsptagdir:/WEB-INF/tags/datatables" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_alliance_sam_Partido" items="${partidoes}" z="DaC2viS7yElgGjobyaU1xTSeJ4s=">
+        <table:table data="${partidoes}" id="l_com_alliance_sam_Partido" path="/partidoes" typeIdFieldName="idPartido" z="ID6N44JmVVwi5irDsvBSirYDKsc=">
+            <table:column id="c_com_alliance_sam_Partido_descripcion" property="descripcion" z="7F+lwFc0o/4cKI5aSkqeZSgq1QA="/>
+            <table:column id="c_com_alliance_sam_Partido_usuarioCreacion" property="usuarioCreacion" z="9BAb6jMdQFl8fXJLpN5b8BxatN4="/>
+            <table:column calendar="true" dateTimePattern="${partido_fechacreacion_date_format}" id="c_com_alliance_sam_Partido_fechaCreacion" property="fechaCreacion" z="tIdLymuhhRlZQQkafxAkU1wRje8="/>
+        </table:table>
+    </page:list>
+</div>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/jquery/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/datatables" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_alliance_sam_Notificacion" idField="idNotificacion" modelAttribute="notificacion" path="/notificacions" versionField="none" z="V7h1YsXc+ZiWW7aQAJSh+wCb46g=">
+        <field:select field="idInspeccionComercio" id="c_com_alliance_sam_Notificacion_idInspeccionComercio" itemValue="idInspeccion" items="${inspeccions}" path="/inspeccions" z="x+TAXWlF0W6uuc4K5ZwukW3huM8="/>
+        <field:input field="numeroNotificacion" id="c_com_alliance_sam_Notificacion_numeroNotificacion" required="true" validationMessageCode="field_invalid_integer" z="35vDMhqckoneCxdfJ8wke9mLApI="/>
+        <field:input field="numeroPartida" id="c_com_alliance_sam_Notificacion_numeroPartida" required="true" validationMessageCode="field_invalid_integer" z="mtMFhzNVmKE8ZkXKxXHXZdCePaE="/>
+        <field:datetime dateTimePattern="${notificacion_fechanotificacion_date_format}" field="fechaNotificacion" id="c_com_alliance_sam_Notificacion_fechaNotificacion" required="true" z="S3KtoXoGgbtWvBzzO0sq3W9X2jo="/>
+        <field:input field="horaNotificacion" id="c_com_alliance_sam_Notificacion_horaNotificacion" validationMessageCode="field_invalid_integer" z="0W8R6Nd7tA+1Y3WMRVbrA4byZEo="/>
+        <field:input field="idExpediente" id="c_com_alliance_sam_Notificacion_idExpediente" validationMessageCode="field_invalid_integer" z="BwjupiJkkzH0lQBw4ZVZu1po//c="/>
+        <field:input field="observaciones" id="c_com_alliance_sam_Notificacion_observaciones" z="NZ+mDRrvwugH3UDUbBFIDe6y77A="/>
+        <field:input field="anio" id="c_com_alliance_sam_Notificacion_anio" validationMessageCode="field_invalid_integer" z="IAp0oy7QxCNeTuoS4pjjZwy5Xvw="/>
+        <field:input field="usuarioCreacion" id="c_com_alliance_sam_Notificacion_usuarioCreacion" z="98Oxz5SMMVcfE/SxOjxQeU0XWu4="/>
+        <field:datetime dateTimePattern="${notificacion_fechacreacion_date_format}" field="fechaCreacion" id="c_com_alliance_sam_Notificacion_fechaCreacion" z="pii2KMNQgI2jxpRVIyV8xk/nHlk="/>
+        <field:input field="hostCreacion" id="c_com_alliance_sam_Notificacion_hostCreacion" z="dJ2KNdqnp2Hla29Wi3v8aHszKwA="/>
+        <field:input field="usuarioModificacion" id="c_com_alliance_sam_Notificacion_usuarioModificacion" z="iW0eFwG6+IHBHseDg5W/m2pgjRE="/>
+        <field:datetime dateTimePattern="${notificacion_fechamodificacion_date_format}" field="fechaModificacion" id="c_com_alliance_sam_Notificacion_fechaModificacion" z="940CkD7UVewfhf3rsZOs/1itFEc="/>
+        <field:input field="hostModificacion" id="c_com_alliance_sam_Notificacion_hostModificacion" z="gqwiQOVMCdx8AbRcoHKUshTEZt8="/>
+    </form:update>
+</div>

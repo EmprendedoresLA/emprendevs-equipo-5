@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/jquery/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/datatables" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_alliance_sam_TipoGestor" object="${tipogestor}" path="/tipogestors" z="d3mJDboTdCK3Z3szaBR6Mbb4ZBQ=">
+        <field:display field="descripcion" id="s_com_alliance_sam_TipoGestor_descripcion" object="${tipogestor}" z="l9wH/s3FrI1u2/sLoqMX+pw/h/s="/>
+        <field:display field="observaciones" id="s_com_alliance_sam_TipoGestor_observaciones" object="${tipogestor}" z="TOucssp/RwCxAp+1BW7x7UitDEg="/>
+        <field:display field="usuarioCreacion" id="s_com_alliance_sam_TipoGestor_usuarioCreacion" object="${tipogestor}" z="VPI90Su3Q3L2bv8bDsJQWJ2SYsY="/>
+        <field:display calendar="true" dateTimePattern="${tipoGestor_fechacreacion_date_format}" field="fechaCreacion" id="s_com_alliance_sam_TipoGestor_fechaCreacion" object="${tipogestor}" z="2CZBQFiDF/pqBuWdPngO1J84EIw="/>
+        <field:display field="hostCreacion" id="s_com_alliance_sam_TipoGestor_hostCreacion" object="${tipogestor}" z="9khXzJXrGP0kCaxnAJbFCaLtxB4="/>
+        <field:display field="usuarioModificacion" id="s_com_alliance_sam_TipoGestor_usuarioModificacion" object="${tipogestor}" z="6wE1oG2iouxItngFPecjuRl2xas="/>
+        <field:display calendar="true" dateTimePattern="${tipoGestor_fechamodificacion_date_format}" field="fechaModificacion" id="s_com_alliance_sam_TipoGestor_fechaModificacion" object="${tipogestor}" z="8wzkPCaW3JVaFWpHJQrlXfilf/g="/>
+        <field:display field="hostModificacion" id="s_com_alliance_sam_TipoGestor_hostModificacion" object="${tipogestor}" z="skQbWMnT8VXU50mEwneKZlMJt3U="/>
+    </page:show>
+</div>

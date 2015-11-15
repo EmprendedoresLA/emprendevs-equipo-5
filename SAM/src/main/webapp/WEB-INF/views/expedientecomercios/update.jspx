@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/jquery/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/datatables" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_alliance_sam_ExpedienteComercio" idField="idExpedienteComercio" modelAttribute="expedienteComercio" path="/expedientecomercios" versionField="none" z="iDHJdgBGn2nDEMZ3D2SfA3MsOVs=">
+        <field:select field="idExpedienteControl" id="c_com_alliance_sam_ExpedienteComercio_idExpedienteControl" itemValue="idExpedienteControl" items="${expedientes}" path="/expedientes" z="7Um1DLJiyVcv0AuPTasZFCQTU5w="/>
+        <field:select field="idTipoOperacionCargaDescarga" id="c_com_alliance_sam_ExpedienteComercio_idTipoOperacionCargaDescarga" itemValue="idTipoOperacionCargaDescarga" items="${tipooperacioncargadescargas}" path="/tipooperacioncargadescargas" z="XXRKUjfB+G5sLU1Zs46CSAnz8zU="/>
+        <field:input field="descripcion" id="c_com_alliance_sam_ExpedienteComercio_descripcion" required="true" z="AIxe9bk0Dcp/z8VKJA3fWRC9a0E="/>
+        <field:input field="observaciones" id="c_com_alliance_sam_ExpedienteComercio_observaciones" required="true" z="3iO5xM3RTC3qNu9X30FtZSq/hVs="/>
+        <field:input field="m2Cubierto" id="c_com_alliance_sam_ExpedienteComercio_m2Cubierto" validationMessageCode="field_invalid_number" z="ODgPw9/fsoAKDSRWO+rbU8UEqR4="/>
+        <field:input field="m2Semicubierto" id="c_com_alliance_sam_ExpedienteComercio_m2Semicubierto" validationMessageCode="field_invalid_number" z="2QyFMuCkhkGqCADo+ElEt9jYpRg="/>
+        <field:input field="m2Totales" id="c_com_alliance_sam_ExpedienteComercio_m2Totales" validationMessageCode="field_invalid_number" z="5cVvGHpAs3F3itAiZqPCEZd9t4w="/>
+        <field:input field="capacidadSentados" id="c_com_alliance_sam_ExpedienteComercio_capacidadSentados" validationMessageCode="field_invalid_integer" z="3tnoxR3zJtjzbgZ4ZuxRk6FUG04="/>
+        <field:input field="capacidadParados" id="c_com_alliance_sam_ExpedienteComercio_capacidadParados" validationMessageCode="field_invalid_integer" z="g5nQX/OcD/yfPS7GSlWe9XnLo1Y="/>
+        <field:input field="usuarioCreacion" id="c_com_alliance_sam_ExpedienteComercio_usuarioCreacion" z="hOhrVnHDZc96OpZzMH2vyPr0JSQ="/>
+        <field:datetime dateTimePattern="${expedienteComercio_fechacreacion_date_format}" field="fechaCreacion" id="c_com_alliance_sam_ExpedienteComercio_fechaCreacion" z="3aYvNo5QotsN5qEILmsI9ZZ5sGA="/>
+        <field:input field="hostCreacion" id="c_com_alliance_sam_ExpedienteComercio_hostCreacion" z="Q5QZ83n4vIK8+PDSnZdUUjXnpAg="/>
+        <field:input field="usuarioModificacion" id="c_com_alliance_sam_ExpedienteComercio_usuarioModificacion" z="f7V1IOvbEGRPXaD4/ToCOlfsUdU="/>
+        <field:datetime dateTimePattern="${expedienteComercio_fechamodificacion_date_format}" field="fechaModificacion" id="c_com_alliance_sam_ExpedienteComercio_fechaModificacion" z="tXhi2kHgMs+kfqZUUsOL/vyTPyY="/>
+        <field:input field="hostModificacion" id="c_com_alliance_sam_ExpedienteComercio_hostModificacion" z="lo5PeUNNqlyZxtQtk3LK5cn5+so="/>
+    </form:update>
+</div>

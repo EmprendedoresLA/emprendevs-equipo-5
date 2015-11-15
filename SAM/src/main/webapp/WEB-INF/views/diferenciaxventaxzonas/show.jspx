@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/jquery/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/datatables" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_alliance_sam_DiferenciaXVentaXZona" object="${diferenciaxventaxzona}" path="/diferenciaxventaxzonas" z="pg4p9lmrMru0k7fqwC0+5SmQ5e4=">
+        <field:display field="idZona" id="s_com_alliance_sam_DiferenciaXVentaXZona_idZona" object="${diferenciaxventaxzona}" z="bkCfP9tWAaOHeggJVM0ohqH8UHQ="/>
+        <field:display calendar="true" dateTimePattern="${diferenciaXVentaXZona_fechadesde_date_format}" field="fechaDesde" id="s_com_alliance_sam_DiferenciaXVentaXZona_fechaDesde" object="${diferenciaxventaxzona}" z="AXIXnekkZaDtCQKNbZ5G7RIThNY="/>
+        <field:display calendar="true" dateTimePattern="${diferenciaXVentaXZona_fechahasta_date_format}" field="fechaHasta" id="s_com_alliance_sam_DiferenciaXVentaXZona_fechaHasta" object="${diferenciaxventaxzona}" z="1KC1XVvqFtwHHywrCWPcaLpvQ0k="/>
+        <field:display field="porcentaje" id="s_com_alliance_sam_DiferenciaXVentaXZona_porcentaje" object="${diferenciaxventaxzona}" z="pSlDDr9fe0BYwzYcH6FnALuTn98="/>
+        <field:display field="hostModificacion" id="s_com_alliance_sam_DiferenciaXVentaXZona_hostModificacion" object="${diferenciaxventaxzona}" z="iubM7IzD8GHj7+To7aNAr/F11iE="/>
+        <field:display calendar="true" dateTimePattern="${diferenciaXVentaXZona_fechamodificacion_date_format}" field="fechaModificacion" id="s_com_alliance_sam_DiferenciaXVentaXZona_fechaModificacion" object="${diferenciaxventaxzona}" z="Z7WjFIMFAV6QliS0AOE9gd99unI="/>
+        <field:display field="usuarioModificacion" id="s_com_alliance_sam_DiferenciaXVentaXZona_usuarioModificacion" object="${diferenciaxventaxzona}" z="TsX11Ipxv9pC6ke9Ll3xYJcw4d8="/>
+        <field:display field="hostCreacion" id="s_com_alliance_sam_DiferenciaXVentaXZona_hostCreacion" object="${diferenciaxventaxzona}" z="uPheFOeRqc3fiQVsg9PqXXngB7Q="/>
+        <field:display calendar="true" dateTimePattern="${diferenciaXVentaXZona_fechacreacion_date_format}" field="fechaCreacion" id="s_com_alliance_sam_DiferenciaXVentaXZona_fechaCreacion" object="${diferenciaxventaxzona}" z="3F3DGBm6jPHXPwye5w/78wtzNEY="/>
+        <field:display field="usuarioCreacion" id="s_com_alliance_sam_DiferenciaXVentaXZona_usuarioCreacion" object="${diferenciaxventaxzona}" z="Yp5IQgcvLftvo83J7FUlJn5D+DU="/>
+    </page:show>
+</div>

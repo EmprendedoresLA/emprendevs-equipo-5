@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/jquery/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/datatables" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_alliance_sam_PersonaFisicaJuridica" object="${personafisicajuridica}" path="/personafisicajuridicas" z="nfY58/wvtovz43mLM4eRJucOVt4=">
+        <field:display field="idPersonaFisica" id="s_com_alliance_sam_PersonaFisicaJuridica_idPersonaFisica" object="${personafisicajuridica}" z="5TwXWfRU1Kq2VwiyVWhw0p/d8DY="/>
+        <field:display field="idPersonaJuridica" id="s_com_alliance_sam_PersonaFisicaJuridica_idPersonaJuridica" object="${personafisicajuridica}" z="3DfO7ESHBt0zi3Te2fb7Uyc3kP4="/>
+        <field:display field="descripcion" id="s_com_alliance_sam_PersonaFisicaJuridica_descripcion" object="${personafisicajuridica}" z="hgVNR+3B9O0ojA7sBHRbUl3F9iE="/>
+        <field:display field="usuarioCreacion" id="s_com_alliance_sam_PersonaFisicaJuridica_usuarioCreacion" object="${personafisicajuridica}" z="IlFX8y8DQKzNPMi5GWgsRHYuy0U="/>
+        <field:display calendar="true" dateTimePattern="${personaFisicaJuridica_fechacreacion_date_format}" field="fechaCreacion" id="s_com_alliance_sam_PersonaFisicaJuridica_fechaCreacion" object="${personafisicajuridica}" z="OsgV0nFnfFeu1RBsgLb5202daaY="/>
+        <field:display field="hostCreacion" id="s_com_alliance_sam_PersonaFisicaJuridica_hostCreacion" object="${personafisicajuridica}" z="jwTFXGNB2qMdGnUV8ykbI4RySic="/>
+        <field:display field="usuarioModificacion" id="s_com_alliance_sam_PersonaFisicaJuridica_usuarioModificacion" object="${personafisicajuridica}" z="8B+Ujp9dmp99oykmIum5LMC7CJs="/>
+        <field:display calendar="true" dateTimePattern="${personaFisicaJuridica_fechamodificacion_date_format}" field="fechaModificacion" id="s_com_alliance_sam_PersonaFisicaJuridica_fechaModificacion" object="${personafisicajuridica}" z="7PSyDuEITZgOERH0hxSJ0usw4AU="/>
+        <field:display field="hostModificacion" id="s_com_alliance_sam_PersonaFisicaJuridica_hostModificacion" object="${personafisicajuridica}" z="c3WDz6H0nBPkVRx5g0zAD5dxZVc="/>
+    </page:show>
+</div>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/datatables" xmlns:table="urn:jsptagdir:/WEB-INF/tags/datatables" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_alliance_sam_TipoContacto" items="${tipocontactoes}" z="sk8q9in4EaSwLoer8jZjAAztjHE=">
+        <table:table data="${tipocontactoes}" id="l_com_alliance_sam_TipoContacto" path="/tipocontactoes" typeIdFieldName="idTipoContacto" z="Zx9ZUjsJE3f3qO5vMNo0kW4eovc=">
+            <table:column id="c_com_alliance_sam_TipoContacto_descripcion" property="descripcion" z="QqglMwyLlLSrxqT6exE7i41oh7g="/>
+            <table:column id="c_com_alliance_sam_TipoContacto_usuarioCreacion" property="usuarioCreacion" z="5NKg1xy3ehkfPHzr+tGs+RfnuZs="/>
+            <table:column calendar="true" dateTimePattern="${tipoContacto_fechacreacion_date_format}" id="c_com_alliance_sam_TipoContacto_fechaCreacion" property="fechaCreacion" z="hB1eyV3PDBXWeBwdQmizzEEAX34="/>
+            <table:column id="c_com_alliance_sam_TipoContacto_hostCreacion" property="hostCreacion" z="P8Z89I+N+6PVj8fWfNwECza13ww="/>
+        </table:table>
+    </page:list>
+</div>

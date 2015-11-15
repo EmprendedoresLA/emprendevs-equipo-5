@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/jquery/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/datatables" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_alliance_sam_VentaPresunta" object="${ventapresunta}" path="/ventapresuntas" z="Ek6TR8a5CcYdInhG3usyulirNW8=">
+        <field:display field="idExpedienteControl" id="s_com_alliance_sam_VentaPresunta_idExpedienteControl" object="${ventapresunta}" z="873dwY2mBmaZ/xbHgIjYbYWMTM0="/>
+        <field:display field="monto" id="s_com_alliance_sam_VentaPresunta_monto" object="${ventapresunta}" z="MEOsHONd+2T8tBGxX2jIZvmfWNU="/>
+        <field:display date="true" dateTimePattern="${ventaPresunta_fechadesde_date_format}" field="fechaDesde" id="s_com_alliance_sam_VentaPresunta_fechaDesde" object="${ventapresunta}" z="/CzCQuH6FVZ2nsJ62dihbFWtAzg="/>
+        <field:display date="true" dateTimePattern="${ventaPresunta_fechahasta_date_format}" field="fechaHasta" id="s_com_alliance_sam_VentaPresunta_fechaHasta" object="${ventapresunta}" z="tXQCJl2FBS4pfQdrHaUW1rXIrn0="/>
+        <field:display field="observaciones" id="s_com_alliance_sam_VentaPresunta_observaciones" object="${ventapresunta}" z="xNx3M6gNbtI/md+hGwz5bfjpbe8="/>
+        <field:display field="usuarioCreacion" id="s_com_alliance_sam_VentaPresunta_usuarioCreacion" object="${ventapresunta}" z="TWwEecWirkdYF4Paw7Nnd9FPFOE="/>
+        <field:display calendar="true" dateTimePattern="${ventaPresunta_fechacreacion_date_format}" field="fechaCreacion" id="s_com_alliance_sam_VentaPresunta_fechaCreacion" object="${ventapresunta}" z="GEtmwgqDOCxPDm07GvR0pBT7Puw="/>
+        <field:display field="hostCreacion" id="s_com_alliance_sam_VentaPresunta_hostCreacion" object="${ventapresunta}" z="yp20+sMYboHxk7tkbrQc7ndLer8="/>
+        <field:display field="usuarioModificacion" id="s_com_alliance_sam_VentaPresunta_usuarioModificacion" object="${ventapresunta}" z="Cux/iY2bEu0Ft+tAOLbSJ8I/gsU="/>
+        <field:display calendar="true" dateTimePattern="${ventaPresunta_fechamodificacion_date_format}" field="fechaModificacion" id="s_com_alliance_sam_VentaPresunta_fechaModificacion" object="${ventapresunta}" z="/qWR90m4gtiUvusyxIiikAnmICc="/>
+        <field:display field="hostModificacion" id="s_com_alliance_sam_VentaPresunta_hostModificacion" object="${ventapresunta}" z="vbT3wfRg2fTkobqZXCkd+q0Kz60="/>
+    </page:show>
+</div>

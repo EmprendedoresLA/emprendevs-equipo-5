@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/jquery/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/datatables" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_alliance_sam_Expediente" object="${expediente}" path="/expedientes" z="CbQCMkX5DvpLyFoPGcvnxCLAmZY=">
+        <field:display field="idExpedienteEstado" id="s_com_alliance_sam_Expediente_idExpedienteEstado" object="${expediente}" z="wMeSK2ZbQXi4LpfKHi/QKHVz2Go="/>
+        <field:display field="idEstadoDeTramite" id="s_com_alliance_sam_Expediente_idEstadoDeTramite" object="${expediente}" z="yQCpjUL3Zfp93xwTSR+cSO7Iapw="/>
+        <field:display field="internacion" id="s_com_alliance_sam_Expediente_internacion" object="${expediente}" z="zG8YyqTZc//J7CsrFBYsQC5YJN4="/>
+        <field:display field="idTipoEstablecimiento" id="s_com_alliance_sam_Expediente_idTipoEstablecimiento" object="${expediente}" z="Gl/1dolsLimWJOOibevdKolyvRQ="/>
+        <field:display field="localInterno" id="s_com_alliance_sam_Expediente_localInterno" object="${expediente}" z="IvaeWEsALHkEjUkzs+ebUIg7K+c="/>
+        <field:display field="requiereDdjj" id="s_com_alliance_sam_Expediente_requiereDdjj" object="${expediente}" z="ue6MGt3j4g8KJtGp5Kbyv9eNR0s="/>
+        <field:display field="anio" id="s_com_alliance_sam_Expediente_anio" object="${expediente}" z="J93mAZ9zZlL1Dxdycay0EaZPduE="/>
+        <field:display field="anioDdjj" id="s_com_alliance_sam_Expediente_anioDdjj" object="${expediente}" z="TRemOiojDOjTdN2BB0iloHZa9lg="/>
+        <field:display field="idDdjj" id="s_com_alliance_sam_Expediente_idDdjj" object="${expediente}" z="7myaPpQss6iI+Iz2bzmfXgczKrU="/>
+        <field:display field="idExpediente" id="s_com_alliance_sam_Expediente_idExpediente" object="${expediente}" z="ytN6faegtvYaVbjmENQZacsS2SM="/>
+        <field:display field="telefono" id="s_com_alliance_sam_Expediente_telefono" object="${expediente}" z="lp4452ry6WeKthvnEy1r7GOpm6U="/>
+        <field:display field="nombreFantasia" id="s_com_alliance_sam_Expediente_nombreFantasia" object="${expediente}" z="gpzipEmJgTOG6W1v6ZFwogEcKok="/>
+        <field:display field="nombreApellido" id="s_com_alliance_sam_Expediente_nombreApellido" object="${expediente}" z="FSgxYai10cJfhOWShwWyCEWpDm8="/>
+        <field:display field="cuitCuilDni" id="s_com_alliance_sam_Expediente_cuitCuilDni" object="${expediente}" z="65UckmBpT0dRj3k+fFFx6V3Y1vQ="/>
+        <field:display field="cantidadMedida" id="s_com_alliance_sam_Expediente_cantidadMedida" object="${expediente}" z="KuaAPNPzYP6JWemEakYbXjMpnk4="/>
+        <field:display date="true" dateTimePattern="${expediente_baja_date_format}" field="baja" id="s_com_alliance_sam_Expediente_baja" object="${expediente}" z="Bz14bngbv5ijts25026P3sA9/dc="/>
+        <field:display field="estadoTipo" id="s_com_alliance_sam_Expediente_estadoTipo" object="${expediente}" z="KUcnC+HF6PgZR8iUX5Ya4HqJGtY="/>
+        <field:display date="true" dateTimePattern="${expediente_fechainicio_date_format}" field="fechaInicio" id="s_com_alliance_sam_Expediente_fechaInicio" object="${expediente}" z="xe9+v5Ifsjra6yO9fypnZNDGV6g="/>
+        <field:display field="activoFijo" id="s_com_alliance_sam_Expediente_activoFijo" object="${expediente}" z="63crTQbug5LC6Z8QVYJPMROCNXQ="/>
+        <field:display field="cantEmpleados" id="s_com_alliance_sam_Expediente_cantEmpleados" object="${expediente}" z="RIBO+v3WkTDs3gbbuKOSvuSezf4="/>
+        <field:display field="horarioAtenc" id="s_com_alliance_sam_Expediente_horarioAtenc" object="${expediente}" z="w0xpWUUih0kzvqjt8QbBshsVbGc="/>
+        <field:display field="memoria" id="s_com_alliance_sam_Expediente_memoria" object="${expediente}" z="YYi4IhkXYxJ4ga4+Crj+BwQArQ0="/>
+        <field:display field="maquinaria" id="s_com_alliance_sam_Expediente_maquinaria" object="${expediente}" z="Fa0u2hlnT9c6rlywyfSvI67b7sw="/>
+        <field:display field="totalHp" id="s_com_alliance_sam_Expediente_totalHp" object="${expediente}" z="ZfhhRZSYuBeTwywmI0CPfqiTfZs="/>
+        <field:display field="usuarioCreacion" id="s_com_alliance_sam_Expediente_usuarioCreacion" object="${expediente}" z="MPjKK1tqQrgMFPJ7ImiRlgD3XP0="/>
+        <field:display calendar="true" dateTimePattern="${expediente_fechacreacion_date_format}" field="fechaCreacion" id="s_com_alliance_sam_Expediente_fechaCreacion" object="${expediente}" z="REy0OUtbItuMgyf+8V+rh2ZQ2Bs="/>
+        <field:display field="hostCreacion" id="s_com_alliance_sam_Expediente_hostCreacion" object="${expediente}" z="E3NovazdTXBRhpD7xJTZ2Eem+6g="/>
+        <field:display field="usuarioModificacion" id="s_com_alliance_sam_Expediente_usuarioModificacion" object="${expediente}" z="WBMf3ESjK3ceVuRydEsR52Jqst8="/>
+        <field:display calendar="true" dateTimePattern="${expediente_fechamodificacion_date_format}" field="fechaModificacion" id="s_com_alliance_sam_Expediente_fechaModificacion" object="${expediente}" z="3gldf1ERmlzhh3kfyM4H8cBfMKM="/>
+        <field:display field="hostModificacion" id="s_com_alliance_sam_Expediente_hostModificacion" object="${expediente}" z="T6weCi8m0XM8fAMz+s/ew8JKMd4="/>
+    </page:show>
+</div>

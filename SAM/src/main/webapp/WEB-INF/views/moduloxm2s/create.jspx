@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/jquery/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/datatables" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_alliance_sam_ModuloXM2" modelAttribute="moduloXM2" path="/moduloxm2s" render="${empty dependencies}" z="3jlrrwjuzPtMIW7f+SECAcJHjaA=">
+        <field:input field="descripcion" id="c_com_alliance_sam_ModuloXM2_descripcion" required="true" z="qFuUULCKS16WIcV4VcyOtaMh+W8="/>
+        <field:input field="m2Desde" id="c_com_alliance_sam_ModuloXM2_m2Desde" validationMessageCode="field_invalid_number" z="MZUdCwRLfcZmuXQbjNpGPjrPLKU="/>
+        <field:input field="m2Hasta" id="c_com_alliance_sam_ModuloXM2_m2Hasta" validationMessageCode="field_invalid_number" z="GCsX7e++bK1vGuuawaOtx3aIEQs="/>
+        <field:input field="cantidadModulos" id="c_com_alliance_sam_ModuloXM2_cantidadModulos" validationMessageCode="field_invalid_number" z="S3GYFmZ3ItYFv7kddz2zZf0Nq38="/>
+        <field:input field="m2Excedente" id="c_com_alliance_sam_ModuloXM2_m2Excedente" validationMessageCode="field_invalid_number" z="pCYLpwfG5NtnKgzDetPEN2rYU6w="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_alliance_sam_ModuloXM2" render="${not empty dependencies}" z="g8fNQC+2PeXo0NYWCvdyBy7bO8k="/>
+</div>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/jquery/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/datatables" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_alliance_sam_TasaXVentas" idField="idTasaXVentas" modelAttribute="tasaXVentas" path="/tasaxventases" versionField="none" z="ZIucyjg2GJ7llaFzwr1odqhCanE=">
+        <field:input field="desde" id="c_com_alliance_sam_TasaXVentas_desde" required="true" validationMessageCode="field_invalid_integer" z="isSUtVfnAiXyHvGLONA+ayGDtAU="/>
+        <field:input field="hasta" id="c_com_alliance_sam_TasaXVentas_hasta" required="true" validationMessageCode="field_invalid_integer" z="cMx8lBMIv+gppHHGcc+PQUCdur4="/>
+        <field:input field="alicuota" id="c_com_alliance_sam_TasaXVentas_alicuota" validationMessageCode="field_invalid_number" z="TXPpnt1mS6FcNn63jWm0108oTSQ="/>
+        <field:input field="descripcion" id="c_com_alliance_sam_TasaXVentas_descripcion" z="WUF9eosWaYQm4OOJfk23B9DkM80="/>
+        <field:input field="usuarioCreacion" id="c_com_alliance_sam_TasaXVentas_usuarioCreacion" z="N8KFtsIb3j4HlckCikIw6JhBSeg="/>
+        <field:datetime dateTimePattern="${tasaXVentas_fechacreacion_date_format}" field="fechaCreacion" id="c_com_alliance_sam_TasaXVentas_fechaCreacion" z="QbEkySCI6VdAetlyGN6wpFp8rJE="/>
+        <field:input field="hostCreacion" id="c_com_alliance_sam_TasaXVentas_hostCreacion" z="7eJemBkqo9ri3s6aF8ROXOkAWcs="/>
+        <field:input field="usuarioModificacion" id="c_com_alliance_sam_TasaXVentas_usuarioModificacion" z="LEV55/cQxVonjdn/Qzds4YhnEbQ="/>
+        <field:datetime dateTimePattern="${tasaXVentas_fechamodificacion_date_format}" field="fechaModificacion" id="c_com_alliance_sam_TasaXVentas_fechaModificacion" z="zPCj4ViLNnzV9ikQOvNYWufzNhc="/>
+        <field:input field="hostModificacion" id="c_com_alliance_sam_TasaXVentas_hostModificacion" z="IwA3rlENtZB+NgSaUSr1IN/voWc="/>
+    </form:update>
+</div>

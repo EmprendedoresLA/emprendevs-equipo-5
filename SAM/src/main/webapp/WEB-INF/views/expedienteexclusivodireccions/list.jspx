@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/datatables" xmlns:table="urn:jsptagdir:/WEB-INF/tags/datatables" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_alliance_sam_ExpedienteExclusivoDireccion" items="${expedienteexclusivodireccions}" z="W7fQrkBsYJIfncoH9e2fqg+vDgU=">
+        <table:table data="${expedienteexclusivodireccions}" id="l_com_alliance_sam_ExpedienteExclusivoDireccion" path="/expedienteexclusivodireccions" typeIdFieldName="idExpedienteExclusivoDireccion" z="AgGbNtu8Q0WqFLe8WAPxLZMJMDI=">
+            <table:column id="c_com_alliance_sam_ExpedienteExclusivoDireccion_idExpedienteControl" property="idExpedienteControl" z="ZPZDg/fyuwRFkSjcAGM/HshnTrU="/>
+            <table:column id="c_com_alliance_sam_ExpedienteExclusivoDireccion_idTipoOperacionCargaDescarga" property="idTipoOperacionCargaDescarga" z="sbdTv5Vs4a5etby9M0dAXxQD4ME="/>
+            <table:column id="c_com_alliance_sam_ExpedienteExclusivoDireccion_superficieCubiertaAHabilitar" property="superficieCubiertaAHabilitar" z="OAdwoeRBkWhVbPs3ZNsGb0XnB2c="/>
+            <table:column id="c_com_alliance_sam_ExpedienteExclusivoDireccion_superficieDescubiertaAHabilitar" property="superficieDescubiertaAHabilitar" z="0sMQh4GgYuaBcmh9k+ln/GMs7Lo="/>
+            <table:column id="c_com_alliance_sam_ExpedienteExclusivoDireccion_superficieTotal" property="superficieTotal" z="wGzMIYCV9RlnonerqH+XG4m4I9M="/>
+            <table:column id="c_com_alliance_sam_ExpedienteExclusivoDireccion_superficieMaximaAdmisible" property="superficieMaximaAdmisible" z="ifq4oTcYUN3ISlHO9n8vmfs7zgs="/>
+        </table:table>
+    </page:list>
+</div>

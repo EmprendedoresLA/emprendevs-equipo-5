@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/jquery/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/datatables" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_alliance_sam_TipoPersona" object="${tipopersona}" path="/tipopersonas" z="LjdC6+KbfyQ+wErus/+ufHpzqD4=">
+        <field:display field="descripcion" id="s_com_alliance_sam_TipoPersona_descripcion" object="${tipopersona}" z="uVBjpKkbjMwauqr6+lc+8bgifQw="/>
+        <field:display field="usuarioCreacion" id="s_com_alliance_sam_TipoPersona_usuarioCreacion" object="${tipopersona}" z="kWQQi5xXTKGSU070FF0d0aLf2XI="/>
+        <field:display calendar="true" dateTimePattern="${tipoPersona_fechacreacion_date_format}" field="fechaCreacion" id="s_com_alliance_sam_TipoPersona_fechaCreacion" object="${tipopersona}" z="KXPyz2+i/SUPP4AY4OP35X59Aic="/>
+        <field:display field="hostCreacion" id="s_com_alliance_sam_TipoPersona_hostCreacion" object="${tipopersona}" z="GqJZvPCNMUvXE9lyyofb1BCsRQ4="/>
+        <field:display field="usuarioModificacion" id="s_com_alliance_sam_TipoPersona_usuarioModificacion" object="${tipopersona}" z="44nY5CM+oA1B7l5sffDoAwMnBlQ="/>
+        <field:display calendar="true" dateTimePattern="${tipoPersona_fechamodificacion_date_format}" field="fechaModificacion" id="s_com_alliance_sam_TipoPersona_fechaModificacion" object="${tipopersona}" z="nmKMCwEr4WBDxGqPwnq0QLl/DAU="/>
+        <field:display field="hostModificacion" id="s_com_alliance_sam_TipoPersona_hostModificacion" object="${tipopersona}" z="vw9Xz7CTPojNgK0jcV+u3ETF3hw="/>
+    </page:show>
+</div>

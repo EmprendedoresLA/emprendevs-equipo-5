@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/datatables" xmlns:table="urn:jsptagdir:/WEB-INF/tags/datatables" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_alliance_sam_PersonasJuridicasContacto" items="${personasjuridicascontactoes}" z="dUoqmAQP12EUWgWlKe3qqcuZM80=">
+        <table:table data="${personasjuridicascontactoes}" id="l_com_alliance_sam_PersonasJuridicasContacto" path="/personasjuridicascontactoes" typeIdFieldName="idPersonasJuridicasContacto" z="/N2cfnze47iJ1iQmoZh4uUy71t4=">
+            <table:column id="c_com_alliance_sam_PersonasJuridicasContacto_idPersonaJuridica" property="idPersonaJuridica" z="RQpwKlN/mrtzxlnx7rpw+l9Jm3g="/>
+            <table:column id="c_com_alliance_sam_PersonasJuridicasContacto_idTipoContacto" property="idTipoContacto" z="mSFCeqSTtsta9pGC1w+8upFWico="/>
+            <table:column id="c_com_alliance_sam_PersonasJuridicasContacto_observacion" property="observacion" z="SD45qxJnkFIjuAvloxYeD9DIF48="/>
+            <table:column calendar="true" dateTimePattern="${personasJuridicasContacto_vigencia_date_format}" id="c_com_alliance_sam_PersonasJuridicasContacto_vigencia" property="vigencia" z="FfslxzmJla8GPOUf5SDp/jNVcvg="/>
+            <table:column id="c_com_alliance_sam_PersonasJuridicasContacto_usuarioCreacion" property="usuarioCreacion" z="S3RAxQcuFq6qGnN4Eozy7IcO3rc="/>
+            <table:column calendar="true" dateTimePattern="${personasJuridicasContacto_fechacreacion_date_format}" id="c_com_alliance_sam_PersonasJuridicasContacto_fechaCreacion" property="fechaCreacion" z="0BpCdf5X4WtRXgX6sJfyhb8B+go="/>
+        </table:table>
+    </page:list>
+</div>

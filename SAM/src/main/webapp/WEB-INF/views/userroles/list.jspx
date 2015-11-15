@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/datatables" xmlns:table="urn:jsptagdir:/WEB-INF/tags/datatables" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_alliance_sam_UserRole" items="${userroles}" z="DcnbZyxtYDwNnjeJ1VMu4++poXw=">
+        <table:table data="${userroles}" id="l_com_alliance_sam_UserRole" path="/userroles" z="PXMypnoR2Q/v4Zbzq5jd8lmN/I4=">
+            <table:column id="c_com_alliance_sam_UserRole_roleEntry" property="roleEntry" z="YV0yloAgikvmBqKFQBLZqJ4M7VA="/>
+            <table:column id="c_com_alliance_sam_UserRole_userEntry" property="userEntry" z="lukNpqnNlhiAu7Saleg8AeKEAxk="/>
+        </table:table>
+    </page:list>
+</div>

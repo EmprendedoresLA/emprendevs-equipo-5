@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/datatables" xmlns:table="urn:jsptagdir:/WEB-INF/tags/datatables" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_alliance_sam_CalculoFiltro" items="${calculofiltroes}" z="66oB7h0QXj4yMtqZAUnaer+JhVo=">
+        <table:table data="${calculofiltroes}" id="l_com_alliance_sam_CalculoFiltro" path="/calculofiltroes" typeIdFieldName="idCalculoFiltro" z="SlRBgpU3jCvgPCV5IKGdQ3B/lMU=">
+            <table:column id="c_com_alliance_sam_CalculoFiltro_idCalculo" property="idCalculo" z="FrEfOcB6HHYFHt9AygtbVFOBuMU="/>
+            <table:column id="c_com_alliance_sam_CalculoFiltro_idTipoNombreColumna" property="idTipoNombreColumna" z="Mw9hYDiZ3oKEmMAuhqZ1q0HsYq4="/>
+            <table:column id="c_com_alliance_sam_CalculoFiltro_idTipoNombreTabla" property="idTipoNombreTabla" z="9G/EiR+LPhqUC6AlT+xAPe+CkhA="/>
+            <table:column id="c_com_alliance_sam_CalculoFiltro_valorInicial" property="valorInicial" z="MvXKaoqXKBtEl9FcN81mB1Io4rA="/>
+            <table:column id="c_com_alliance_sam_CalculoFiltro_valorFinal" property="valorFinal" z="hI7uHW4MnTAf7EtRexpaevgkuFA="/>
+        </table:table>
+    </page:list>
+</div>

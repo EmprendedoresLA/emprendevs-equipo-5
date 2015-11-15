@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/datatables" xmlns:table="urn:jsptagdir:/WEB-INF/tags/datatables" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_alliance_sam_CertificadoZonificacion" items="${certificadozonificacions}" z="tvswsaxVfbqhyy6wCYAYwe6wJNI=">
+        <table:table data="${certificadozonificacions}" id="l_com_alliance_sam_CertificadoZonificacion" path="/certificadozonificacions" typeIdFieldName="idCertificadoZonificacion" z="oMbp+7oEDKdQ58oQGEfB/1/CGn4=">
+            <table:column id="c_com_alliance_sam_CertificadoZonificacion_idExpedienteControl" property="idExpedienteControl" z="o1Hg4E80X0ThQhrK25CXHMxrye0="/>
+            <table:column id="c_com_alliance_sam_CertificadoZonificacion_numeroCertificado" property="numeroCertificado" z="NW8mLcgqAiQBh7w6FDdISJrSxkQ="/>
+            <table:column id="c_com_alliance_sam_CertificadoZonificacion_numeroPartida" property="numeroPartida" z="Arye8ZsOmZPEFgjOvCPnjRzqhjQ="/>
+            <table:column date="true" dateTimePattern="${certificadoZonificacion_fechapresentacion_date_format}" id="c_com_alliance_sam_CertificadoZonificacion_fechaPresentacion" property="fechaPresentacion" z="y4v77dDJtmJJI6fWeIS7KxxXKgE="/>
+            <table:column date="true" dateTimePattern="${certificadoZonificacion_fechaemisioncertificado_date_format}" id="c_com_alliance_sam_CertificadoZonificacion_fechaEmisionCertificado" property="fechaEmisionCertificado" z="IKo+6R/o2RfR8BafI49xL+hUTng="/>
+            <table:column id="c_com_alliance_sam_CertificadoZonificacion_usuarioCreacion" property="usuarioCreacion" z="UGZ+HE/UyocbqOUvZZk3o5vobS0="/>
+        </table:table>
+    </page:list>
+</div>

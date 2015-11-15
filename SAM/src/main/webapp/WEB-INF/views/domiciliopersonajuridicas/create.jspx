@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/jquery/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/datatables" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_alliance_sam_DomicilioPersonaJuridica" modelAttribute="domicilioPersonaJuridica" path="/domiciliopersonajuridicas" render="${empty dependencies}" z="TuEo/kHIs2xmtOzWRm+/EKkOxU0=">
+        <field:select field="idPersonaJuridica" id="c_com_alliance_sam_DomicilioPersonaJuridica_idPersonaJuridica" itemValue="idPersonaJuridica" items="${personasjuridicases}" path="/personasjuridicases" z="CG7JUtle2S3wJclOYTb6TK8eFaA="/>
+        <field:select field="idPais" id="c_com_alliance_sam_DomicilioPersonaJuridica_idPais" itemValue="idPais" items="${paises}" path="/paises" z="wfMy6+LIIWy5If3nEK8b+l+s99o="/>
+        <field:select field="idProvincia" id="c_com_alliance_sam_DomicilioPersonaJuridica_idProvincia" itemValue="idProvincia" items="${provincias}" path="/provincias" z="Hx8SuSWIfUKtjrfpXcH4971yAfA="/>
+        <field:select field="idLocalidad" id="c_com_alliance_sam_DomicilioPersonaJuridica_idLocalidad" itemValue="idLocalidad" items="${localidads}" path="/localidads" z="5prPGrtS4izo2seejgC6EmjffBQ="/>
+        <field:select field="idPartido" id="c_com_alliance_sam_DomicilioPersonaJuridica_idPartido" itemValue="idPartido" items="${partidoes}" path="/partidoes" z="JvccWl+hl0hVljwS9Tn+OHLnWp0="/>
+        <field:select field="idZona" id="c_com_alliance_sam_DomicilioPersonaJuridica_idZona" itemValue="idZona" items="${zonas}" path="/zonas" z="2+XAWKsHJWIsPLj68pn8NPggBrU="/>
+        <field:select field="idCalle" id="c_com_alliance_sam_DomicilioPersonaJuridica_idCalle" itemValue="idCalle" items="${calles}" path="/calles" z="0Ray3CSoSXA2HzBvbCff/Wl97YA="/>
+        <field:select field="idTipoDomicilio" id="c_com_alliance_sam_DomicilioPersonaJuridica_idTipoDomicilio" itemValue="idTipoDomicilio" items="${tipodomicilios}" path="/tipodomicilios" z="teWa0Hd0W6uDAGZ+pAaQsllTnyc="/>
+        <field:input field="piso" id="c_com_alliance_sam_DomicilioPersonaJuridica_piso" validationMessageCode="field_invalid_integer" z="w7tktY87+rVikkZn2+2cZaozbYc="/>
+        <field:input field="depto" id="c_com_alliance_sam_DomicilioPersonaJuridica_depto" z="VipdvDzCHrcdwBYzvnTZX+22E38="/>
+        <field:input field="numero" id="c_com_alliance_sam_DomicilioPersonaJuridica_numero" required="true" validationMessageCode="field_invalid_integer" z="ftO2sf3CTFY4pFmpbqsUsi4NUJA="/>
+        <field:input field="cp" id="c_com_alliance_sam_DomicilioPersonaJuridica_cp" required="true" z="KrJ8LLPMmrrnfGArxqn/1w207IU="/>
+        <field:input field="descripcion" id="c_com_alliance_sam_DomicilioPersonaJuridica_descripcion" z="Ncym+5C4JHGMFz6z0pOcGdqZKJI="/>
+        <field:input field="usuarioCreacion" id="c_com_alliance_sam_DomicilioPersonaJuridica_usuarioCreacion" z="c2jUSEvFvghFzR3rvOS6tr4Ger8="/>
+        <field:datetime dateTimePattern="${domicilioPersonaJuridica_fechacreacion_date_format}" field="fechaCreacion" id="c_com_alliance_sam_DomicilioPersonaJuridica_fechaCreacion" z="+7k6APRS4bndH0X3mT6h3LlaDBo="/>
+        <field:input field="hostCreacion" id="c_com_alliance_sam_DomicilioPersonaJuridica_hostCreacion" z="so2UjlDlegJ8eIjrbOXDCgensuw="/>
+        <field:input field="usuarioModificacion" id="c_com_alliance_sam_DomicilioPersonaJuridica_usuarioModificacion" z="vv1s7LV43MzT96jqSRT7YX7RkzY="/>
+        <field:datetime dateTimePattern="${domicilioPersonaJuridica_fechamodificacion_date_format}" field="fechaModificacion" id="c_com_alliance_sam_DomicilioPersonaJuridica_fechaModificacion" z="/Nhg2kqTGJQGK7UWPG4dRp93+s0="/>
+        <field:input field="hostModificacion" id="c_com_alliance_sam_DomicilioPersonaJuridica_hostModificacion" z="lGDIsuSowNYq4xQNlc1D+0RWg5Q="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_alliance_sam_DomicilioPersonaJuridica" render="${not empty dependencies}" z="D3ouZJJg7E06YTDTXabMyFGr44s="/>
+</div>

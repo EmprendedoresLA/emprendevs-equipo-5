@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/jquery/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/datatables" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_alliance_sam_PersonasFisicasContacto" object="${personasfisicascontacto}" path="/personasfisicascontactoes" z="ZMFmpxTwIw7GHZdfQdcMZ+3b2Q4=">
+        <field:display field="idPersonaFisica" id="s_com_alliance_sam_PersonasFisicasContacto_idPersonaFisica" object="${personasfisicascontacto}" z="rt8GlS4ypNj+48+1HKKWyd5c1J4="/>
+        <field:display field="idTipoContacto" id="s_com_alliance_sam_PersonasFisicasContacto_idTipoContacto" object="${personasfisicascontacto}" z="V2zkbKQnoV9Vzn1EE/u4i5G9bjM="/>
+        <field:display field="observacion" id="s_com_alliance_sam_PersonasFisicasContacto_observacion" object="${personasfisicascontacto}" z="Z16SoPmVgKP2W47x0HgfHaasoDE="/>
+        <field:display calendar="true" dateTimePattern="${personasFisicasContacto_vigencia_date_format}" field="vigencia" id="s_com_alliance_sam_PersonasFisicasContacto_vigencia" object="${personasfisicascontacto}" z="LrJdCT2Qe0IckAsMHKiT9OzsU9E="/>
+        <field:display field="usuarioCreacion" id="s_com_alliance_sam_PersonasFisicasContacto_usuarioCreacion" object="${personasfisicascontacto}" z="6zmwaoAEVp+fVtxsJ6NPra5w/S4="/>
+        <field:display calendar="true" dateTimePattern="${personasFisicasContacto_fechacreacion_date_format}" field="fechaCreacion" id="s_com_alliance_sam_PersonasFisicasContacto_fechaCreacion" object="${personasfisicascontacto}" z="yJ0ZTXWpQnVrwuOkdQPu7/ONg2Y="/>
+        <field:display field="hostCreacion" id="s_com_alliance_sam_PersonasFisicasContacto_hostCreacion" object="${personasfisicascontacto}" z="XoHAYaSGOKHAUXmO7hvnnTt4q0g="/>
+        <field:display field="usuarioModificacion" id="s_com_alliance_sam_PersonasFisicasContacto_usuarioModificacion" object="${personasfisicascontacto}" z="5uk6VdFMlcVpKeoMfBuw2GMBYKU="/>
+        <field:display calendar="true" dateTimePattern="${personasFisicasContacto_fechamodificacion_date_format}" field="fechaModificacion" id="s_com_alliance_sam_PersonasFisicasContacto_fechaModificacion" object="${personasfisicascontacto}" z="TyuSJszovKisVepdUo/JzF174gk="/>
+        <field:display field="hostModificacion" id="s_com_alliance_sam_PersonasFisicasContacto_hostModificacion" object="${personasfisicascontacto}" z="p/Vl0nNRtEajJIcgTBqXKaDXEwQ="/>
+    </page:show>
+</div>

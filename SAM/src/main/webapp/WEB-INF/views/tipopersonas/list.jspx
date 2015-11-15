@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/datatables" xmlns:table="urn:jsptagdir:/WEB-INF/tags/datatables" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_alliance_sam_TipoPersona" items="${tipopersonas}" z="vyxLoXmxF73dkCtPvX4BCEH877g=">
+        <table:table data="${tipopersonas}" id="l_com_alliance_sam_TipoPersona" path="/tipopersonas" typeIdFieldName="idTipoPersona" z="dcKRaNHyoUMp8xLNdttGprh+/vc=">
+            <table:column id="c_com_alliance_sam_TipoPersona_descripcion" property="descripcion" z="YjZCckOwlt4yWPix48dARrfr66I="/>
+            <table:column id="c_com_alliance_sam_TipoPersona_usuarioCreacion" property="usuarioCreacion" z="giA7y6JNSB3pj0sCgpFGU3ma90E="/>
+            <table:column calendar="true" dateTimePattern="${tipoPersona_fechacreacion_date_format}" id="c_com_alliance_sam_TipoPersona_fechaCreacion" property="fechaCreacion" z="bjyJR/AJ1ukcJFGoTr2f2bnLc20="/>
+            <table:column id="c_com_alliance_sam_TipoPersona_hostCreacion" property="hostCreacion" z="ixSoWIkfRRfgAUV3+PMRHeaexB8="/>
+        </table:table>
+    </page:list>
+</div>

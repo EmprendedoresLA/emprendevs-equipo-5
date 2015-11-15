@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/jquery/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/datatables" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_alliance_sam_Rubro" idField="idRubro" modelAttribute="rubro" path="/rubroes" versionField="none" z="w1LAjfmqaoPmJy4Q29/xCceV6Z4=">
+        <field:simple field="expedienteRubroes" id="c_com_alliance_sam_Rubro_expedienteRubroes" messageCode="entity_reference_not_managed" messageCodeAttribute="Expediente Rubro" z="1e2t2d2DbAhRgLjedpkYoDeH2w4="/>
+        <field:select field="idPoseeCantidadMedida" id="c_com_alliance_sam_Rubro_idPoseeCantidadMedida" itemValue="idTipoGeneral" items="${tipogenerals}" path="/tipogenerals" z="0L7BSgtw0ka+MbtYyqxhFdovupM="/>
+        <field:input field="descripcion" id="c_com_alliance_sam_Rubro_descripcion" required="true" z="E6c2DLtmhTYBrKNoqzpVLhbcrRg="/>
+        <field:input field="alicuotaDiferencial" id="c_com_alliance_sam_Rubro_alicuotaDiferencial" validationMessageCode="field_invalid_number" z="rUITGSD3r8vvkERcgqfhS/e+LB0="/>
+        <field:input field="observaciones" id="c_com_alliance_sam_Rubro_observaciones" z="8GwJkKdLTriKGpw0rZkOz3R7t64="/>
+        <field:datetime dateTimePattern="${rubro_fechain_date_format}" field="fechaIn" id="c_com_alliance_sam_Rubro_fechaIn" z="PElM3sdMCZNol6Rd5tAX4iLgNdw="/>
+        <field:datetime dateTimePattern="${rubro_fechaout_date_format}" field="fechaOut" id="c_com_alliance_sam_Rubro_fechaOut" z="5GT8TneI3tls9W8DxCxJuFK1ZRE="/>
+        <field:input field="cantidadMinimoBimestral" id="c_com_alliance_sam_Rubro_cantidadMinimoBimestral" validationMessageCode="field_invalid_integer" z="HL3+S5RiR9w9oWTBLg9FhFe0Kgo="/>
+        <field:input field="minimoEspecial" id="c_com_alliance_sam_Rubro_minimoEspecial" validationMessageCode="field_invalid_integer" z="Eg6AOa7ZLnD68d7tJ9Nn5iAXK4c="/>
+        <field:input field="usuarioCreacion" id="c_com_alliance_sam_Rubro_usuarioCreacion" z="y/Vt9eVhqj4NqmpvKIpDHfZjYXk="/>
+        <field:datetime dateTimePattern="${rubro_fechacreacion_date_format}" field="fechaCreacion" id="c_com_alliance_sam_Rubro_fechaCreacion" z="q7Mvxd3/ZlyCvT8M1llNEkn7L5M="/>
+        <field:input field="hostCreacion" id="c_com_alliance_sam_Rubro_hostCreacion" z="7SEf616hk/0/lNueRzhdrTrNtEk="/>
+        <field:input field="usuarioModificacion" id="c_com_alliance_sam_Rubro_usuarioModificacion" z="KlKz57Nydcv0R2Fkt0W0L2sdnBk="/>
+        <field:datetime dateTimePattern="${rubro_fechamodificacion_date_format}" field="fechaModificacion" id="c_com_alliance_sam_Rubro_fechaModificacion" z="f5+xF4BSD1IlDqW3d50wEtigEEU="/>
+        <field:input field="hostModificacion" id="c_com_alliance_sam_Rubro_hostModificacion" z="4cJ6NzEdu55vDy/C8PWBY72X73Y="/>
+    </form:update>
+</div>

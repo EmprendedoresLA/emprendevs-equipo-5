@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/jquery/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/datatables" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_alliance_sam_User" object="${user}" path="/users" z="sO44niMwvGWjOnH0T5ouTVuJY/o=">
+        <field:display calendar="true" dateTimePattern="${user_activationdate_date_format}" field="activationDate" id="s_com_alliance_sam_User_activationDate" object="${user}" z="6cySF3rj6HHVKyJfwIBUrj3Wbmo="/>
+        <field:display field="activationKey" id="s_com_alliance_sam_User_activationKey" object="${user}" z="nMpZKMFiZH6TbtAMXQUwoJiCSwg="/>
+        <field:display field="emailAddress" id="s_com_alliance_sam_User_emailAddress" object="${user}" z="O9MulSe2YSAv4+szMyUXHffvxB8="/>
+        <field:display field="enabled" id="s_com_alliance_sam_User_enabled" object="${user}" z="kSMC9Ps1TDQ88n+3SThSaK9yIJY="/>
+        <field:display field="firstName" id="s_com_alliance_sam_User_firstName" object="${user}" z="lT6Zzg5ewicH2ynqGIuV37gvCr8="/>
+        <field:display field="lastName" id="s_com_alliance_sam_User_lastName" object="${user}" z="gJnJm5LhJETRsuHtju/sgCN1bZs="/>
+        <field:display field="locked" id="s_com_alliance_sam_User_locked" object="${user}" z="/0+rtCIrHRyhtgODKyL+81ppPEQ="/>
+        <field:display field="password" id="s_com_alliance_sam_User_password" object="${user}" z="7yXNWDbO6MW8GHCWRjSEbO5wxFw="/>
+    </page:show>
+</div>

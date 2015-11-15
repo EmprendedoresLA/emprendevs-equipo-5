@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/jquery/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/datatables" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_alliance_sam_PersonasFisicas" idField="idPersonaFisica" modelAttribute="personasFisicas" path="/personasfisicases" versionField="none" z="h8DIxzmWaRAXvuDxNU8I5BMBmnw=">
+        <field:simple field="documentoPersonaFisicas" id="c_com_alliance_sam_PersonasFisicas_documentoPersonaFisicas" messageCode="entity_reference_not_managed" messageCodeAttribute="Documento Persona Fisica" z="Vv0QtdSglFvpSvH8/3OHZBGy4RA="/>
+        <field:simple field="domicilioPersonaFisicas" id="c_com_alliance_sam_PersonasFisicas_domicilioPersonaFisicas" messageCode="entity_reference_not_managed" messageCodeAttribute="Domicilio Persona Fisica" z="94WQbU/2k1MymUAl1VEXQlilyRM="/>
+        <field:simple field="expedientePersonaFisicas" id="c_com_alliance_sam_PersonasFisicas_expedientePersonaFisicas" messageCode="entity_reference_not_managed" messageCodeAttribute="Expediente Persona Fisica" z="GqKkIOCLdxdjORn4QePg0FnKUaw="/>
+        <field:simple field="personaFisicaJuridicas" id="c_com_alliance_sam_PersonasFisicas_personaFisicaJuridicas" messageCode="entity_reference_not_managed" messageCodeAttribute="Persona Fisica Juridica" z="0Ns5sWu6+7PC/oPMrYMrpSl541I="/>
+        <field:simple field="personasFisicasContactoes" id="c_com_alliance_sam_PersonasFisicas_personasFisicasContactoes" messageCode="entity_reference_not_managed" messageCodeAttribute="Personas Fisicas Contacto" z="unuW7dcyF+375/iIIyNG8s7tm0w="/>
+        <field:select field="documentoTipo" id="c_com_alliance_sam_PersonasFisicas_documentoTipo" itemValue="idDocumentoTipo" items="${tipodocumentoes}" path="/tipodocumentoes" z="HhpvzedBreHWOaQYEwKT0rernz8="/>
+        <field:select field="condIva" id="c_com_alliance_sam_PersonasFisicas_condIva" itemValue="idTipoIva" items="${tipoivas}" path="/tipoivas" z="IPul76ZZmEIE9357R00pqwFdV9A="/>
+        <field:select field="idTipoPersona" id="c_com_alliance_sam_PersonasFisicas_idTipoPersona" itemValue="idTipoPersona" items="${tipopersonas}" path="/tipopersonas" z="27EP6rLrolJrXzBVXJ4aTKCUNdU="/>
+        <field:input field="documentoNro" id="c_com_alliance_sam_PersonasFisicas_documentoNro" required="true" z="XJfEc7gJz0ffo0US5E7MNN6M/xs="/>
+        <field:input field="cuitCuil" id="c_com_alliance_sam_PersonasFisicas_cuitCuil" required="true" validationMessageCode="field_invalid_integer" z="lE55v4EF2p/GGmd9PPdbmjkwr6I="/>
+        <field:input field="iibb" id="c_com_alliance_sam_PersonasFisicas_iibb" validationMessageCode="field_invalid_integer" z="sfZj1Z9dvmL16XlNpmLJYxBjLUY="/>
+        <field:input field="apellidos" id="c_com_alliance_sam_PersonasFisicas_apellidos" z="mGuFnYZA2JsYcaXL8qOKRAsBHMM="/>
+        <field:input field="nombres" id="c_com_alliance_sam_PersonasFisicas_nombres" z="Hm6QhhU25PY+FDuI8K9FQEWFAQQ="/>
+        <field:datetime dateTimePattern="${personasFisicas_fechanacimiento_date_format}" field="fechaNacimiento" id="c_com_alliance_sam_PersonasFisicas_fechaNacimiento" z="wpDhvL30IME/0g/5Ho/hMkA2OsQ="/>
+        <field:input field="usuarioCreacion" id="c_com_alliance_sam_PersonasFisicas_usuarioCreacion" z="dRyYr8IbfHibf4xOrJg1Bi0NxYs="/>
+        <field:datetime dateTimePattern="${personasFisicas_fechacreacion_date_format}" field="fechaCreacion" id="c_com_alliance_sam_PersonasFisicas_fechaCreacion" z="AHLwuq4w+qtsU+RzE5Vn4WaW9gQ="/>
+        <field:input field="hostCreacion" id="c_com_alliance_sam_PersonasFisicas_hostCreacion" z="qgpLDDLwlS8DSTpf5DNp7DRWHrw="/>
+        <field:input field="usuarioModificacion" id="c_com_alliance_sam_PersonasFisicas_usuarioModificacion" z="wDWbLxbvBccPqX+yGmFDT0XiD4Y="/>
+        <field:datetime dateTimePattern="${personasFisicas_fechamodificacion_date_format}" field="fechaModificacion" id="c_com_alliance_sam_PersonasFisicas_fechaModificacion" z="qfQLs4vysGog0Tp9ohCaC68ZRqU="/>
+        <field:input field="hostModificacion" id="c_com_alliance_sam_PersonasFisicas_hostModificacion" z="LNQL4eCedwsER+kC739hac7+JHA="/>
+    </form:update>
+</div>

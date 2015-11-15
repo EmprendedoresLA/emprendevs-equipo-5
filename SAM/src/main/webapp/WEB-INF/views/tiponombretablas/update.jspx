@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/jquery/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/datatables" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_alliance_sam_TipoNombreTabla" idField="idTipoNombreTabla" modelAttribute="tipoNombreTabla" path="/tiponombretablas" versionField="none" z="vHBuza/ZeJ2nYBIDUM+fl2TqPz4=">
+        <field:simple field="calculoFiltroes" id="c_com_alliance_sam_TipoNombreTabla_calculoFiltroes" messageCode="entity_reference_not_managed" messageCodeAttribute="Calculo Filtro" z="hl4HEx0sjIwombslEm9k+mTKsGk="/>
+        <field:input field="descripcion" id="c_com_alliance_sam_TipoNombreTabla_descripcion" required="true" z="Nyhzqcz8nB2a38n6d9glnZ1NH08="/>
+        <field:input field="observaciones" id="c_com_alliance_sam_TipoNombreTabla_observaciones" z="E7SdDJILZZSGxmNq3qGc0w/BOr4="/>
+        <field:input field="usuarioCreacion" id="c_com_alliance_sam_TipoNombreTabla_usuarioCreacion" z="osC4p2mXx0ZowfFlG5zN67j72Ig="/>
+        <field:datetime dateTimePattern="${tipoNombreTabla_fechacreacion_date_format}" field="fechaCreacion" id="c_com_alliance_sam_TipoNombreTabla_fechaCreacion" z="vibbwHGtvI0p1Zyyf1s+9BQUzSE="/>
+        <field:input field="hostCreacion" id="c_com_alliance_sam_TipoNombreTabla_hostCreacion" z="wKWnltaVBkwMamx2srSAHAynzMU="/>
+        <field:input field="usuarioModificacion" id="c_com_alliance_sam_TipoNombreTabla_usuarioModificacion" z="hmVBAEpSc3NkUU1yhBwwo6kjZDU="/>
+        <field:datetime dateTimePattern="${tipoNombreTabla_fechamodificacion_date_format}" field="fechaModificacion" id="c_com_alliance_sam_TipoNombreTabla_fechaModificacion" z="A3niSQjdXRH6B5kXXomlhpCSnXE="/>
+        <field:input field="hostModificacion" id="c_com_alliance_sam_TipoNombreTabla_hostModificacion" z="3c5Ebjnpfu8NLgI6y4KuqCl3C34="/>
+    </form:update>
+</div>

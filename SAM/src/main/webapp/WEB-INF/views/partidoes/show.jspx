@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/jquery/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/datatables" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_alliance_sam_Partido" object="${partido}" path="/partidoes" z="+0GqHsC5Wt1OJ+3XstJGO4gLnsQ=">
+        <field:display field="descripcion" id="s_com_alliance_sam_Partido_descripcion" object="${partido}" z="mFDbS7Fff3vGg1MA+hp4jQR8FRg="/>
+        <field:display field="usuarioCreacion" id="s_com_alliance_sam_Partido_usuarioCreacion" object="${partido}" z="Pvg9Is1HlUoqnbluhZ79xLHCx/k="/>
+        <field:display calendar="true" dateTimePattern="${partido_fechacreacion_date_format}" field="fechaCreacion" id="s_com_alliance_sam_Partido_fechaCreacion" object="${partido}" z="XixbjLUkkKGgFxhrBrDDVJ70ElU="/>
+        <field:display field="hostCreacion" id="s_com_alliance_sam_Partido_hostCreacion" object="${partido}" z="rRzZxs8N0+7xhPDMb6K7iB/40II="/>
+        <field:display field="usuarioModificacion" id="s_com_alliance_sam_Partido_usuarioModificacion" object="${partido}" z="Bc6MU9nLln/sSCgRSHezegaIj8o="/>
+        <field:display calendar="true" dateTimePattern="${partido_fechamodificacion_date_format}" field="fechaModificacion" id="s_com_alliance_sam_Partido_fechaModificacion" object="${partido}" z="IHaeoGZK6fU0Ggujt5tLjBpwygw="/>
+        <field:display field="hostModificacion" id="s_com_alliance_sam_Partido_hostModificacion" object="${partido}" z="3Pn8v1zSWhD2mvLxv3vSc4CSH3I="/>
+    </page:show>
+</div>

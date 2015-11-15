@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/datatables" xmlns:table="urn:jsptagdir:/WEB-INF/tags/datatables" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_alliance_sam_VentaPresunta" items="${ventapresuntas}" z="jvi6QTr8xICLELhHnnCwBs3XxGc=">
+        <table:table data="${ventapresuntas}" id="l_com_alliance_sam_VentaPresunta" path="/ventapresuntas" typeIdFieldName="idVentaPresunta" z="kTwdoblXrQgZ4JmGU3TSJvEx9Ao=">
+            <table:column id="c_com_alliance_sam_VentaPresunta_idExpedienteControl" property="idExpedienteControl" z="gJWytw2eGJujuiSSQYLvd+XFJPo="/>
+            <table:column id="c_com_alliance_sam_VentaPresunta_monto" property="monto" z="HkaY0dbsJgymEVUar5UaohgWzgs="/>
+            <table:column date="true" dateTimePattern="${ventaPresunta_fechadesde_date_format}" id="c_com_alliance_sam_VentaPresunta_fechaDesde" property="fechaDesde" z="ZDDEecRhplx49TCr6/+ox3JUMNs="/>
+            <table:column date="true" dateTimePattern="${ventaPresunta_fechahasta_date_format}" id="c_com_alliance_sam_VentaPresunta_fechaHasta" property="fechaHasta" z="fI9riy5n/InLxtqZRliUgcvJYOM="/>
+            <table:column id="c_com_alliance_sam_VentaPresunta_observaciones" property="observaciones" z="j5rEbGFOWkLJh4bIMcz4Hss3NmY="/>
+            <table:column id="c_com_alliance_sam_VentaPresunta_usuarioCreacion" property="usuarioCreacion" z="wJS+gn0mw2fHxGn0sGNSRtk8hu0="/>
+        </table:table>
+    </page:list>
+</div>

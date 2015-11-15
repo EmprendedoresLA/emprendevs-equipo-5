@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/jquery/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/datatables" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_alliance_sam_DatosPlaneamiento" object="${datosplaneamiento}" path="/datosplaneamientoes" z="ZEk0i/00y0ox84esD4dtvlYNiFo=">
+        <field:display field="idExpedienteControl" id="s_com_alliance_sam_DatosPlaneamiento_idExpedienteControl" object="${datosplaneamiento}" z="6LUQt8Dj3s7mf8ZrCLkR2fea5ac="/>
+        <field:display field="m2CubiertaHabilitar" id="s_com_alliance_sam_DatosPlaneamiento_m2CubiertaHabilitar" object="${datosplaneamiento}" z="sHFuGPdSztLmzNxRYoA+LHkl614="/>
+        <field:display field="m2DescubiertaHabilitar" id="s_com_alliance_sam_DatosPlaneamiento_m2DescubiertaHabilitar" object="${datosplaneamiento}" z="mcdEX2kIYDZbFEtLYUXXDNr6cko="/>
+        <field:display date="true" dateTimePattern="${datosPlaneamiento_m2totales_date_format}" field="m2Totales" id="s_com_alliance_sam_DatosPlaneamiento_m2Totales" object="${datosplaneamiento}" z="y2T4wuFcnFbCrX5iU3KSg6Lgoik="/>
+        <field:display field="m2MaximosAdmisibles" id="s_com_alliance_sam_DatosPlaneamiento_m2MaximosAdmisibles" object="${datosplaneamiento}" z="yHvzmFixShX7rze6uk4woz++vfQ="/>
+        <field:display field="m2MinimoExigible" id="s_com_alliance_sam_DatosPlaneamiento_m2MinimoExigible" object="${datosplaneamiento}" z="t+mGAD4b55rwLgwYaoHOczn7bNs="/>
+        <field:display date="true" dateTimePattern="${datosPlaneamiento_cargadescargaobligatoria_date_format}" field="cargaDescargaObligatoria" id="s_com_alliance_sam_DatosPlaneamiento_cargaDescargaObligatoria" object="${datosplaneamiento}" z="6R+lyCVjDfuUFlPgrMV2x9EA9uI="/>
+        <field:display field="deposito" id="s_com_alliance_sam_DatosPlaneamiento_deposito" object="${datosplaneamiento}" z="qC1HRp22G7cO4Uguw+gXpr0ytLM="/>
+        <field:display field="catogoriaActividad" id="s_com_alliance_sam_DatosPlaneamiento_catogoriaActividad" object="${datosplaneamiento}" z="67Yz8CzaRpuRvleRjxPyLHEeCfU="/>
+        <field:display field="energiaMaximaExigible" id="s_com_alliance_sam_DatosPlaneamiento_energiaMaximaExigible" object="${datosplaneamiento}" z="TskgIVcXlMwLow1phu2KYW5QfpE="/>
+        <field:display field="numeroOperariosAutorizados" id="s_com_alliance_sam_DatosPlaneamiento_numeroOperariosAutorizados" object="${datosplaneamiento}" z="yPRHTDJW1aNYeaCTl1NGMpBVFsE="/>
+        <field:display field="verificacionPlanos" id="s_com_alliance_sam_DatosPlaneamiento_verificacionPlanos" object="${datosplaneamiento}" z="vRUdQEbEfWZXo0FK35I0tb+SIjM="/>
+        <field:display field="observaciones" id="s_com_alliance_sam_DatosPlaneamiento_observaciones" object="${datosplaneamiento}" z="j94GB1Izbo4evqYmJliaQtrKpVs="/>
+        <field:display field="codigoUsoAprobado" id="s_com_alliance_sam_DatosPlaneamiento_codigoUsoAprobado" object="${datosplaneamiento}" z="oJLF3r835455b94TRhcZdXJ2T3M="/>
+        <field:display date="true" dateTimePattern="${datosPlaneamiento_fechaaprobacion_date_format}" field="fechaAprobacion" id="s_com_alliance_sam_DatosPlaneamiento_fechaAprobacion" object="${datosplaneamiento}" z="8OyW128zmljMwsSvgY9oBvRMvZk="/>
+        <field:display field="usuarioCreacion" id="s_com_alliance_sam_DatosPlaneamiento_usuarioCreacion" object="${datosplaneamiento}" z="gvy8me9rZdC3GvnriFtN89IGHZ8="/>
+        <field:display calendar="true" dateTimePattern="${datosPlaneamiento_fechacreacion_date_format}" field="fechaCreacion" id="s_com_alliance_sam_DatosPlaneamiento_fechaCreacion" object="${datosplaneamiento}" z="CHKuGU+Oy5OeNNwgl7o/1PnTvAc="/>
+        <field:display field="hostCreacion" id="s_com_alliance_sam_DatosPlaneamiento_hostCreacion" object="${datosplaneamiento}" z="eKAFD1xlVJLffggDsHV22APqjEE="/>
+        <field:display field="usuarioModificacion" id="s_com_alliance_sam_DatosPlaneamiento_usuarioModificacion" object="${datosplaneamiento}" z="yqavFAXeaBto8bUvztBUN+oaqko="/>
+        <field:display calendar="true" dateTimePattern="${datosPlaneamiento_fechamodificacion_date_format}" field="fechaModificacion" id="s_com_alliance_sam_DatosPlaneamiento_fechaModificacion" object="${datosplaneamiento}" z="0jVi2wEeXArHaZqmuufEw9zsqAU="/>
+        <field:display field="hostModificacion" id="s_com_alliance_sam_DatosPlaneamiento_hostModificacion" object="${datosplaneamiento}" z="cdAdFOcp6GCv2ZhFO1P1pNdR6ls="/>
+    </page:show>
+</div>

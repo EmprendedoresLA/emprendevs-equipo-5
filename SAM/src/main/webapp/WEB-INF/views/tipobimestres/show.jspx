@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/jquery/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/datatables" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_alliance_sam_TipoBimestre" object="${tipobimestre}" path="/tipobimestres" z="trahn5b50MEw8lw1JFB/+3+xqeY=">
+        <field:display field="idNumeroBimestre" id="s_com_alliance_sam_TipoBimestre_idNumeroBimestre" object="${tipobimestre}" z="E2Is6wX6skjb8JfPk5rc0/dVAUc="/>
+        <field:display field="descripcion" id="s_com_alliance_sam_TipoBimestre_descripcion" object="${tipobimestre}" z="2+WzV8F9I2+Y3IBtVI7SGd4SHT8="/>
+        <field:display field="observaciones" id="s_com_alliance_sam_TipoBimestre_observaciones" object="${tipobimestre}" z="8KbxEJsInoU0QCuqVE71XU5mMS0="/>
+        <field:display field="usuarioCreacion" id="s_com_alliance_sam_TipoBimestre_usuarioCreacion" object="${tipobimestre}" z="NGDQKPin9bUgvrCGoeJ6vnjdrCY="/>
+        <field:display calendar="true" dateTimePattern="${tipoBimestre_fechacreacion_date_format}" field="fechaCreacion" id="s_com_alliance_sam_TipoBimestre_fechaCreacion" object="${tipobimestre}" z="7Xh3aHtMbzuIFe1TGCeXEtbF1zY="/>
+        <field:display field="hostCreacion" id="s_com_alliance_sam_TipoBimestre_hostCreacion" object="${tipobimestre}" z="hwCHpoAtKngW/yh4diIIc3+rOzs="/>
+        <field:display field="usuarioModificacion" id="s_com_alliance_sam_TipoBimestre_usuarioModificacion" object="${tipobimestre}" z="P/+IOyoCTYQjqBJ3M5Y946bTAvo="/>
+        <field:display calendar="true" dateTimePattern="${tipoBimestre_fechamodificacion_date_format}" field="fechaModificacion" id="s_com_alliance_sam_TipoBimestre_fechaModificacion" object="${tipobimestre}" z="5IZuZFGyiJLlvA45UBaKpq9/XP4="/>
+        <field:display field="hostModificacion" id="s_com_alliance_sam_TipoBimestre_hostModificacion" object="${tipobimestre}" z="NSIi0Pw2Yu+uv6RDOyiNXv29f7o="/>
+    </page:show>
+</div>

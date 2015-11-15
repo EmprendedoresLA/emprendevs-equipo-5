@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/datatables" xmlns:table="urn:jsptagdir:/WEB-INF/tags/datatables" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_alliance_sam_Calle" items="${calles}" z="fVfvlrDHXXKy0wTicPOX+B0IuBs=">
+        <table:table data="${calles}" id="l_com_alliance_sam_Calle" path="/calles" typeIdFieldName="idCalle" z="k3glcCzgc4PE9wY3biOG7M87yG4=">
+            <table:column id="c_com_alliance_sam_Calle_descripcion" property="descripcion" z="9nOVJ4QhCf7kLYDx7HCmkj/PIDI="/>
+            <table:column id="c_com_alliance_sam_Calle_numeracionIni" property="numeracionIni" z="MDftmsv7nKewq48uu88YMaN+IhI="/>
+            <table:column id="c_com_alliance_sam_Calle_numeracionFin" property="numeracionFin" z="VZzDDqB00k05e9MFJAeL+wd+J90="/>
+        </table:table>
+    </page:list>
+</div>

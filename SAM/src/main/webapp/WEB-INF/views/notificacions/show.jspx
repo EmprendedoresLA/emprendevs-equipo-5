@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/jquery/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/datatables" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_alliance_sam_Notificacion" object="${notificacion}" path="/notificacions" z="GWjLvegrkZxfPhUAHgII1C6nC6k=">
+        <field:display field="idInspeccionComercio" id="s_com_alliance_sam_Notificacion_idInspeccionComercio" object="${notificacion}" z="nK62TYRuBddP2o4tS7rtp0Ncnak="/>
+        <field:display field="numeroNotificacion" id="s_com_alliance_sam_Notificacion_numeroNotificacion" object="${notificacion}" z="fS2OyGcqzgHw1ANah7wzxyw71IQ="/>
+        <field:display field="numeroPartida" id="s_com_alliance_sam_Notificacion_numeroPartida" object="${notificacion}" z="FKJc2VFBa/2Fbn4TpST58xF6UKQ="/>
+        <field:display date="true" dateTimePattern="${notificacion_fechanotificacion_date_format}" field="fechaNotificacion" id="s_com_alliance_sam_Notificacion_fechaNotificacion" object="${notificacion}" z="LXevlPN81Xi8RXxMDEoBHcE0GeI="/>
+        <field:display field="horaNotificacion" id="s_com_alliance_sam_Notificacion_horaNotificacion" object="${notificacion}" z="7XhiBFl3vasJ3zNY/dFea3Accvk="/>
+        <field:display field="idExpediente" id="s_com_alliance_sam_Notificacion_idExpediente" object="${notificacion}" z="8UcdYwKmna45bUuaRn6ooRIY+BE="/>
+        <field:display field="observaciones" id="s_com_alliance_sam_Notificacion_observaciones" object="${notificacion}" z="mSbxRewdyoraYKmBfWlt6nEAsiU="/>
+        <field:display field="anio" id="s_com_alliance_sam_Notificacion_anio" object="${notificacion}" z="GYm082lO4neKErtiN5THMoRZIpM="/>
+        <field:display field="usuarioCreacion" id="s_com_alliance_sam_Notificacion_usuarioCreacion" object="${notificacion}" z="0i08PPXHB5z6xfn+tKnSYfQmEp0="/>
+        <field:display calendar="true" dateTimePattern="${notificacion_fechacreacion_date_format}" field="fechaCreacion" id="s_com_alliance_sam_Notificacion_fechaCreacion" object="${notificacion}" z="Bzoa8lygXo9AEI6XOjgUs0y1xVU="/>
+        <field:display field="hostCreacion" id="s_com_alliance_sam_Notificacion_hostCreacion" object="${notificacion}" z="d08/o8+kYLi43JsaFmzpJ8U6j10="/>
+        <field:display field="usuarioModificacion" id="s_com_alliance_sam_Notificacion_usuarioModificacion" object="${notificacion}" z="63kHFfjgfm0I+OHAZnNGvZOZd+U="/>
+        <field:display calendar="true" dateTimePattern="${notificacion_fechamodificacion_date_format}" field="fechaModificacion" id="s_com_alliance_sam_Notificacion_fechaModificacion" object="${notificacion}" z="mFjzaio9occoxlMqtBhsP/vjL1Q="/>
+        <field:display field="hostModificacion" id="s_com_alliance_sam_Notificacion_hostModificacion" object="${notificacion}" z="nUCuYcDp/ZE1FDjn1S9Mggw9AHQ="/>
+    </page:show>
+</div>

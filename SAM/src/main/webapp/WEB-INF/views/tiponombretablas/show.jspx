@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/jquery/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/datatables" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_alliance_sam_TipoNombreTabla" object="${tiponombretabla}" path="/tiponombretablas" z="eY9mnerUGmhS0qzVyZuyumPmERI=">
+        <field:display field="descripcion" id="s_com_alliance_sam_TipoNombreTabla_descripcion" object="${tiponombretabla}" z="xiTSm7F2nJsqHR3VtBgouzpQTEM="/>
+        <field:display field="observaciones" id="s_com_alliance_sam_TipoNombreTabla_observaciones" object="${tiponombretabla}" z="XnP5av9vGDHWmYjgV9b3NakCwLI="/>
+        <field:display field="usuarioCreacion" id="s_com_alliance_sam_TipoNombreTabla_usuarioCreacion" object="${tiponombretabla}" z="5DGxEiNkKbALdk4V+PTXiqzL1Y8="/>
+        <field:display calendar="true" dateTimePattern="${tipoNombreTabla_fechacreacion_date_format}" field="fechaCreacion" id="s_com_alliance_sam_TipoNombreTabla_fechaCreacion" object="${tiponombretabla}" z="PN/PKPwEGcTxVlSh80NJIkDnYEQ="/>
+        <field:display field="hostCreacion" id="s_com_alliance_sam_TipoNombreTabla_hostCreacion" object="${tiponombretabla}" z="t2+MqYSeW6yVXLS9Fyd2rqCJIqA="/>
+        <field:display field="usuarioModificacion" id="s_com_alliance_sam_TipoNombreTabla_usuarioModificacion" object="${tiponombretabla}" z="p6n+SbNPJTQVFEHn3PBETaHAkqo="/>
+        <field:display calendar="true" dateTimePattern="${tipoNombreTabla_fechamodificacion_date_format}" field="fechaModificacion" id="s_com_alliance_sam_TipoNombreTabla_fechaModificacion" object="${tiponombretabla}" z="x+pyn/9R9LHEDQNbffZ+fNyk0DE="/>
+        <field:display field="hostModificacion" id="s_com_alliance_sam_TipoNombreTabla_hostModificacion" object="${tiponombretabla}" z="DIjQT8VhnfWtk3/jIGj4NyqNIHg="/>
+    </page:show>
+</div>

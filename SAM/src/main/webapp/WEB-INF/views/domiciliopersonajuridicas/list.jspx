@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/datatables" xmlns:table="urn:jsptagdir:/WEB-INF/tags/datatables" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_alliance_sam_DomicilioPersonaJuridica" items="${domiciliopersonajuridicas}" z="irlAnFOo4hz/CjTIQaSAyGJDzNA=">
+        <table:table data="${domiciliopersonajuridicas}" id="l_com_alliance_sam_DomicilioPersonaJuridica" path="/domiciliopersonajuridicas" typeIdFieldName="idDomicilio" z="5ET//oGFZFiuCjmVtccKx9ci2Vs=">
+            <table:column id="c_com_alliance_sam_DomicilioPersonaJuridica_idPersonaJuridica" property="idPersonaJuridica" z="yxtcjNjRWbpJwJde7bgNChHgvG8="/>
+            <table:column id="c_com_alliance_sam_DomicilioPersonaJuridica_idPais" property="idPais" z="+tCZkT47SJyWyJEmjtFILc+9x2o="/>
+            <table:column id="c_com_alliance_sam_DomicilioPersonaJuridica_idProvincia" property="idProvincia" z="unopGgQ3TJgKbNMUt1RD13qIknc="/>
+            <table:column id="c_com_alliance_sam_DomicilioPersonaJuridica_idLocalidad" property="idLocalidad" z="QuB0Jyjvgkhpa6lXMC3HL1L7LXc="/>
+            <table:column id="c_com_alliance_sam_DomicilioPersonaJuridica_idPartido" property="idPartido" z="zGYT/y8sL5rUHG5q4upb9QNOyL8="/>
+            <table:column id="c_com_alliance_sam_DomicilioPersonaJuridica_idZona" property="idZona" z="crax1POOKPN73N5VOyqBU0ovvkk="/>
+        </table:table>
+    </page:list>
+</div>
