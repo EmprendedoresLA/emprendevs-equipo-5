@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/datatables" xmlns:table="urn:jsptagdir:/WEB-INF/tags/datatables" version="2.0">
-    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
-    <jsp:output omit-xml-declaration="yes"/>
-    <page:list id="pl_com_alliance_sam_PersonasJuridicas" items="${personasjuridicases}" z="UckQ9EkU8HziFwxMDRKUgqPb+gY=">
-        <table:table data="${personasjuridicases}" id="l_com_alliance_sam_PersonasJuridicas" path="/personasjuridicases" typeIdFieldName="idPersonaJuridica" z="JT0G3tSMhc3vfpMgCWqtvkHtAGk="/>
-    </page:list>
-</div>
