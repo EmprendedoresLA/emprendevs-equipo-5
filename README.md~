@@ -1,4 +1,5 @@
 # emprendevs-equipo-5
+SISTEMA DE ADMINISTRACION DE MUNICIPIOS (SAM)
 
 Descripcion del requeriento
 poder controlar las condiciones declaradas en el alta de un comercio con las posibles modificaciones a la decalaracion inicial.
@@ -21,13 +22,18 @@ Contar con desarrollos seguros y que permitan la continuidad del negocio.
 
 
 Documentacion
+Fuentes de la aplicacion (SAM.ZIP)
+
+Estructura de datos (Modelo de datos de la aplicacion, archivos para la generacion fisica del mismo)
+
+Diagrama de entidad Relacion (ver Modelos_de_datos.pdf)
+
 Diagrama de contexto general (General.gif)
 
 Se divide en etapas de desarrollo (ver "Estrategia de Implementacion.pdf")
 
 look and feel esperado de la aplicacion, por razones de tiempo la interfaz actual es mas cruda(Ver documentos Pantalla*.PNG)
 
-Diagrama de entidad Relacion (ver Modelos_de_datos.pdf)
 
 Mapa de Navegacion y Seguridad implementada (Mapa_de_navegacion_seguridad.pdf & Mapa_de_navegacion.pdf)
 
